@@ -7,7 +7,7 @@ primary inventory.
 Business rules:
     - Every batch must contain valid JSON.
     - Every batch must pass schema validation.
-    - Every sys_card_id must be unique across all batches.
+    - Every item_id must be unique across all batches.
     - The primary inventory is replaced only after the entire merge succeeds.
     - Existing batch files remain the source records.
 
@@ -187,7 +187,7 @@ def validate_batch(
 
 def find_duplicate_card_ids(cards: list) -> list[str]:
     """
-    Find duplicate sys_card_id values.
+    Find duplicate item_id values.
 
     Args:
         cards:
@@ -198,9 +198,9 @@ def find_duplicate_card_ids(cards: list) -> list[str]:
     """
 
     card_ids = [
-        card.get("sys_card_id")
+        card.get("item_id")
         for card in cards
-        if card.get("sys_card_id") is not None
+        if card.get("item_id") is not None
     ]
 
     counts = Counter(card_ids)
@@ -304,13 +304,13 @@ def main() -> None:
         )
 
         raise ValueError(
-            "Duplicate sys_card_id values were found:\n"
+            "Duplicate item_id values were found:\n"
             f"{duplicate_report}\n\n"
             "The primary inventory was not changed."
         )
 
     all_cards.sort(
-        key=lambda card: card["sys_card_id"]
+        key=lambda card: card["item_id"]
     )
 
     # Validate the complete inventory before writing it.
