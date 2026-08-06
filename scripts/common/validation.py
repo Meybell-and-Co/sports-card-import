@@ -22,6 +22,8 @@ Version:
 from pathlib import Path
 import json
 
+from typing import Any
+
 
 # ---------------------------------------------------------------------
 # Files
@@ -50,11 +52,11 @@ def is_valid_json(path: Path) -> bool:
     Return True if the file contains valid JSON.
     """
     try:
-        with path.open("r", encoding="utf-8") as f:
-            json.load(f)
+        with path.open("r", encoding="utf-8") as file:
+            json.load(file)
         return True
 
-    except Exception:
+    except (OSError, json.JSONDecodeError):
         return False
 
 
@@ -62,7 +64,7 @@ def is_valid_json(path: Path) -> bool:
 # Values
 # ---------------------------------------------------------------------
 
-def is_blank(value) -> bool:
+def is_blank(value: object) -> bool:
     """
     Returns True for None or empty strings.
     """
@@ -75,10 +77,22 @@ def is_blank(value) -> bool:
 
     return False
 
+def has_key(obj: dict[str, Any], key: str) -> bool:
 
-def has_key(obj: dict, key: str) -> bool:
     """
     Safe dictionary key lookup.
     """
 
     return key in obj
+
+# ---------------------------------------------------------------------
+# Public API
+# ---------------------------------------------------------------------
+
+__all__ = [
+    "directory_exists",
+    "file_exists",
+    "has_key",
+    "is_blank",
+    "is_valid_json",
+]
