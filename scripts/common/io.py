@@ -5,13 +5,14 @@ Module:
     io.py
 
 Purpose:
-    Standardized file input/output for the Scout & Steward pipeline.
+    Provides standardized file input and output operations for the
+    Scout & Steward pipeline.
 
 Responsibilities:
     - Read text files
     - Write text files
-    - Read JSON
-    - Write JSON
+    - Read JSON files
+    - Write JSON files
     - Ensure directories exist
 
 Author:
@@ -21,8 +22,9 @@ Version:
     1.0.0
 """
 
-from pathlib import Path
 import json
+from pathlib import Path
+from typing import Any
 
 
 # ---------------------------------------------------------------------
@@ -32,7 +34,12 @@ import json
 def ensure_directory(path: Path) -> None:
     """
     Create a directory if it does not already exist.
+
+    Args:
+        path:
+            Directory to create.
     """
+
     path.mkdir(parents=True, exist_ok=True)
 
 
@@ -42,15 +49,33 @@ def ensure_directory(path: Path) -> None:
 
 def read_text(path: Path) -> str:
     """
-    Read a UTF-8 text file.
+    Read and return the contents of a UTF-8 text file.
+
+    Args:
+        path:
+            File to read.
+
+    Returns:
+        File contents as text.
     """
+
     return path.read_text(encoding="utf-8")
 
 
 def write_text(path: Path, content: str) -> None:
     """
-    Write UTF-8 text to disk.
+    Write text to a UTF-8 file.
+
+    Creates the parent directory when necessary.
+
+    Args:
+        path:
+            Destination file.
+
+        content:
+            Text to write.
     """
+
     ensure_directory(path.parent)
     path.write_text(content, encoding="utf-8")
 
@@ -59,25 +84,63 @@ def write_text(path: Path, content: str) -> None:
 # JSON Files
 # ---------------------------------------------------------------------
 
-def load_json(path: Path):
+def load_json(path: Path) -> Any:
     """
-    Load JSON from disk.
+    Load and return JSON data from a file.
+
+    Args:
+        path:
+            JSON file to read.
+
+    Returns:
+        Parsed JSON data.
     """
-    with path.open("r", encoding="utf-8") as f:
-        return json.load(f)
+
+    with path.open("r", encoding="utf-8") as file:
+        return json.load(file)
 
 
-def save_json(path: Path, data, indent: int = 2) -> None:
+def save_json(
+    path: Path,
+    data: Any,
+    indent: int = 2,
+) -> None:
     """
-    Save JSON to disk.
+    Write JSON data to a file.
+
+    Creates the parent directory when necessary.
+
+    Args:
+        path:
+            Destination JSON file.
+
+        data:
+            JSON-serializable data to write.
+
+        indent:
+            Number of spaces used for indentation.
     """
+
     ensure_directory(path.parent)
 
-    with path.open("w", encoding="utf-8") as f:
+    with path.open("w", encoding="utf-8") as file:
         json.dump(
             data,
-            f,
+            file,
             indent=indent,
-            ensure_ascii=False
+            ensure_ascii=False,
         )
-        f.write("\n")
+        file.write("\n")
+
+
+# ---------------------------------------------------------------------
+# Public API
+# ---------------------------------------------------------------------
+
+__all__ = [
+    "ensure_directory",
+    "load_json",
+    "read_text",
+    "save_json",
+    "write_text",
+]
