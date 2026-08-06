@@ -33,7 +33,7 @@ from typing import Any
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
-PRIMARY_FILE = PROJECT_ROOT / "processed" / "primary.json"
+PRIMARY_FILE = PROJECT_ROOT / "processed" / "primary_inventory.json"
 LISTING_FILE = PROJECT_ROOT / "processed" / "listing.json"
 
 
@@ -63,17 +63,17 @@ def load_inventory(filepath: Path) -> list[dict[str, Any]]:
 
     Args:
         filepath:
-            Path to primary.json.
+            Path to primary_inventory.json.
 
     Returns:
         A list of inventory records.
 
     Raises:
         FileNotFoundError:
-            If primary.json does not exist.
+            If primary_inventory.json does not exist.
 
         RuntimeError:
-            If primary.json contains invalid JSON.
+            If primary_inventory.json contains invalid JSON.
 
         ValueError:
             If the JSON root is not an array or contains invalid records.
@@ -114,7 +114,7 @@ def validate_item_ids(inventory: list[dict[str, Any]]) -> None:
 
     Args:
         inventory:
-            Inventory records loaded from primary.json.
+            Inventory records loaded from primary_inventory.json.
 
     Raises:
         ValueError:
@@ -199,13 +199,13 @@ def truncate_title(title: str) -> str:
 
 def build_title(card: dict[str, Any]) -> str:
     """
-    Generate a deterministic eBay listing title.
+    Generate a deterministic eBay listing title from the canonical schema.
 
     Title order:
         year
-        set name or manufacturer
+        set
         card number
-        player
+        primary subject
         team
 
     Args:
@@ -222,23 +222,20 @@ def build_title(card: dict[str, Any]) -> str:
 
     parts = []
 
-    year = clean_text(card.get("year"))
+    card_data = card.get("card") or {}
+    subjects = card.get("subjects") or []
 
-    set_name = clean_text(
-        card.get("set_name") or card.get("set")
-    )
+    year = clean_text(card_data.get("year"))
+    set_name = clean_text(card_data.get("set"))
+    manufacturer = clean_text(card_data.get("manufacturer"))
+    card_number = clean_text(card_data.get("card_number"))
 
-    manufacturer = clean_text(card.get("manufacturer"))
+    primary_subject = subjects[0] if subjects else {}
 
-    card_number = clean_text(card.get("card_number"))
+    player = clean_text(primary_subject.get("name"))
+    team = clean_text(primary_subject.get("team"))
 
-    player = clean_text(
-        card.get("player_name") or card.get("player")
-    )
-
-    team = clean_text(card.get("team"))
-
-    # Do not repeat the year when it is already included in the set name.
+    # Do not repeat the year if the set name already contains it.
     if year:
         if not set_name or year.casefold() not in set_name.casefold():
             parts.append(year)
