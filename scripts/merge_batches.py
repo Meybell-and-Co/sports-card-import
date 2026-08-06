@@ -19,6 +19,7 @@ from collections import Counter
 from pathlib import Path
 import json
 import os
+import re
 import tempfile
 
 from jsonschema import Draft202012Validator
@@ -185,7 +186,23 @@ def validate_batch(
     )
 
 
-def find_duplicate_card_ids(cards: list) -> list[str]:
+def find_missing_item_ids(cards: list) -> list[int]:
+    """
+    Find records whose item_id is missing, null, or blank.
+
+    Returns:
+        Zero-based record indexes.
+    """
+
+    return [
+        index
+        for index, card in enumerate(cards)
+        if not isinstance(card.get("item_id"), str)
+        or not card["item_id"].strip()
+    ]
+
+
+def find_duplicate_item_ids(cards: list) -> list[str]:
     """
     Find duplicate item_id values.
 
@@ -270,11 +287,19 @@ def main() -> None:
     schema_file = find_schema_file()
     schema = load_json(schema_file)
 
+    batch_name_pattern = re.compile(r"^batch\d{4}\.json$")
+
+    if not BATCH_DIR.exists():
+        raise FileNotFoundError(
+            f"Batch directory does not exist:\n{BATCH_DIR}"
+        )
+
     batch_files = sorted(
-    path
-    for path in BATCH_DIR.glob("batch*.json")
-    if not path.stem.endswith(("_raw", "_legacy", "_migrated"))
-)
+        path
+        for path in BATCH_DIR.iterdir()
+        if path.is_file()
+        and batch_name_pattern.fullmatch(path.name)
+    )
 
     if not batch_files:
         raise FileNotFoundError(
@@ -296,7 +321,29 @@ def main() -> None:
 
         print(f"    ✓ {len(cards)} card(s)")
 
-    duplicate_ids = find_duplicate_card_ids(all_cards)
+    if not all_cards:
+        raise ValueError(
+            "The eligible batch files contain no cards.\n\n"
+            "The primary inventory was not changed."
+        )
+
+    missing_item_id_indexes = find_missing_item_ids(all_cards)
+
+    if missing_item_id_indexes:
+        missing_report = "\n".join(
+            f"    - Combined record {index + 1}"
+            for index in missing_item_id_indexes
+        )
+
+        raise ValueError(
+            "Every card must have a nonblank item_id.\n"
+            "Missing or invalid item_id values were found at:\n"
+            f"{missing_report}\n\n"
+            "The primary inventory was not changed."
+        )
+
+
+    duplicate_ids = find_duplicate_item_ids(all_cards)
 
     if duplicate_ids:
         duplicate_report = "\n".join(
@@ -308,7 +355,6 @@ def main() -> None:
             f"{duplicate_report}\n\n"
             "The primary inventory was not changed."
         )
-
     all_cards.sort(
         key=lambda card: card["item_id"]
     )
