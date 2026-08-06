@@ -270,7 +270,11 @@ def main() -> None:
     schema_file = find_schema_file()
     schema = load_json(schema_file)
 
-    batch_files = sorted(BATCH_DIR.glob("batch*.json"))
+    batch_files = sorted(
+    path
+    for path in BATCH_DIR.glob("batch*.json")
+    if not path.stem.endswith("_raw")
+)
 
     if not batch_files:
         raise FileNotFoundError(
