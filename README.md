@@ -1,3 +1,19 @@
+Pipeline
+
+1. Scan
+
+2. Crop
+
+3. AI Extraction
+
+4. Normalize
+
+5. Validate
+
+6. Append
+
+7. Export
+
 [Pipeline]
 
 Raw Images

@@ -1,0 +1,30 @@
+{
+    "project": {
+        "name": "Scout & Steward",
+        "version": "1.0.0"
+    },
+    "schema": {
+        "version": "1.0.0",
+        "file": "schema/sports-card.schema.json"
+    },
+    "extractor": {
+        "name": "GPT-5.5",
+        "model": null
+    },
+    "defaults": {
+        "language": "English",
+        "confidence": "High"
+    },
+    "database": {
+        "catalog": "processed/database/catalog.json"
+    },
+    "exports": {
+        "ebay_csv": "processed/exports/ebay-upload.csv",
+        "ebay_json": "processed/exports/ebay-listings.json"
+    },
+    "logging": {
+        "normalize": "logs/normalize.log",
+        "validate": "logs/validate.log",
+        "append": "logs/append.log"
+    }
+}
