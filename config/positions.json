@@ -1,0 +1,75 @@
+{
+    "Baseball": {
+        "Pitcher": "P",
+        "Catcher": "C",
+        "First Base": "1B",
+        "Second Base": "2B",
+        "Third Base": "3B",
+        "Shortstop": "SS",
+        "Left Field": "LF",
+        "Center Field": "CF",
+        "Right Field": "RF",
+        "Designated Hitter": "DH",
+        "Utility": "UTIL"
+    },
+    "Basketball": {
+        "Point Guard": "PG",
+        "Shooting Guard": "SG",
+        "Small Forward": "SF",
+        "Power Forward": "PF",
+        "Center": "C",
+        "Guard": "G",
+        "Forward": "F",
+        "Forward-Center": "F-C",
+        "Guard-Forward": "G-F"
+    },
+    "Football": {
+        "Quarterback": "QB",
+        "Running Back": "RB",
+        "Fullback": "FB",
+        "Wide Receiver": "WR",
+        "Tight End": "TE",
+        "Center": "C",
+        "Guard": "G",
+        "Tackle": "T",
+        "Offensive Tackle": "OT",
+        "Offensive Guard": "OG",
+        "Defensive Tackle": "DT",
+        "Defensive End": "DE",
+        "Linebacker": "LB",
+        "Middle Linebacker": "MLB",
+        "Outside Linebacker": "OLB",
+        "Inside Linebacker": "ILB",
+        "Cornerback": "CB",
+        "Safety": "S",
+        "Free Safety": "FS",
+        "Strong Safety": "SS",
+        "Kicker": "K",
+        "Punter": "P",
+        "Kick Returner": "KR",
+        "Punt Returner": "PR",
+        "Long Snapper": "LS"
+    },
+    "Golf": {},
+    "Hockey": {
+        "Center": "C",
+        "Left Wing": "LW",
+        "Right Wing": "RW",
+        "Defense": "D",
+        "Goaltender": "G"
+    },
+    "Olympics": {},
+    "Racing": {
+        "Driver": "DRV"
+    },
+    "Soccer": {
+        "Goalkeeper": "GK",
+        "Defender": "DF",
+        "Midfielder": "MF",
+        "Forward": "FW",
+        "Striker": "ST",
+        "Wingback": "WB"
+    },
+    "Tennis": {},
+    "Other": {}
+}
