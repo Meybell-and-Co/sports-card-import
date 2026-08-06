@@ -1,22 +1,20 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://meybell.com/schema/sports-card.schema.json",
-    "title": "Sports Collectible Inventory Schema",
-    "description": "Master schema for sports cards and related collectibles. One record represents one physical collectible.",
+    "title": "Sports Collectible Schema",
+    "description": "Schema for AI extraction of sports cards and related collectibles.",
     "type": "object",
     "additionalProperties": false,
     "required": [
         "schema_version",
-        "item_id",
         "entity",
         "images",
-        "descriptive_metadata",
+        "card",
         "subjects",
         "attributes",
         "condition",
-        "text",
-        "provenance",
-        "operations"
+        "ocr",
+        "pipeline"
     ],
     "$defs": {
         "nullableString": {
@@ -27,6 +25,7 @@
         },
         "subject": {
             "type": "object",
+            "additionalProperties": false,
             "required": [
                 "type",
                 "name"
@@ -54,12 +53,18 @@
                         "string",
                         "null"
                     ]
+                },
+                "position": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
                 }
-            },
-            "additionalProperties": false
+            }
         },
         "conditionObservation": {
             "type": "object",
+            "additionalProperties": false,
             "required": [
                 "type",
                 "severity"
@@ -78,8 +83,7 @@
                         "heavy"
                     ]
                 }
-            },
-            "additionalProperties": false
+            }
         }
     },
     "properties": {
@@ -88,11 +92,15 @@
             "pattern": "^\\d+\\.\\d+\\.\\d+$"
         },
         "item_id": {
-            "type": "string",
-            "pattern": "^SSC-[0-9]{8}$"
+            "type": [
+                "string",
+                "null"
+            ],
+            "description": "Assigned later by inventory pipeline."
         },
         "entity": {
             "type": "object",
+            "additionalProperties": false,
             "required": [
                 "entity_type",
                 "sport"
@@ -122,11 +130,11 @@
                         "null"
                     ]
                 }
-            },
-            "additionalProperties": false
+            }
         },
         "images": {
             "type": "object",
+            "additionalProperties": false,
             "required": [
                 "front",
                 "back"
@@ -134,6 +142,11 @@
             "properties": {
                 "front": {
                     "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                        "filename",
+                        "path"
+                    ],
                     "properties": {
                         "filename": {
                             "type": [
@@ -147,15 +160,15 @@
                                 "null"
                             ]
                         }
-                    },
-                    "required": [
-                        "filename",
-                        "path"
-                    ],
-                    "additionalProperties": false
+                    }
                 },
                 "back": {
                     "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                        "filename",
+                        "path"
+                    ],
                     "properties": {
                         "filename": {
                             "type": [
@@ -169,18 +182,13 @@
                                 "null"
                             ]
                         }
-                    },
-                    "required": [
-                        "filename",
-                        "path"
-                    ],
-                    "additionalProperties": false
+                    }
                 }
-            },
-            "additionalProperties": false
+            }
         },
-        "descriptive_metadata": {
+        "card": {
             "type": "object",
+            "additionalProperties": false,
             "properties": {
                 "year": {
                     "type": [
@@ -224,9 +232,20 @@
                         "integer",
                         "null"
                     ]
+                },
+                "language": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "copyright": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
                 }
-            },
-            "additionalProperties": false
+            }
         },
         "subjects": {
             "type": "array",
@@ -236,6 +255,15 @@
         },
         "attributes": {
             "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "classification",
+                "rookie",
+                "parallel",
+                "autograph",
+                "memorabilia",
+                "serial_numbered"
+            ],
             "properties": {
                 "classification": {
                     "type": "string",
@@ -269,25 +297,22 @@
                 "serial_numbered": {
                     "type": "boolean"
                 }
-            },
-            "required": [
-                "classification",
-                "rookie",
-                "parallel",
-                "autograph",
-                "memorabilia",
-                "serial_numbered"
-            ],
-            "additionalProperties": false
+            }
         },
         "condition": {
             "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "overall",
+                "observations"
+            ],
             "properties": {
                 "overall": {
                     "type": [
                         "string",
                         "null"
-                    ]
+                    ],
+                    "description": "Optional overall assessment if supplied externally."
                 },
                 "observations": {
                     "type": "array",
@@ -295,63 +320,56 @@
                         "$ref": "#/$defs/conditionObservation"
                     }
                 }
-            },
-            "required": [
-                "overall",
-                "observations"
-            ],
-            "additionalProperties": false
+            }
         },
-        "text": {
+        "ocr": {
             "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "front",
+                "back"
+            ],
             "properties": {
-                "ocr_front": {
+                "front": {
                     "type": [
                         "string",
                         "null"
                     ]
                 },
-                "ocr_back": {
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                },
-                "catalog_notes": {
+                "back": {
                     "type": [
                         "string",
                         "null"
                     ]
                 }
-            },
-            "required": [
-                "ocr_front",
-                "ocr_back",
-                "catalog_notes"
-            ],
-            "additionalProperties": false
+            }
         },
-        "provenance": {
+        "notes": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "pipeline": {
             "type": "object",
+            "additionalProperties": false,
+            "required": [
+                "batch",
+                "extractor",
+                "confidence"
+            ],
             "properties": {
-                "source_batch": {
+                "batch": {
                     "type": [
                         "string",
                         "null"
                     ]
                 },
-                "generated_by": {
+                "extractor": {
                     "type": [
                         "string",
                         "null"
                     ]
-                },
-                "generated_at": {
-                    "type": [
-                        "string",
-                        "null"
-                    ],
-                    "format": "date-time"
                 },
                 "confidence": {
                     "type": "string",
@@ -361,61 +379,7 @@
                         "Low"
                     ]
                 }
-            },
-            "required": [
-                "source_batch",
-                "generated_by",
-                "generated_at",
-                "confidence"
-            ],
-            "additionalProperties": false
-        },
-        "operations": {
-            "type": "object",
-            "properties": {
-                "sku": {
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                },
-                "listing_status": {
-                    "type": "string",
-                    "enum": [
-                        "Not Listed",
-                        "Draft",
-                        "Listed",
-                        "Sold",
-                        "Archived"
-                    ]
-                },
-                "inventory_location": {
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                },
-                "ebay_item_id": {
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                },
-                "shopify_product_id": {
-                    "type": [
-                        "string",
-                        "null"
-                    ]
-                }
-            },
-            "required": [
-                "sku",
-                "listing_status",
-                "inventory_location",
-                "ebay_item_id",
-                "shopify_product_id"
-            ],
-            "additionalProperties": false
+            }
         }
     }
 }
