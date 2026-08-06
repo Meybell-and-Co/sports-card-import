@@ -1,270 +1,1078 @@
 [
-    {
-        "file": "MISC_001_A_0001_01",
-        "player": "Glen Rice",
+  {
+    "schema_version": "1.0.0",
+    "item_id": null,
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": "3 Triple Threat",
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Glen Rice",
         "team": "Miami Heat",
-        "year": 1995,
-        "manufacturer": "SkyBox",
-        "brand": "NBA Hoops",
-        "set": "NBA Hoops",
-        "subset": "3 Triple Threat",
-        "condition": "Good"
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
     },
-    {
-        "file": "MISC_001_A_0001_02",
-        "player": "Glen Rice",
-        "team": "Miami Heat",
-        "year": 1995,
-        "manufacturer": "SkyBox",
-        "brand": "NBA Hoops",
-        "set": "NBA Hoops",
-        "subset": "3 Triple Threat",
-        "condition": "Good"
+    "condition": {
+      "overall": null,
+      "observations": []
     },
-    {
-        "file": "MISC_001_A_0002_01",
-        "player": "Kenny Anderson",
-        "team": "New Jersey Nets",
-        "year": 1995,
-        "manufacturer": "SkyBox",
-        "brand": "NBA Hoops",
-        "set": "NBA Hoops",
-        "subset": "Buzzer Beater",
-        "condition": "Good"
+    "ocr": {
+      "front": null,
+      "back": null
     },
-    {
-        "file": "MISC_001_A_0002_02",
-        "player": "Kenny Anderson",
-        "team": "New Jersey Nets",
-        "year": 1995,
-        "manufacturer": "SkyBox",
-        "brand": "NBA Hoops",
-        "set": "NBA Hoops",
-        "subset": "Buzzer Beater",
-        "condition": "Good"
-    },
-    {
-        "file": "MISC_001_A_0003_01",
-        "player": "Rony Seikaly",
-        "team": "Golden State Warriors",
-        "year": 1995,
-        "manufacturer": "SkyBox",
-        "brand": "NBA Hoops",
-        "set": "NBA Hoops",
-        "subset": null,
-        "card_number": 336,
-        "condition": "Good"
-    },
-    {
-        "file": "MISC_001_A_0003_02",
-        "player": "Rony Seikaly",
-        "team": "Golden State Warriors",
-        "year": 1995,
-        "manufacturer": "SkyBox",
-        "brand": "NBA Hoops",
-        "set": "NBA Hoops",
-        "subset": null,
-        "card_number": 336,
-        "condition": "Good"
-    },
-    {
-        "file": "MISC_001_A_0004_01",
-        "player": "Jason Kidd",
-        "team": "Dallas Mavericks",
-        "year": 1995,
-        "manufacturer": "SkyBox",
-        "brand": "NBA Hoops",
-        "set": "NBA Hoops",
-        "subset": "Sizzlin' Sophs",
-        "condition": "Good"
-    },
-    {
-        "file": "MISC_001_A_0004_02",
-        "player": "Jason Kidd",
-        "team": "Dallas Mavericks",
-        "year": 1995,
-        "manufacturer": "SkyBox",
-        "brand": "NBA Hoops",
-        "set": "NBA Hoops",
-        "subset": "Sizzlin' Sophs",
-        "condition": "Good"
-    },
-    {
-        "file": "MISC_001_A_0005_01",
-        "player": "A.C. Green",
-        "team": "Phoenix Suns",
-        "year": 1995,
-        "manufacturer": "SkyBox",
-        "brand": "NBA Hoops",
-        "set": "NBA Hoops",
-        "subset": "Milestones",
-        "insert_title": "Consecutive Games Streak",
-        "condition": "Good"
-    },
-    {
-        "file": "MISC_001_A_0005_02",
-        "player": "A.C. Green",
-        "team": "Phoenix Suns",
-        "year": 1995,
-        "manufacturer": "SkyBox",
-        "brand": "NBA Hoops",
-        "set": "NBA Hoops",
-        "subset": "Milestones",
-        "insert_title": "Consecutive Games Streak",
-        "condition": "Good"
-    },
-    {
-        "file": "MISC_001_A_0006_01",
-        "player": "Vin Baker",
-        "team": "Milwaukee Bucks",
-        "year": 1995,
-        "manufacturer": "SkyBox",
-        "brand": "NBA Hoops",
-        "set": "NBA Hoops",
-        "subset": null,
-        "condition": "Good"
-    },
-    {
-        "file": "MISC_001_A_0006_02",
-        "player": "Vin Baker",
-        "team": "Milwaukee Bucks",
-        "year": 1995,
-        "manufacturer": "SkyBox",
-        "brand": "NBA Hoops",
-        "set": "NBA Hoops",
-        "subset": null,
-        "condition": "Good"
-    },
-    {
-        "file_prefix": "MISC_001_B_0008",
-        "copy": "01",
-        "sport": "Football",
-        "manufacturer": "Topps",
-        "brand": "Stadium Club",
-        "year": 1994,
-        "set": "Stadium Club",
-        "subset": "Commemorative Issue '94",
-        "title": "Commemorative Issue '94",
-        "card_number": "0",
-        "player": "Michael Barrow",
-        "team": "Houston Oilers",
-        "rookie_card": false,
-        "parallel": null,
-        "insert": true,
-        "autograph": false,
-        "memorabilia": false,
-        "serial_numbered": false,
-        "language": "English",
-        "notes": "Insert card."
-    },
-    {
-        "file_prefix": "MISC_001_B_0008",
-        "copy": "02",
-        "sport": "Baseball",
-        "manufacturer": "Upper Deck",
-        "brand": "Collector's Choice",
-        "year": 1994,
-        "set": "Collector's Choice",
-        "subset": "You Crash the Deck",
-        "title": "Toronto Blue Jays vs. Chicago White Sox",
-        "card_number": null,
-        "player": "Roberto Alomar; Frank Thomas",
-        "team": "Toronto Blue Jays; Chicago White Sox",
-        "rookie_card": false,
-        "parallel": null,
-        "insert": true,
-        "autograph": false,
-        "memorabilia": false,
-        "serial_numbered": false,
-        "language": "English",
-        "notes": "Scratch-off promotional game card."
-    },
-    {
-        "file_prefix": "MISC_001_B_0009",
-        "copy": "01",
-        "sport": "Baseball",
-        "manufacturer": "Upper Deck",
-        "brand": "Collector's Choice",
-        "year": 1994,
-        "set": "Collector's Choice",
-        "subset": "Up Close & Personal",
-        "title": "Up Close & Personal",
-        "card_number": "632",
-        "player": "Barry Bonds",
-        "team": "San Francisco Giants",
-        "rookie_card": false,
-        "parallel": null,
-        "insert": true,
-        "autograph": false,
-        "memorabilia": false,
-        "serial_numbered": false,
-        "language": "English",
-        "notes": null
-    },
-    {
-        "file_prefix": "MISC_001_B_0009",
-        "copy": "02",
-        "sport": "Baseball",
-        "manufacturer": "Topps",
-        "brand": "Topps",
-        "year": 1995,
-        "set": "Topps",
-        "subset": "On Deck",
-        "title": "On Deck",
-        "card_number": "130T",
-        "player": "Lyle Mouton; Mariano Rivera",
-        "team": "Chicago White Sox; New York Yankees",
-        "rookie_card": true,
-        "parallel": null,
-        "insert": true,
-        "autograph": false,
-        "memorabilia": false,
-        "serial_numbered": false,
-        "language": "English",
-        "notes": "Dual-player rookie/prospect card."
-    },
-    {
-        "file_prefix": "MISC_001_B_0010",
-        "copy": "01",
-        "sport": "Baseball",
-        "manufacturer": "Topps",
-        "brand": "Topps",
-        "year": 1994,
-        "set": "Topps",
-        "subset": "Series II Checklist",
-        "title": "Checklist 1 of 2",
-        "card_number": "791",
-        "player": null,
-        "team": null,
-        "rookie_card": false,
-        "parallel": null,
-        "insert": false,
-        "autograph": false,
-        "memorabilia": false,
-        "serial_numbered": false,
-        "language": "English",
-        "notes": "Series II checklist covering cards 397-596."
-    },
-    {
-        "file_prefix": "MISC_001_B_0010",
-        "copy": "02",
-        "sport": "Baseball",
-        "manufacturer": "Topps",
-        "brand": "Topps",
-        "year": 1994,
-        "set": "Topps",
-        "subset": "Series II Checklist",
-        "title": "Checklist 2 of 2",
-        "card_number": "792",
-        "player": null,
-        "team": null,
-        "rookie_card": false,
-        "parallel": null,
-        "insert": false,
-        "autograph": false,
-        "memorabilia": false,
-        "serial_numbered": false,
-        "language": "English",
-        "notes": "Series II checklist covering cards 597-792."
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
     }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": null,
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": "3 Triple Threat",
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Glen Rice",
+        "team": "Miami Heat",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": null,
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": "Buzzer Beater",
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Kenny Anderson",
+        "team": "New Jersey Nets",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": null,
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": "Buzzer Beater",
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Kenny Anderson",
+        "team": "New Jersey Nets",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": null,
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": null,
+      "title": null,
+      "card_number": 336,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Rony Seikaly",
+        "team": "Golden State Warriors",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": null,
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": null,
+      "title": null,
+      "card_number": 336,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Rony Seikaly",
+        "team": "Golden State Warriors",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": null,
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": "Sizzlin' Sophs",
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Jason Kidd",
+        "team": "Dallas Mavericks",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": null,
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": "Sizzlin' Sophs",
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Jason Kidd",
+        "team": "Dallas Mavericks",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": null,
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": "Milestones",
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "A.C. Green",
+        "team": "Phoenix Suns",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": null,
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": "Milestones",
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "A.C. Green",
+        "team": "Phoenix Suns",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": null,
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": null,
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Vin Baker",
+        "team": "Milwaukee Bucks",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": null,
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": null,
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Vin Baker",
+        "team": "Milwaukee Bucks",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": null,
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Football"
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "Stadium Club",
+      "subset": "Commemorative Issue '94",
+      "title": null,
+      "card_number": "0",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Michael Barrow",
+        "team": "Houston Oilers",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [
+      "Insert card."
+    ],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": null,
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": null,
+      "set": "Collector's Choice",
+      "subset": "You Crash the Deck",
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Roberto Alomar; Frank Thomas",
+        "team": "Toronto Blue Jays; Chicago White Sox",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [
+      "Scratch-off promotional game card."
+    ],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": null,
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": null,
+      "set": "Collector's Choice",
+      "subset": "Up Close & Personal",
+      "title": null,
+      "card_number": "632",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Barry Bonds",
+        "team": "San Francisco Giants",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": null,
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "Topps",
+      "subset": "On Deck",
+      "title": null,
+      "card_number": "130T",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Lyle Mouton; Mariano Rivera",
+        "team": "Chicago White Sox; New York Yankees",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [
+      "Dual-player rookie/prospect card."
+    ],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": null,
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "Topps",
+      "subset": "Series II Checklist",
+      "title": null,
+      "card_number": "791",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [
+      "Series II checklist covering cards 397-596."
+    ],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": null,
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "Topps",
+      "subset": "Series II Checklist",
+      "title": null,
+      "card_number": "792",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [
+      "Series II checklist covering cards 597-792."
+    ],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  }
 ]

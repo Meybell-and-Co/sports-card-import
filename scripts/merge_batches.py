@@ -273,7 +273,7 @@ def main() -> None:
     batch_files = sorted(
     path
     for path in BATCH_DIR.glob("batch*.json")
-    if not path.stem.endswith("_raw")
+    if not path.stem.endswith(("_raw", "_legacy", "_migrated"))
 )
 
     if not batch_files:
