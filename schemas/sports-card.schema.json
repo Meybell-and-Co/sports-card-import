@@ -1,0 +1,421 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://meybell.com/schema/sports-card.schema.json",
+    "title": "Sports Collectible Inventory Schema",
+    "description": "Master schema for sports cards and related collectibles. One record represents one physical collectible.",
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+        "schema_version",
+        "item_id",
+        "entity",
+        "images",
+        "descriptive_metadata",
+        "subjects",
+        "attributes",
+        "condition",
+        "text",
+        "provenance",
+        "operations"
+    ],
+    "$defs": {
+        "nullableString": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "subject": {
+            "type": "object",
+            "required": [
+                "type",
+                "name"
+            ],
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "player",
+                        "team",
+                        "coach",
+                        "manager",
+                        "mascot",
+                        "stadium",
+                        "event",
+                        "organization",
+                        "other"
+                    ]
+                },
+                "name": {
+                    "type": "string"
+                },
+                "team": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "additionalProperties": false
+        },
+        "conditionObservation": {
+            "type": "object",
+            "required": [
+                "type",
+                "severity"
+            ],
+            "properties": {
+                "type": {
+                    "type": "string"
+                },
+                "severity": {
+                    "type": "string",
+                    "enum": [
+                        "none",
+                        "light",
+                        "minor",
+                        "moderate",
+                        "heavy"
+                    ]
+                }
+            },
+            "additionalProperties": false
+        }
+    },
+    "properties": {
+        "schema_version": {
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "item_id": {
+            "type": "string",
+            "pattern": "^SSC-[0-9]{8}$"
+        },
+        "entity": {
+            "type": "object",
+            "required": [
+                "entity_type",
+                "sport"
+            ],
+            "properties": {
+                "entity_type": {
+                    "type": "string",
+                    "enum": [
+                        "Trading Card",
+                        "Ticket",
+                        "Program",
+                        "Magazine",
+                        "Photo",
+                        "Patch",
+                        "Pin",
+                        "Pennant",
+                        "Sticker",
+                        "Poster",
+                        "Autograph",
+                        "Memorabilia",
+                        "Other"
+                    ]
+                },
+                "sport": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "additionalProperties": false
+        },
+        "images": {
+            "type": "object",
+            "required": [
+                "front",
+                "back"
+            ],
+            "properties": {
+                "front": {
+                    "type": "object",
+                    "properties": {
+                        "filename": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "path": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "filename",
+                        "path"
+                    ],
+                    "additionalProperties": false
+                },
+                "back": {
+                    "type": "object",
+                    "properties": {
+                        "filename": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        },
+                        "path": {
+                            "type": [
+                                "string",
+                                "null"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "filename",
+                        "path"
+                    ],
+                    "additionalProperties": false
+                }
+            },
+            "additionalProperties": false
+        },
+        "descriptive_metadata": {
+            "type": "object",
+            "properties": {
+                "year": {
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "manufacturer": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "brand": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "set": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "subset": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "title": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "card_number": {
+                    "type": [
+                        "string",
+                        "integer",
+                        "null"
+                    ]
+                }
+            },
+            "additionalProperties": false
+        },
+        "subjects": {
+            "type": "array",
+            "items": {
+                "$ref": "#/$defs/subject"
+            }
+        },
+        "attributes": {
+            "type": "object",
+            "properties": {
+                "classification": {
+                    "type": "string",
+                    "enum": [
+                        "Base",
+                        "Insert",
+                        "Parallel",
+                        "Checklist",
+                        "Promotional",
+                        "Game Card",
+                        "Proof",
+                        "Sample",
+                        "Sticker",
+                        "Team Set",
+                        "Oddball",
+                        "Other"
+                    ]
+                },
+                "rookie": {
+                    "type": "boolean"
+                },
+                "parallel": {
+                    "type": "boolean"
+                },
+                "autograph": {
+                    "type": "boolean"
+                },
+                "memorabilia": {
+                    "type": "boolean"
+                },
+                "serial_numbered": {
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "classification",
+                "rookie",
+                "parallel",
+                "autograph",
+                "memorabilia",
+                "serial_numbered"
+            ],
+            "additionalProperties": false
+        },
+        "condition": {
+            "type": "object",
+            "properties": {
+                "overall": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "observations": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/$defs/conditionObservation"
+                    }
+                }
+            },
+            "required": [
+                "overall",
+                "observations"
+            ],
+            "additionalProperties": false
+        },
+        "text": {
+            "type": "object",
+            "properties": {
+                "ocr_front": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "ocr_back": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "catalog_notes": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "ocr_front",
+                "ocr_back",
+                "catalog_notes"
+            ],
+            "additionalProperties": false
+        },
+        "provenance": {
+            "type": "object",
+            "properties": {
+                "source_batch": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "generated_by": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "generated_at": {
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "format": "date-time"
+                },
+                "confidence": {
+                    "type": "string",
+                    "enum": [
+                        "High",
+                        "Medium",
+                        "Low"
+                    ]
+                }
+            },
+            "required": [
+                "source_batch",
+                "generated_by",
+                "generated_at",
+                "confidence"
+            ],
+            "additionalProperties": false
+        },
+        "operations": {
+            "type": "object",
+            "properties": {
+                "sku": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "listing_status": {
+                    "type": "string",
+                    "enum": [
+                        "Not Listed",
+                        "Draft",
+                        "Listed",
+                        "Sold",
+                        "Archived"
+                    ]
+                },
+                "inventory_location": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "ebay_item_id": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "shopify_product_id": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "sku",
+                "listing_status",
+                "inventory_location",
+                "ebay_item_id",
+                "shopify_product_id"
+            ],
+            "additionalProperties": false
+        }
+    }
+}

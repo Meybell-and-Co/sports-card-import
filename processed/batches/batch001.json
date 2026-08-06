@@ -329,5 +329,101 @@
             "review_required": false
         },
         "notes": ""
+    },
+    {
+        "sys_card_id": "FBPU_0012",
+        "sys_front_filename": "FBPU_0012_a.jpg",
+        "sys_back_filename": "FBPU_0012_b.jpg",
+        "sport": "Football",
+        "year": 1971,
+        "manufacturer": "Topps",
+        "set": "1971 Topps Football Pin-Ups",
+        "subset": null,
+        "player": "Fran Tarkenton",
+        "team": "New York Giants",
+        "card_number": "5",
+        "rookie": false,
+        "parallel": null,
+        "insert": "Football Pin-Ups",
+        "observable_notes": [
+            "Multiple horizontal and vertical fold creases",
+            "Minor surface wear",
+            "Minor edge and corner wear"
+        ],
+        "production_notes": [
+            "Oversized format",
+            "Game card back"
+        ],
+        "ocr_front": "FRAN TARKENTON QUARTERBACK NEW YORK GIANTS No. 5 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+        "ocr_back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE—This game can also be played like pro football, using four downs. 1. Begin on the 20 yard line. 2. If you don't make 10 yards in three downs, you may elect to kick on the 4th down. 3. To kick, move the \"ball marker\" 25 yards up field & turn over the next card. Move the ball as the card indicates. 4. To try for a field goal, you must be within 25 yards of your opponent's goal line. Say \"Field Goal Attempt\" & turn over next card. A \"gain\" card is a 3 point field goal. A \"loss,\" \"fumble,\" or \"interception\" is no good. Opponent takes over. VISITORS HOME TEAM FOOTBALL CARD GAME",
+        "validation": {
+            "confidence": "High",
+            "review_required": false
+        },
+        "notes": ""
+    },
+    {
+        "sys_card_id": "FBPU_0013",
+        "sys_front_filename": "FBPU_0013_a.jpg",
+        "sys_back_filename": "FBPU_0013_b.jpg",
+        "sport": "Football",
+        "year": 1971,
+        "manufacturer": "Topps",
+        "set": "1971 Topps Football Pin-Ups",
+        "subset": null,
+        "player": "Bob Hayes",
+        "team": "Dallas Cowboys",
+        "card_number": "11",
+        "rookie": false,
+        "parallel": null,
+        "insert": "Football Pin-Ups",
+        "observable_notes": [
+            "Multiple horizontal and vertical fold creases",
+            "Minor surface wear",
+            "Minor edge and corner wear"
+        ],
+        "production_notes": [
+            "Oversized format",
+            "Game card back"
+        ],
+        "ocr_front": "BOB HAYES WIDE RECEIVER DALLAS COWBOYS No. 11 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+        "ocr_back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE—This game can also be played like pro football, using four downs. 1. Begin on the 20 yard line. 2. If you don't make 10 yards in three downs, you may elect to kick on the 4th down. 3. To kick, move the \"ball marker\" 25 yards up field & turn over the next card. Move the ball as the card indicates. 4. To try for a field goal, you must be within 25 yards of your opponent's goal line. Say \"Field Goal Attempt\" & turn over next card. A \"gain\" card is a 3 point field goal. A \"loss,\" \"fumble,\" or \"interception\" is no good. Opponent takes over. VISITORS HOME TEAM FOOTBALL CARD GAME",
+        "validation": {
+            "confidence": "High",
+            "review_required": false
+        },
+        "notes": ""
+    },
+    {
+        "sys_card_id": "FBPU_0014",
+        "sys_front_filename": "FBPU_0014_a.jpg",
+        "sys_back_filename": "FBPU_0014_b.jpg",
+        "sport": "Football",
+        "year": 1971,
+        "manufacturer": "Topps",
+        "set": "1971 Topps Football Pin-Ups",
+        "subset": null,
+        "player": "Roman Gabriel",
+        "team": "Los Angeles Rams",
+        "card_number": "8",
+        "rookie": false,
+        "parallel": null,
+        "insert": "Football Pin-Ups",
+        "observable_notes": [
+            "Multiple horizontal and vertical fold creases",
+            "Minor surface wear",
+            "Minor edge and corner wear"
+        ],
+        "production_notes": [
+            "Oversized format",
+            "Game card back"
+        ],
+        "ocr_front": "ROMAN GABRIEL QUARTERBACK LOS ANGELES RAMS No. 8 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+        "ocr_back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE—This game can also be played like pro football, using four downs. 1. Begin on the 20 yard line. 2. If you don't make 10 yards in three downs, you may elect to kick on the 4th down. 3. To kick, move the \"ball marker\" 25 yards up field & turn over the next card. Move the ball as the card indicates. 4. To try for a field goal, you must be within 25 yards of your opponent's goal line. Say \"Field Goal Attempt\" & turn over next card. A \"gain\" card is a 3 point field goal. A \"loss,\" \"fumble,\" or \"interception\" is no good. Opponent takes over. VISITORS HOME TEAM FOOTBALL CARD GAME",
+        "validation": {
+            "confidence": "High",
+            "review_required": false
+        },
+        "notes": ""
     }
 ]
