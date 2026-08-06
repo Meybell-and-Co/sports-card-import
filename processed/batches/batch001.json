@@ -1,5 +1,68 @@
 [
     {
+        "sys_card_id": "FBPU_0001",
+        "sys_front_filename": "FBPU_0001_a.jpg",
+        "sys_back_filename": "FBPU_0001_b.jpg",
+        "sport": "Football",
+        "year": 1971,
+        "manufacturer": "Topps",
+        "set": "1971 Topps Football Pin-Ups",
+        "subset": null,
+        "player": "Gene Washington",
+        "team": "Minnesota Vikings",
+        "card_number": "23",
+        "rookie": false,
+        "parallel": null,
+        "insert": null,
+        "observable_notes": [
+            "Vertical center crease/fold line",
+            "Horizontal crease/fold line",
+            "Minor corner wear"
+        ],
+        "production_notes": [
+            "Oversized format"
+        ],
+        "ocr_front": "GENE WASHINGTON WIDE RECEIVER MINNESOTA VIKINGS No. 23 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+        "ocr_back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE — This game can also be played like pro football, using four downs. 1. Begin on the 20 yard line. 2. If you don't make 10 yards in three downs, you may elect to kick on the 4th down. 3. To kick, move the \"ball marker\" 25 yards up field & turn over the next card. Move the ball as the card indicates. 4. To try for a field goal, you must be within 25 yards of your opponent's goal line. Say \"Field Goal Attempt\" & turn over next card. A \"gain\" card is a 3 point field goal. A \"loss,\" \"fumble,\" or \"interception\" is no good. Opponent takes over. 1 2 3 4 F VISITORS HOME TEAM FOOTBALL CARD GAME 0 5 10 15 20 25 30 35 40 45 50 45 40 35 30 25 20 15 10 5 0",
+        "validation": {
+            "confidence": "High",
+            "review_required": false
+        },
+        "notes": ""
+    },
+    {
+        "sys_card_id": "FBPU_0002",
+        "sys_front_filename": "FBPU_0002_a.jpg",
+        "sys_back_filename": "FBPU_0002_b.jpg",
+        "sport": "Football",
+        "year": 1971,
+        "manufacturer": "Topps",
+        "set": "1971 Topps Football Pin-Ups",
+        "subset": null,
+        "player": "Larry Brown",
+        "team": "Washington Redskins",
+        "card_number": "32",
+        "rookie": false,
+        "parallel": null,
+        "insert": null,
+        "observable_notes": [
+            "Vertical center crease/fold line",
+            "Staining/discoloration along top and right edge on reverse",
+            "Corner wear at bottom left",
+            "Diagonal crease line on reverse"
+        ],
+        "production_notes": [
+            "Oversized format"
+        ],
+        "ocr_front": "LARRY BROWN RUNNING BACK WASHINGTON REDSKINS No. 32 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+        "ocr_back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE — This game can also be played like pro football, using four downs. 1. Begin on the 20 yard line. 2. If you don't make 10 yards in three downs, you may elect to kick on the 4th down. 3. To kick, move the \"ball marker\" 25 yards up field & turn over the next card. Move the ball as the card indicates. 4. To try for a field goal, you must be within 25 yards of your opponent's goal line. Say \"Field Goal Attempt\" & turn over next card. A \"gain\" card is a 3 point field goal. A \"loss,\" \"fumble,\" or \"interception\" is no good. Opponent takes over. 1 2 3 4 F VISITORS HOME TEAM FOOTBALL CARD GAME 0 5 10 15 20 25 30 35 40 45 50 45 40 35 30 25 20 15 10 5 0",
+        "validation": {
+            "confidence": "High",
+            "review_required": false
+        },
+        "notes": ""
+    },
+    {
         "sys_card_id": "FBPU_0003",
         "sys_front_filename": "FBPU_0003_a.jpg",
         "sys_back_filename": "FBPU_0003_b.jpg",
@@ -16,11 +79,13 @@
         "insert": null,
         "observable_notes": [
             "Folded in quarters (vertical and horizontal crease lines visible)",
-            "Small paper crease/wear near top of image, upper right area",
+            "Center crease intersection shows small notch/divot ('cupid's bow') with small puncture visible at exact center",
             "Back shows crease lines consistent with front folds",
-            "Center crease intersection shows small notch/divot ('cupid's bow') with small puncture visible at exact center"
+            "Small paper crease/wear near top of image, upper right area"
         ],
-        "production_notes": [],
+        "production_notes": [
+            "Oversized format"
+        ],
         "ocr_front": "JERRY LE VIAS WIDE RECEIVER HOUSTON OILERS No. 9 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
         "ocr_back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE — This game can also be played like pro football, using four downs. 1. Begin on the 20 yard line. 2. If you don't make 10 yards in three downs, you may elect to kick on the 4th down. 3. To kick, move the \"ball marker\" 25 yards up field & turn over the next card. Move the ball as the card indicates. 4. To try for a field goal, you must be within 25 yards of your opponent's goal line. Say \"Field Goal Attempt\" & turn over next card. A \"gain\" card is a 3 point field goal. A \"loss,\" \"fumble,\" or \"interception\" is no good. Opponent takes over. 1 2 3 4 F VISITORS HOME TEAM FOOTBALL CARD GAME 0 5 10 15 20 25 30 35 40 45 50 45 40 35 30 25 20 15 10 5 0",
         "validation": {
@@ -46,16 +111,223 @@
         "insert": null,
         "observable_notes": [
             "Folded in quarters (vertical and horizontal crease lines visible)",
-            "Back shows crease lines consistent with front folds",
-            "Center crease intersection is a clean X-fold without the notch/divot seen on FBPU_0003"
+            "Center crease intersection is a clean X-fold without notch/divot",
+            "Back shows crease lines consistent with front folds"
         ],
-        "production_notes": [],
+        "production_notes": [
+            "Oversized format"
+        ],
         "ocr_front": "JERRY LE VIAS WIDE RECEIVER HOUSTON OILERS No. 9 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
         "ocr_back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE — This game can also be played like pro football, using four downs. 1. Begin on the 20 yard line. 2. If you don't make 10 yards in three downs, you may elect to kick on the 4th down. 3. To kick, move the \"ball marker\" 25 yards up field & turn over the next card. Move the ball as the card indicates. 4. To try for a field goal, you must be within 25 yards of your opponent's goal line. Say \"Field Goal Attempt\" & turn over next card. A \"gain\" card is a 3 point field goal. A \"loss,\" \"fumble,\" or \"interception\" is no good. Opponent takes over. 1 2 3 4 F VISITORS HOME TEAM FOOTBALL CARD GAME 0 5 10 15 20 25 30 35 40 45 50 45 40 35 30 25 20 15 10 5 0",
         "validation": {
             "confidence": "High",
             "review_required": false
         },
-        "notes": "Two otherwise identical copies exist in inventory. This copy is distinguishable by its center crease pattern."
+        "notes": ""
+    },
+    {
+        "sys_card_id": "FBPU_0005",
+        "sys_front_filename": "FBPU_0005_a.jpg",
+        "sys_back_filename": "FBPU_0005_b.jpg",
+        "sport": "Football",
+        "year": 1971,
+        "manufacturer": "Topps",
+        "set": "1971 Topps Football Pin-Ups",
+        "subset": null,
+        "player": "Jim Nance",
+        "team": "New England Patriots",
+        "card_number": "15",
+        "rookie": false,
+        "parallel": null,
+        "insert": null,
+        "observable_notes": [
+            "Vertical center crease/fold line",
+            "Horizontal crease/fold line"
+        ],
+        "production_notes": [
+            "Oversized format"
+        ],
+        "ocr_front": "JIM NANCE RUNNING BACK NEW ENGLAND PATRIOTS No. 15 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+        "ocr_back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE — This game can also be played like pro football, using four downs. 1. Begin on the 20 yard line. 2. If you don't make 10 yards in three downs, you may elect to kick on the 4th down. 3. To kick, move the \"ball marker\" 25 yards up field & turn over the next card. Move the ball as the card indicates. 4. To try for a field goal, you must be within 25 yards of your opponent's goal line. Say \"Field Goal Attempt\" & turn over next card. A \"gain\" card is a 3 point field goal. A \"loss,\" \"fumble,\" or \"interception\" is no good. Opponent takes over. 1 2 3 4 F VISITORS HOME TEAM FOOTBALL CARD GAME 0 5 10 15 20 25 30 35 40 45 50 45 40 35 30 25 20 15 10 5 0",
+        "validation": {
+            "confidence": "High",
+            "review_required": false
+        },
+        "notes": ""
+    },
+    {
+        "sys_card_id": "FBPU_0006",
+        "sys_front_filename": "FBPU_0006_a.jpg",
+        "sys_back_filename": "FBPU_0006_b.jpg",
+        "sport": "Football",
+        "year": 1971,
+        "manufacturer": "Topps",
+        "set": "1971 Topps Football Pin-Ups",
+        "subset": null,
+        "player": "Lance Alworth",
+        "team": "Dallas Cowboys",
+        "card_number": "19",
+        "rookie": false,
+        "parallel": null,
+        "insert": null,
+        "observable_notes": [
+            "Folded in quarters (vertical and horizontal crease lines visible)"
+        ],
+        "production_notes": [
+            "Oversized format"
+        ],
+        "ocr_front": "LANCE ALWORTH WIDE RECEIVER DALLAS COWBOYS No. 19 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+        "ocr_back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE—This game can also be played like pro football, using four downs. FOOTBALL CARD GAME VISITORS HOME TEAM",
+        "validation": {
+            "confidence": "High",
+            "review_required": false
+        },
+        "notes": ""
+    },
+    {
+        "sys_card_id": "FBPU_0007",
+        "sys_front_filename": "FBPU_0007_a.jpg",
+        "sys_back_filename": "FBPU_0007_b.jpg",
+        "sport": "Football",
+        "year": 1971,
+        "manufacturer": "Topps",
+        "set": "1971 Topps Football Pin-Ups",
+        "subset": null,
+        "player": "Bill Nelsen",
+        "team": "Cleveland Browns",
+        "card_number": "16",
+        "rookie": false,
+        "parallel": null,
+        "insert": null,
+        "observable_notes": [
+            "Folded in quarters (vertical and horizontal crease lines visible)"
+        ],
+        "production_notes": [
+            "Oversized format"
+        ],
+        "ocr_front": "BILL NELSEN QUARTERBACK CLEVELAND BROWNS No. 16 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+        "ocr_back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE—This game can also be played like pro football, using four downs. FOOTBALL CARD GAME VISITORS HOME TEAM",
+        "validation": {
+            "confidence": "High",
+            "review_required": false
+        },
+        "notes": ""
+    },
+    {
+        "sys_card_id": "FBPU_0008",
+        "sys_front_filename": "FBPU_0008_a.jpg",
+        "sys_back_filename": "FBPU_0008_b.jpg",
+        "sport": "Football",
+        "year": 1971,
+        "manufacturer": "Topps",
+        "set": "1971 Topps Football Pin-Ups",
+        "subset": null,
+        "player": "Sam Brunelli",
+        "team": "Denver Broncos",
+        "card_number": "14",
+        "rookie": false,
+        "parallel": null,
+        "insert": null,
+        "observable_notes": [
+            "Folded in quarters (vertical and horizontal crease lines visible)"
+        ],
+        "production_notes": [
+            "Oversized format"
+        ],
+        "ocr_front": "SAM BRUNELLI TACKLE DENVER BRONCOS No. 14 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+        "ocr_back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE—This game can also be played like pro football, using four downs. FOOTBALL CARD GAME VISITORS HOME TEAM",
+        "validation": {
+            "confidence": "High",
+            "review_required": false
+        },
+        "notes": ""
+    },
+    {
+        "sys_card_id": "FBPU_0009",
+        "sys_front_filename": "FBPU_0009_a.jpg",
+        "sys_back_filename": "FBPU_0009_b.jpg",
+        "sport": "Football",
+        "year": 1971,
+        "manufacturer": "Topps",
+        "set": "1971 Topps Football Pin-Ups",
+        "subset": null,
+        "player": "Harold Jackson",
+        "team": "Philadelphia Eagles",
+        "card_number": "3",
+        "rookie": false,
+        "parallel": null,
+        "insert": null,
+        "observable_notes": [
+            "Folded in quarters (vertical and horizontal crease lines visible)"
+        ],
+        "production_notes": [
+            "Oversized format"
+        ],
+        "ocr_front": "HAROLD JACKSON WIDE RECEIVER PHILADELPHIA EAGLES No. 3 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+        "ocr_back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE—This game can also be played like pro football, using four downs. FOOTBALL CARD GAME VISITORS HOME TEAM",
+        "validation": {
+            "confidence": "High",
+            "review_required": false
+        },
+        "notes": ""
+    },
+    {
+        "sys_card_id": "FBPU_0010",
+        "sys_front_filename": "FBPU_0010_a.jpg",
+        "sys_back_filename": "FBPU_0010_b.jpg",
+        "sport": "Football",
+        "year": 1971,
+        "manufacturer": "Topps",
+        "set": "1971 Topps Football Pin-Ups",
+        "subset": null,
+        "player": "Andy Russell",
+        "team": "Pittsburgh Steelers",
+        "card_number": "2",
+        "rookie": false,
+        "parallel": null,
+        "insert": null,
+        "observable_notes": [
+            "Folded in quarters (vertical and horizontal crease lines visible)"
+        ],
+        "production_notes": [
+            "Oversized format"
+        ],
+        "ocr_front": "ANDY RUSSELL LINEBACKER PITTSBURGH STEELERS No. 2 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+        "ocr_back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE—This game can also be played like pro football, using four downs. FOOTBALL CARD GAME VISITORS HOME TEAM",
+        "validation": {
+            "confidence": "High",
+            "review_required": false
+        },
+        "notes": ""
+    },
+    {
+        "sys_card_id": "FBPU_0011",
+        "sys_front_filename": "FBPU_0011_a.jpg",
+        "sys_back_filename": "FBPU_0011_b.jpg",
+        "sport": "Football",
+        "year": 1971,
+        "manufacturer": "Topps",
+        "set": "1971 Topps Football Pin-Ups",
+        "subset": null,
+        "player": "Andy Russell",
+        "team": "Pittsburgh Steelers",
+        "card_number": "2",
+        "rookie": false,
+        "parallel": null,
+        "insert": null,
+        "observable_notes": [
+            "Folded in quarters (vertical and horizontal crease lines visible)",
+            "Small white ripple/fold above right eyebrow"
+        ],
+        "production_notes": [
+            "Oversized format"
+        ],
+        "ocr_front": "ANDY RUSSELL LINEBACKER PITTSBURGH STEELERS No. 2 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+        "ocr_back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE—This game can also be played like pro football, using four downs. FOOTBALL CARD GAME VISITORS HOME TEAM",
+        "validation": {
+            "confidence": "High",
+            "review_required": false
+        },
+        "notes": ""
     }
 ]
