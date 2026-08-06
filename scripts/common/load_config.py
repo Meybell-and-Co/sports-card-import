@@ -20,17 +20,10 @@ Version:
     1.0.0
 """
 
-from pathlib import Path
-from typing import Any
 import json
+from typing import Any
 
-# ---------------------------------------------------------------------
-# Project Paths
-# ---------------------------------------------------------------------
-
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
-
-CONFIG_DIR = PROJECT_ROOT / "config"
+from .paths import CONFIG_DIR
 
 # ---------------------------------------------------------------------
 # Configuration Files
@@ -115,8 +108,6 @@ CONFIG = load_all_configs()
 
 __all__ = [
     "CONFIG",
-    "CONFIG_DIR",
     "CONFIG_FILES",
-    "PROJECT_ROOT",
     "load_all_configs",
 ]
