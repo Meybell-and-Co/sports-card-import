@@ -1,0 +1,41 @@
+{
+    "domains": {
+        "Sports": {
+            "categories": [
+                "Baseball",
+                "Basketball",
+                "Boxing",
+                "Football",
+                "Golf",
+                "Hockey",
+                "Olympics",
+                "Racing",
+                "Soccer",
+                "Tennis",
+                "Wrestling"
+            ]
+        },
+        "Entertainment": {
+            "categories": [
+                "Movies",
+                "Music",
+                "Television"
+            ]
+        },
+        "Transportation": {
+            "categories": [
+                "Airlines",
+                "Railroad"
+            ]
+        },
+        "Political": {
+            "categories": [
+                "Campaign",
+                "Government"
+            ]
+        },
+        "Other": {
+            "categories": []
+        }
+    }
+}
