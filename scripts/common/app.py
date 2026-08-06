@@ -37,12 +37,16 @@ class App:
     each script needing to import multiple modules.
     """
 
-    def __init__(self, module_name: str):
+    def __init__(self, module_name: str) -> None:
 
-        self.module_name = module_name
+        self.module_name: str = module_name
 
         self.config = CONFIG
 
         self.paths = paths
 
         self.logger = get_logger(module_name)
+
+__all__ = [
+    "App",
+]
