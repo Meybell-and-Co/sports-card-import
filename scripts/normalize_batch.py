@@ -460,9 +460,9 @@ def normalize_positions(
             Position mappings grouped by sport.
     """
 
-    attributes = require_object(
+    entity = require_object(
         record,
-        "attributes",
+        "entity",
     )
     subjects = require_list(
         record,
@@ -487,7 +487,7 @@ def normalize_positions(
     if not is_blank(player.get("position")):
         return
 
-    sport = attributes.get("sport")
+    sport = entity.get("sport")
 
     if not isinstance(sport, str):
         return

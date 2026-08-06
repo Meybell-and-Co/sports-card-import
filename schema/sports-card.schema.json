@@ -74,13 +74,17 @@
                     "type": "string"
                 },
                 "severity": {
-                    "type": "string",
+                    "type": [
+                        "string",
+                        "null"
+                    ],
                     "enum": [
                         "none",
                         "light",
                         "minor",
                         "moderate",
-                        "heavy"
+                        "heavy",
+                        null
                     ]
                 }
             }
@@ -356,9 +360,13 @@
             "required": [
                 "batch",
                 "extractor",
-                "confidence"
+                "confidence",
+                "review_required"
             ],
             "properties": {
+                "review_required": {
+                    "type": "boolean"
+                },
                 "batch": {
                     "type": [
                         "string",
