@@ -561,6 +561,7 @@ def build_subjects(
 def migrate_record(
     record: JsonObject,
     batch_name: str,
+    record_number: int,
     insert_sets: InsertSetConfig,
     positions: PositionConfig,
 ) -> JsonObject:
@@ -590,8 +591,14 @@ def migrate_record(
         validation = {}
 
     item_id = optional_string(
-        record.get("sys_card_id")
+        record.get("item_id")
+        or record.get("sys_card_id")
+        or record.get("file")
     )
+    if item_id is None:
+        item_id = (
+            f"MIG_{batch_name}_{record_number:04d}"
+        )
     front_filename = optional_string(
         record.get("sys_front_filename")
     )
@@ -722,6 +729,9 @@ def migrate_batch(
         batch_name:
             Source batch identifier.
 
+        record_number:
+            One-based position of the record in the source batch.
+
         insert_sets:
             Known subset classifications.
 
@@ -756,6 +766,7 @@ def migrate_batch(
             migrate_record(
                 item,
                 batch_name,
+                index,
                 insert_sets,
                 positions,
             )

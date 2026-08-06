@@ -1,0 +1,2092 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "item_id": "FBPU_0001",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Football"
+    },
+    "images": {
+      "front": {
+        "filename": "FBPU_0001_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "FBPU_0001_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1971,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "1971 Topps Football Pin-Ups",
+      "subset": null,
+      "title": null,
+      "card_number": "23",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Gene Washington",
+        "team": "Minnesota Vikings",
+        "position": "WR"
+      }
+    ],
+    "attributes": {
+      "classification": "Game Card",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Vertical center crease/fold line",
+          "severity": null
+        },
+        {
+          "type": "Horizontal crease/fold line",
+          "severity": null
+        },
+        {
+          "type": "Minor corner wear",
+          "severity": "minor"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "GENE WASHINGTON WIDE RECEIVER MINNESOTA VIKINGS No. 23 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+      "back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE — This game can also be played like pro football, using four downs. 1. Begin on the 20 yard line. 2. If you don't make 10 yards in three downs, you may elect to kick on the 4th down. 3. To kick, move the \"ball marker\" 25 yards up field & turn over the next card. Move the ball as the card indicates. 4. To try for a field goal, you must be within 25 yards of your opponent's goal line. Say \"Field Goal Attempt\" & turn over next card. A \"gain\" card is a 3 point field goal. A \"loss,\" \"fumble,\" or \"interception\" is no good. Opponent takes over. 1 2 3 4 F VISITORS HOME TEAM FOOTBALL CARD GAME 0 5 10 15 20 25 30 35 40 45 50 45 40 35 30 25 20 15 10 5 0"
+    },
+    "notes": [
+      "Production note: Oversized format"
+    ],
+    "pipeline": {
+      "batch": "batch0001",
+      "extractor": "legacy-flat-v1",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "FBPU_0002",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Football"
+    },
+    "images": {
+      "front": {
+        "filename": "FBPU_0002_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "FBPU_0002_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1971,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "1971 Topps Football Pin-Ups",
+      "subset": null,
+      "title": null,
+      "card_number": "32",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Larry Brown",
+        "team": "Washington Redskins",
+        "position": "RB"
+      }
+    ],
+    "attributes": {
+      "classification": "Game Card",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Vertical center crease/fold line",
+          "severity": null
+        },
+        {
+          "type": "Staining/discoloration along top and right edge on reverse",
+          "severity": null
+        },
+        {
+          "type": "Corner wear at bottom left",
+          "severity": null
+        },
+        {
+          "type": "Diagonal crease line on reverse",
+          "severity": null
+        }
+      ]
+    },
+    "ocr": {
+      "front": "LARRY BROWN RUNNING BACK WASHINGTON REDSKINS No. 32 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+      "back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE — This game can also be played like pro football, using four downs. 1. Begin on the 20 yard line. 2. If you don't make 10 yards in three downs, you may elect to kick on the 4th down. 3. To kick, move the \"ball marker\" 25 yards up field & turn over the next card. Move the ball as the card indicates. 4. To try for a field goal, you must be within 25 yards of your opponent's goal line. Say \"Field Goal Attempt\" & turn over next card. A \"gain\" card is a 3 point field goal. A \"loss,\" \"fumble,\" or \"interception\" is no good. Opponent takes over. 1 2 3 4 F VISITORS HOME TEAM FOOTBALL CARD GAME 0 5 10 15 20 25 30 35 40 45 50 45 40 35 30 25 20 15 10 5 0"
+    },
+    "notes": [
+      "Production note: Oversized format"
+    ],
+    "pipeline": {
+      "batch": "batch0001",
+      "extractor": "legacy-flat-v1",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "FBPU_0003",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Football"
+    },
+    "images": {
+      "front": {
+        "filename": "FBPU_0003_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "FBPU_0003_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1971,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "1971 Topps Football Pin-Ups",
+      "subset": null,
+      "title": null,
+      "card_number": "9",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Jerry LeVias",
+        "team": "Houston Oilers",
+        "position": "WR"
+      }
+    ],
+    "attributes": {
+      "classification": "Game Card",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Folded in quarters (vertical and horizontal crease lines visible)",
+          "severity": null
+        },
+        {
+          "type": "Center crease intersection shows small notch/divot ('cupid's bow') with small puncture visible at exact center",
+          "severity": null
+        },
+        {
+          "type": "Back shows crease lines consistent with front folds",
+          "severity": null
+        },
+        {
+          "type": "Small paper crease/wear near top of image, upper right area",
+          "severity": null
+        }
+      ]
+    },
+    "ocr": {
+      "front": "JERRY LE VIAS WIDE RECEIVER HOUSTON OILERS No. 9 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+      "back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE — This game can also be played like pro football, using four downs. 1. Begin on the 20 yard line. 2. If you don't make 10 yards in three downs, you may elect to kick on the 4th down. 3. To kick, move the \"ball marker\" 25 yards up field & turn over the next card. Move the ball as the card indicates. 4. To try for a field goal, you must be within 25 yards of your opponent's goal line. Say \"Field Goal Attempt\" & turn over next card. A \"gain\" card is a 3 point field goal. A \"loss,\" \"fumble,\" or \"interception\" is no good. Opponent takes over. 1 2 3 4 F VISITORS HOME TEAM FOOTBALL CARD GAME 0 5 10 15 20 25 30 35 40 45 50 45 40 35 30 25 20 15 10 5 0"
+    },
+    "notes": [
+      "Distinguishing physical mark (center crease notch/possible pinhole).",
+      "Production note: Oversized format"
+    ],
+    "pipeline": {
+      "batch": "batch0001",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Medium",
+      "review_required": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "FBPU_0004",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Football"
+    },
+    "images": {
+      "front": {
+        "filename": "FBPU_0004_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "FBPU_0004_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1971,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "1971 Topps Football Pin-Ups",
+      "subset": null,
+      "title": null,
+      "card_number": "9",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Jerry LeVias",
+        "team": "Houston Oilers",
+        "position": "WR"
+      }
+    ],
+    "attributes": {
+      "classification": "Game Card",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Folded in quarters (vertical and horizontal crease lines visible)",
+          "severity": null
+        },
+        {
+          "type": "Center crease intersection is a clean X-fold without notch/divot",
+          "severity": null
+        },
+        {
+          "type": "Back shows crease lines consistent with front folds",
+          "severity": null
+        }
+      ]
+    },
+    "ocr": {
+      "front": "JERRY LE VIAS WIDE RECEIVER HOUSTON OILERS No. 9 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+      "back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE — This game can also be played like pro football, using four downs. 1. Begin on the 20 yard line. 2. If you don't make 10 yards in three downs, you may elect to kick on the 4th down. 3. To kick, move the \"ball marker\" 25 yards up field & turn over the next card. Move the ball as the card indicates. 4. To try for a field goal, you must be within 25 yards of your opponent's goal line. Say \"Field Goal Attempt\" & turn over next card. A \"gain\" card is a 3 point field goal. A \"loss,\" \"fumble,\" or \"interception\" is no good. Opponent takes over. 1 2 3 4 F VISITORS HOME TEAM FOOTBALL CARD GAME 0 5 10 15 20 25 30 35 40 45 50 45 40 35 30 25 20 15 10 5 0"
+    },
+    "notes": [
+      "Production note: Oversized format"
+    ],
+    "pipeline": {
+      "batch": "batch0001",
+      "extractor": "legacy-flat-v1",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "FBPU_0005",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Football"
+    },
+    "images": {
+      "front": {
+        "filename": "FBPU_0005_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "FBPU_0005_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1971,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "1971 Topps Football Pin-Ups",
+      "subset": null,
+      "title": null,
+      "card_number": "15",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Jim Nance",
+        "team": "New England Patriots",
+        "position": "RB"
+      }
+    ],
+    "attributes": {
+      "classification": "Game Card",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Vertical center crease/fold line",
+          "severity": null
+        },
+        {
+          "type": "Horizontal crease/fold line",
+          "severity": null
+        }
+      ]
+    },
+    "ocr": {
+      "front": "JIM NANCE RUNNING BACK NEW ENGLAND PATRIOTS No. 15 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+      "back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE — This game can also be played like pro football, using four downs. 1. Begin on the 20 yard line. 2. If you don't make 10 yards in three downs, you may elect to kick on the 4th down. 3. To kick, move the \"ball marker\" 25 yards up field & turn over the next card. Move the ball as the card indicates. 4. To try for a field goal, you must be within 25 yards of your opponent's goal line. Say \"Field Goal Attempt\" & turn over next card. A \"gain\" card is a 3 point field goal. A \"loss,\" \"fumble,\" or \"interception\" is no good. Opponent takes over. 1 2 3 4 F VISITORS HOME TEAM FOOTBALL CARD GAME 0 5 10 15 20 25 30 35 40 45 50 45 40 35 30 25 20 15 10 5 0"
+    },
+    "notes": [
+      "Production note: Oversized format"
+    ],
+    "pipeline": {
+      "batch": "batch0001",
+      "extractor": "legacy-flat-v1",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "FBPU_0006",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Football"
+    },
+    "images": {
+      "front": {
+        "filename": "FBPU_0006_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "FBPU_0006_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1971,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "1971 Topps Football Pin-Ups",
+      "subset": null,
+      "title": null,
+      "card_number": "19",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Lance Alworth",
+        "team": "Dallas Cowboys",
+        "position": "WR"
+      }
+    ],
+    "attributes": {
+      "classification": "Game Card",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Folded in quarters (vertical and horizontal crease lines visible)",
+          "severity": null
+        }
+      ]
+    },
+    "ocr": {
+      "front": "LANCE ALWORTH WIDE RECEIVER DALLAS COWBOYS No. 19 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+      "back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE—This game can also be played like pro football, using four downs. FOOTBALL CARD GAME VISITORS HOME TEAM"
+    },
+    "notes": [
+      "Production note: Oversized format"
+    ],
+    "pipeline": {
+      "batch": "batch0001",
+      "extractor": "legacy-flat-v1",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "FBPU_0007",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Football"
+    },
+    "images": {
+      "front": {
+        "filename": "FBPU_0007_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "FBPU_0007_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1971,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "1971 Topps Football Pin-Ups",
+      "subset": null,
+      "title": null,
+      "card_number": "16",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Bill Nelsen",
+        "team": "Cleveland Browns",
+        "position": "QB"
+      }
+    ],
+    "attributes": {
+      "classification": "Game Card",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Folded in quarters (vertical and horizontal crease lines visible)",
+          "severity": null
+        }
+      ]
+    },
+    "ocr": {
+      "front": "BILL NELSEN QUARTERBACK CLEVELAND BROWNS No. 16 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+      "back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE—This game can also be played like pro football, using four downs. FOOTBALL CARD GAME VISITORS HOME TEAM"
+    },
+    "notes": [
+      "Production note: Oversized format"
+    ],
+    "pipeline": {
+      "batch": "batch0001",
+      "extractor": "legacy-flat-v1",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "FBPU_0008",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Football"
+    },
+    "images": {
+      "front": {
+        "filename": "FBPU_0008_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "FBPU_0008_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1971,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "1971 Topps Football Pin-Ups",
+      "subset": null,
+      "title": null,
+      "card_number": "14",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Sam Brunelli",
+        "team": "Denver Broncos",
+        "position": "T"
+      }
+    ],
+    "attributes": {
+      "classification": "Game Card",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Folded in quarters (vertical and horizontal crease lines visible)",
+          "severity": null
+        }
+      ]
+    },
+    "ocr": {
+      "front": "SAM BRUNELLI TACKLE DENVER BRONCOS No. 14 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+      "back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE—This game can also be played like pro football, using four downs. FOOTBALL CARD GAME VISITORS HOME TEAM"
+    },
+    "notes": [
+      "Production note: Oversized format"
+    ],
+    "pipeline": {
+      "batch": "batch0001",
+      "extractor": "legacy-flat-v1",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "FBPU_0009",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Football"
+    },
+    "images": {
+      "front": {
+        "filename": "FBPU_0009_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "FBPU_0009_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1971,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "1971 Topps Football Pin-Ups",
+      "subset": null,
+      "title": null,
+      "card_number": "3",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Harold Jackson",
+        "team": "Philadelphia Eagles",
+        "position": "WR"
+      }
+    ],
+    "attributes": {
+      "classification": "Game Card",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Folded in quarters (vertical and horizontal crease lines visible)",
+          "severity": null
+        }
+      ]
+    },
+    "ocr": {
+      "front": "HAROLD JACKSON WIDE RECEIVER PHILADELPHIA EAGLES No. 3 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+      "back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE—This game can also be played like pro football, using four downs. FOOTBALL CARD GAME VISITORS HOME TEAM"
+    },
+    "notes": [
+      "Production note: Oversized format"
+    ],
+    "pipeline": {
+      "batch": "batch0001",
+      "extractor": "legacy-flat-v1",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "FBPU_0010",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Football"
+    },
+    "images": {
+      "front": {
+        "filename": "FBPU_0010_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "FBPU_0010_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1971,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "1971 Topps Football Pin-Ups",
+      "subset": null,
+      "title": null,
+      "card_number": "2",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Andy Russell",
+        "team": "Pittsburgh Steelers",
+        "position": "LB"
+      }
+    ],
+    "attributes": {
+      "classification": "Game Card",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Folded in quarters (vertical and horizontal crease lines visible)",
+          "severity": null
+        }
+      ]
+    },
+    "ocr": {
+      "front": "ANDY RUSSELL LINEBACKER PITTSBURGH STEELERS No. 2 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+      "back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE—This game can also be played like pro football, using four downs. FOOTBALL CARD GAME VISITORS HOME TEAM"
+    },
+    "notes": [
+      "Production note: Oversized format"
+    ],
+    "pipeline": {
+      "batch": "batch0001",
+      "extractor": "legacy-flat-v1",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "FBPU_0011",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Football"
+    },
+    "images": {
+      "front": {
+        "filename": "FBPU_0011_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "FBPU_0011_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1971,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "1971 Topps Football Pin-Ups",
+      "subset": null,
+      "title": null,
+      "card_number": "2",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Andy Russell",
+        "team": "Pittsburgh Steelers",
+        "position": "LB"
+      }
+    ],
+    "attributes": {
+      "classification": "Game Card",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Folded in quarters (vertical and horizontal crease lines visible)",
+          "severity": null
+        },
+        {
+          "type": "Small white ripple/fold above right eyebrow",
+          "severity": null
+        }
+      ]
+    },
+    "ocr": {
+      "front": "ANDY RUSSELL LINEBACKER PITTSBURGH STEELERS No. 2 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+      "back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE—This game can also be played like pro football, using four downs. FOOTBALL CARD GAME VISITORS HOME TEAM"
+    },
+    "notes": [
+      "Production note: Oversized format"
+    ],
+    "pipeline": {
+      "batch": "batch0001",
+      "extractor": "legacy-flat-v1",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "FBPU_0012",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Football"
+    },
+    "images": {
+      "front": {
+        "filename": "FBPU_0012_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "FBPU_0012_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1971,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "1971 Topps Football Pin-Ups",
+      "subset": "Football Pin-Ups",
+      "title": "Football Pin-Ups",
+      "card_number": "5",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Fran Tarkenton",
+        "team": "New York Giants",
+        "position": "QB"
+      }
+    ],
+    "attributes": {
+      "classification": "Game Card",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Multiple horizontal and vertical fold creases",
+          "severity": null
+        },
+        {
+          "type": "Minor surface wear",
+          "severity": "minor"
+        },
+        {
+          "type": "Minor edge and corner wear",
+          "severity": "minor"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "FRAN TARKENTON QUARTERBACK NEW YORK GIANTS No. 5 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+      "back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE—This game can also be played like pro football, using four downs. 1. Begin on the 20 yard line. 2. If you don't make 10 yards in three downs, you may elect to kick on the 4th down. 3. To kick, move the \"ball marker\" 25 yards up field & turn over the next card. Move the ball as the card indicates. 4. To try for a field goal, you must be within 25 yards of your opponent's goal line. Say \"Field Goal Attempt\" & turn over next card. A \"gain\" card is a 3 point field goal. A \"loss,\" \"fumble,\" or \"interception\" is no good. Opponent takes over. VISITORS HOME TEAM FOOTBALL CARD GAME"
+    },
+    "notes": [
+      "Production note: Oversized format",
+      "Production note: Game card back"
+    ],
+    "pipeline": {
+      "batch": "batch0001",
+      "extractor": "legacy-flat-v1",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "FBPU_0013",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Football"
+    },
+    "images": {
+      "front": {
+        "filename": "FBPU_0013_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "FBPU_0013_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1971,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "1971 Topps Football Pin-Ups",
+      "subset": "Football Pin-Ups",
+      "title": "Football Pin-Ups",
+      "card_number": "11",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Bob Hayes",
+        "team": "Dallas Cowboys",
+        "position": "WR"
+      }
+    ],
+    "attributes": {
+      "classification": "Game Card",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Multiple horizontal and vertical fold creases",
+          "severity": null
+        },
+        {
+          "type": "Minor surface wear",
+          "severity": "minor"
+        },
+        {
+          "type": "Minor edge and corner wear",
+          "severity": "minor"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "BOB HAYES WIDE RECEIVER DALLAS COWBOYS No. 11 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+      "back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE—This game can also be played like pro football, using four downs. 1. Begin on the 20 yard line. 2. If you don't make 10 yards in three downs, you may elect to kick on the 4th down. 3. To kick, move the \"ball marker\" 25 yards up field & turn over the next card. Move the ball as the card indicates. 4. To try for a field goal, you must be within 25 yards of your opponent's goal line. Say \"Field Goal Attempt\" & turn over next card. A \"gain\" card is a 3 point field goal. A \"loss,\" \"fumble,\" or \"interception\" is no good. Opponent takes over. VISITORS HOME TEAM FOOTBALL CARD GAME"
+    },
+    "notes": [
+      "Production note: Oversized format",
+      "Production note: Game card back"
+    ],
+    "pipeline": {
+      "batch": "batch0001",
+      "extractor": "legacy-flat-v1",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "FBPU_0014",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Football"
+    },
+    "images": {
+      "front": {
+        "filename": "FBPU_0014_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "FBPU_0014_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1971,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "1971 Topps Football Pin-Ups",
+      "subset": "Football Pin-Ups",
+      "title": "Football Pin-Ups",
+      "card_number": "8",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Roman Gabriel",
+        "team": "Los Angeles Rams",
+        "position": "QB"
+      }
+    ],
+    "attributes": {
+      "classification": "Game Card",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Multiple horizontal and vertical fold creases",
+          "severity": null
+        },
+        {
+          "type": "Minor surface wear",
+          "severity": "minor"
+        },
+        {
+          "type": "Minor edge and corner wear",
+          "severity": "minor"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "ROMAN GABRIEL QUARTERBACK LOS ANGELES RAMS No. 8 of 32 Football Pin-Ups. © T.C.G. PRTD. IN U.S.A.",
+      "back": "INSTRUCTIONS: 1. Place \"Ball Marker\" on 50 yard line. 2. First player picks cards until he scores or loses possession of ball. 3. Opponent takes over if ball is fumbled or intercepted. 4. When a touchdown is scored, opponent takes over on the 50 yard line. 5. Play four quarters...go through deck once for a quarter, & shuffle cards. 6. If a player is forced back beyond his own end zone, his opponent receives two points and the ball on the 50 yard line. NOTE—This game can also be played like pro football, using four downs. 1. Begin on the 20 yard line. 2. If you don't make 10 yards in three downs, you may elect to kick on the 4th down. 3. To kick, move the \"ball marker\" 25 yards up field & turn over the next card. Move the ball as the card indicates. 4. To try for a field goal, you must be within 25 yards of your opponent's goal line. Say \"Field Goal Attempt\" & turn over next card. A \"gain\" card is a 3 point field goal. A \"loss,\" \"fumble,\" or \"interception\" is no good. Opponent takes over. VISITORS HOME TEAM FOOTBALL CARD GAME"
+    },
+    "notes": [
+      "Production note: Oversized format",
+      "Production note: Game card back"
+    ],
+    "pipeline": {
+      "batch": "batch0001",
+      "extractor": "legacy-flat-v1",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MIG_batch0002_0013",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Football"
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "Stadium Club",
+      "subset": "Commemorative Issue '94",
+      "title": null,
+      "card_number": "0",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Michael Barrow",
+        "team": "Houston Oilers",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [
+      "Insert card."
+    ],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MIG_batch0002_0014",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": null,
+      "set": "Collector's Choice",
+      "subset": "You Crash the Deck",
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Roberto Alomar; Frank Thomas",
+        "team": "Toronto Blue Jays; Chicago White Sox",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [
+      "Scratch-off promotional game card."
+    ],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MIG_batch0002_0015",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": null,
+      "set": "Collector's Choice",
+      "subset": "Up Close & Personal",
+      "title": null,
+      "card_number": "632",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Barry Bonds",
+        "team": "San Francisco Giants",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MIG_batch0002_0016",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "Topps",
+      "subset": "On Deck",
+      "title": null,
+      "card_number": "130T",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Lyle Mouton; Mariano Rivera",
+        "team": "Chicago White Sox; New York Yankees",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [
+      "Dual-player rookie/prospect card."
+    ],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MIG_batch0002_0017",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "Topps",
+      "subset": "Series II Checklist",
+      "title": null,
+      "card_number": "791",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [
+      "Series II checklist covering cards 397-596."
+    ],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MIG_batch0002_0018",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "Topps",
+      "subset": "Series II Checklist",
+      "title": null,
+      "card_number": "792",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [
+      "Series II checklist covering cards 597-792."
+    ],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MISC_001_A_0001_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": "3 Triple Threat",
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Glen Rice",
+        "team": "Miami Heat",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MISC_001_A_0001_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": "3 Triple Threat",
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Glen Rice",
+        "team": "Miami Heat",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MISC_001_A_0002_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": "Buzzer Beater",
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Kenny Anderson",
+        "team": "New Jersey Nets",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MISC_001_A_0002_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": "Buzzer Beater",
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Kenny Anderson",
+        "team": "New Jersey Nets",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MISC_001_A_0003_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": null,
+      "title": null,
+      "card_number": 336,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Rony Seikaly",
+        "team": "Golden State Warriors",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MISC_001_A_0003_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": null,
+      "title": null,
+      "card_number": 336,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Rony Seikaly",
+        "team": "Golden State Warriors",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MISC_001_A_0004_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": "Sizzlin' Sophs",
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Jason Kidd",
+        "team": "Dallas Mavericks",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MISC_001_A_0004_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": "Sizzlin' Sophs",
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Jason Kidd",
+        "team": "Dallas Mavericks",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MISC_001_A_0005_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": "Milestones",
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "A.C. Green",
+        "team": "Phoenix Suns",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MISC_001_A_0005_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": "Milestones",
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "A.C. Green",
+        "team": "Phoenix Suns",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MISC_001_A_0006_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": null,
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Vin Baker",
+        "team": "Milwaukee Bucks",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MISC_001_A_0006_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": null
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": null,
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "SkyBox",
+      "brand": null,
+      "set": "NBA Hoops",
+      "subset": null,
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Vin Baker",
+        "team": "Milwaukee Bucks",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  }
+]

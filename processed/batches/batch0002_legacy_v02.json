@@ -1,7 +1,7 @@
 [
   {
     "schema_version": "1.0.0",
-    "item_id": "MISC_001_A_0001_01",
+    "item_id": null,
     "entity": {
       "entity_type": "Trading Card",
       "sport": null
@@ -61,7 +61,7 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MISC_001_A_0001_02",
+    "item_id": null,
     "entity": {
       "entity_type": "Trading Card",
       "sport": null
@@ -121,7 +121,7 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MISC_001_A_0002_01",
+    "item_id": null,
     "entity": {
       "entity_type": "Trading Card",
       "sport": null
@@ -181,7 +181,7 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MISC_001_A_0002_02",
+    "item_id": null,
     "entity": {
       "entity_type": "Trading Card",
       "sport": null
@@ -241,7 +241,7 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MISC_001_A_0003_01",
+    "item_id": null,
     "entity": {
       "entity_type": "Trading Card",
       "sport": null
@@ -301,7 +301,7 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MISC_001_A_0003_02",
+    "item_id": null,
     "entity": {
       "entity_type": "Trading Card",
       "sport": null
@@ -361,7 +361,7 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MISC_001_A_0004_01",
+    "item_id": null,
     "entity": {
       "entity_type": "Trading Card",
       "sport": null
@@ -421,7 +421,7 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MISC_001_A_0004_02",
+    "item_id": null,
     "entity": {
       "entity_type": "Trading Card",
       "sport": null
@@ -481,7 +481,7 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MISC_001_A_0005_01",
+    "item_id": null,
     "entity": {
       "entity_type": "Trading Card",
       "sport": null
@@ -541,7 +541,7 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MISC_001_A_0005_02",
+    "item_id": null,
     "entity": {
       "entity_type": "Trading Card",
       "sport": null
@@ -601,7 +601,7 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MISC_001_A_0006_01",
+    "item_id": null,
     "entity": {
       "entity_type": "Trading Card",
       "sport": null
@@ -661,7 +661,7 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MISC_001_A_0006_02",
+    "item_id": null,
     "entity": {
       "entity_type": "Trading Card",
       "sport": null
@@ -721,7 +721,7 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MIG_batch0002_0013",
+    "item_id": null,
     "entity": {
       "entity_type": "Trading Card",
       "sport": "Football"
@@ -783,7 +783,7 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MIG_batch0002_0014",
+    "item_id": null,
     "entity": {
       "entity_type": "Trading Card",
       "sport": "Baseball"
@@ -845,7 +845,7 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MIG_batch0002_0015",
+    "item_id": null,
     "entity": {
       "entity_type": "Trading Card",
       "sport": "Baseball"
@@ -905,7 +905,7 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MIG_batch0002_0016",
+    "item_id": null,
     "entity": {
       "entity_type": "Trading Card",
       "sport": "Baseball"
@@ -967,7 +967,7 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MIG_batch0002_0017",
+    "item_id": null,
     "entity": {
       "entity_type": "Trading Card",
       "sport": "Baseball"
@@ -1022,7 +1022,7 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MIG_batch0002_0018",
+    "item_id": null,
     "entity": {
       "entity_type": "Trading Card",
       "sport": "Baseball"
