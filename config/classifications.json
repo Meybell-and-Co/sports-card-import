@@ -1,0 +1,38 @@
+{
+    "Base": {
+        "description": "Standard issue card from the primary checklist."
+    },
+    "Insert": {
+        "description": "Special card intentionally inserted into packs outside the base checklist."
+    },
+    "Parallel": {
+        "description": "Alternate version of another card differing by finish, color, foil, refractor, hologram, etc."
+    },
+    "Promotional": {
+        "description": "Produced for advertising, marketing, or promotional distribution."
+    },
+    "Sample": {
+        "description": "Sample card distributed to dealers, retailers, or collectors."
+    },
+    "Proof": {
+        "description": "Pre-production proof or printer's proof."
+    },
+    "Checklist": {
+        "description": "Checklist or set index card."
+    },
+    "Game Card": {
+        "description": "Card intended for use in a game or tabletop activity."
+    },
+    "Sticker": {
+        "description": "Collectible sticker."
+    },
+    "Team Set": {
+        "description": "Card produced as part of a team-specific set."
+    },
+    "Memorabilia": {
+        "description": "Non-card collectible such as a patch, pennant, pin, photo, ticket, program, or similar item."
+    },
+    "Other": {
+        "description": "Collectible that does not fit any defined classification."
+    }
+}
