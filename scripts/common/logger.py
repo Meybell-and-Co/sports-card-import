@@ -25,24 +25,6 @@ from common.paths import LOGS_DIR
 
 from common.io import ensure_directory
 
-
-# ---------------------------------------------------------------------
-# Custom Log Level
-# ---------------------------------------------------------------------
-
-SUCCESS_LEVEL = 25
-
-logging.addLevelName(SUCCESS_LEVEL, "SUCCESS")
-
-
-def success(self, message, *args, **kwargs):
-    if self.isEnabledFor(SUCCESS_LEVEL):
-        self._log(SUCCESS_LEVEL, message, args, **kwargs)
-
-
-logging.Logger.success = success
-
-
 # ---------------------------------------------------------------------
 # Logger Factory
 # ---------------------------------------------------------------------

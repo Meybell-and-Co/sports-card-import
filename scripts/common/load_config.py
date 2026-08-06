@@ -1,62 +1,122 @@
 """
-load_config.py
+Scout & Steward
 
-Loads all configuration files for the Scout & Steward pipeline.
+Module:
+    load_config.py
 
-Every script should import the shared `config` dictionary rather than
-opening configuration files directly.
+Purpose:
+    Loads all configuration files used throughout the Scout & Steward
+    pipeline.
 
-Example:
+Responsibilities:
+    - Locate configuration files
+    - Load JSON configuration
+    - Provide shared project configuration
 
-    from common.load_config import config
+Author:
+    Meybell & Co.
 
-    positions = config["positions"]
+Version:
+    1.0.0
 """
 
 from pathlib import Path
+from typing import Any
 import json
 
-
-# ---------------------------------------------------------
-# Project Root
-# ---------------------------------------------------------
+# ---------------------------------------------------------------------
+# Project Paths
+# ---------------------------------------------------------------------
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 CONFIG_DIR = PROJECT_ROOT / "config"
 
+# ---------------------------------------------------------------------
+# Configuration Files
+# ---------------------------------------------------------------------
 
-# ---------------------------------------------------------
-# Helper
-# ---------------------------------------------------------
+CONFIG_FILES = {
+    "classifications": "classifications.json",
+    "domains": "domains.json",
+    "insert_sets": "insert_sets.json",
+    "manufacturers": "manufacturers.json",
+    "pipeline": "pipeline.json",
+    "positions": "positions.json",
+}
 
-def _load(filename: str):
+# ---------------------------------------------------------------------
+# Internal Helpers
+# ---------------------------------------------------------------------
+
+def _load(filename: str) -> Any:
     """
     Load a JSON configuration file.
+
+    Args:
+        filename:
+            Name of the JSON file inside the config directory.
+
+    Returns:
+        Parsed JSON.
+
+    Raises:
+        FileNotFoundError:
+            If the configuration file does not exist.
+
+        RuntimeError:
+            If the JSON is invalid.
     """
 
     filepath = CONFIG_DIR / filename
 
-    with open(filepath, encoding="utf-8") as f:
-        return json.load(f)
+    if not filepath.exists():
+        raise FileNotFoundError(
+            f"Missing configuration file: {filepath}"
+        )
+
+    try:
+        with filepath.open("r", encoding="utf-8") as file:
+            return json.load(file)
+
+    except json.JSONDecodeError as error:
+        raise RuntimeError(
+            f"Invalid JSON in configuration file: {filepath}"
+        ) from error
 
 
-# ---------------------------------------------------------
-# Public Configuration Dictionary
-# ---------------------------------------------------------
+# ---------------------------------------------------------------------
+# Public Functions
+# ---------------------------------------------------------------------
 
-config = {
+def load_all_configs() -> dict[str, Any]:
+    """
+    Load every configuration file used by Scout & Steward.
 
-    "pipeline": _load("pipeline.json"),
+    Returns:
+        Dictionary containing all project configuration.
+    """
 
-    "positions": _load("positions.json"),
+    return {
+        key: _load(filename)
+        for key, filename in CONFIG_FILES.items()
+    }
 
-    "classifications": _load("classifications.json"),
 
-    "insert_sets": _load("insert_sets.json"),
+# ---------------------------------------------------------------------
+# Shared Configuration
+# ---------------------------------------------------------------------
 
-    "manufacturers": _load("manufacturers.json"),
+CONFIG = load_all_configs()
 
-    "domains": _load("domains.json")
+# ---------------------------------------------------------------------
+# Public API
+# ---------------------------------------------------------------------
 
-}
+__all__ = [
+    "CONFIG",
+    "CONFIG_DIR",
+    "CONFIG_FILES",
+    "PROJECT_ROOT",
+    "load_all_configs",
+]
