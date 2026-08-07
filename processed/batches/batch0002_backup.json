@@ -721,18 +721,18 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MISC_001_B_0008_01",
+    "item_id": "MIG_batch0002_0013",
     "entity": {
       "entity_type": "Trading Card",
       "sport": "Football"
     },
     "images": {
       "front": {
-        "filename": "MISC_001_B_0008_01_a.jpg",
+        "filename": null,
         "path": null
       },
       "back": {
-        "filename": "MISC_001_B_0008_01_b.jpg",
+        "filename": null,
         "path": null
       }
     },
@@ -783,18 +783,18 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MISC_001_B_0008_02",
+    "item_id": "MIG_batch0002_0014",
     "entity": {
       "entity_type": "Trading Card",
       "sport": "Baseball"
     },
     "images": {
       "front": {
-        "filename": "MISC_001_B_0008_02_a.jpg",
+        "filename": null,
         "path": null
       },
       "back": {
-        "filename": "MISC_001_B_0008_02_b.jpg",
+        "filename": null,
         "path": null
       }
     },
@@ -845,18 +845,18 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MISC_001_B_0009_01",
+    "item_id": "MIG_batch0002_0015",
     "entity": {
       "entity_type": "Trading Card",
       "sport": "Baseball"
     },
     "images": {
       "front": {
-        "filename": "MISC_001_B_0009_01_a.jpg",
+        "filename": null,
         "path": null
       },
       "back": {
-        "filename": "MISC_001_B_0009_01_b.jpg",
+        "filename": null,
         "path": null
       }
     },
@@ -905,18 +905,18 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MISC_001_B_0009_02",
+    "item_id": "MIG_batch0002_0016",
     "entity": {
       "entity_type": "Trading Card",
       "sport": "Baseball"
     },
     "images": {
       "front": {
-        "filename": "MISC_001_B_0009_02_a.jpg",
+        "filename": null,
         "path": null
       },
       "back": {
-        "filename": "MISC_001_B_0009_02_b.jpg",
+        "filename": null,
         "path": null
       }
     },
@@ -967,18 +967,18 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MISC_001_B_0010_02",
+    "item_id": "MIG_batch0002_0017",
     "entity": {
       "entity_type": "Trading Card",
       "sport": "Baseball"
     },
     "images": {
       "front": {
-        "filename": "MISC_001_B_0010_02_a.jpg",
+        "filename": null,
         "path": null
       },
       "back": {
-        "filename": "MISC_001_B_0010_02_b.jpg",
+        "filename": null,
         "path": null
       }
     },
@@ -1022,18 +1022,18 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MISC_001_B_0010_01",
+    "item_id": "MIG_batch0002_0018",
     "entity": {
       "entity_type": "Trading Card",
       "sport": "Baseball"
     },
     "images": {
       "front": {
-        "filename": "MISC_001_B_0010_01_a.jpg",
+        "filename": null,
         "path": null
       },
       "back": {
-        "filename": "MISC_001_B_0010_01_b.jpg",
+        "filename": null,
         "path": null
       }
     },
