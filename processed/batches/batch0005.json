@@ -1,0 +1,515 @@
+[
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_E_019_03",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_E_019_03_b.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_E_019_03_a.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "Topps",
+      "subset": "Future Stars",
+      "title": "Butch Huskey",
+      "card_number": "179",
+      "language": "English",
+      "copyright": "1994"
+    },
+    "subjects": [
+      {
+        "name": "Butch Huskey",
+        "team": "New York Mets"
+      }
+    ],
+    "attributes": {
+      "classification": "Sports Trading Card",
+      "rookie": true,
+      "parallel": null,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "pipeline": {
+      "batch": "batch0005",
+      "extractor": "ChatGPT",
+      "confidence": 0.98
+    },
+    "notes": []
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_E_019_04",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_E_019_04_b.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_E_019_04_a.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "Topps",
+      "subset": "Future Stars",
+      "title": "Tim Davis",
+      "card_number": "167",
+      "language": "English",
+      "copyright": "1994"
+    },
+    "subjects": [
+      {
+        "name": "Tim Davis",
+        "team": "Seattle Mariners"
+      }
+    ],
+    "attributes": {
+      "classification": "Sports Trading Card",
+      "rookie": true,
+      "parallel": null,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "pipeline": {
+      "batch": "batch0005",
+      "extractor": "ChatGPT",
+      "confidence": 0.98
+    },
+    "notes": []
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_E_020_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_E_020_01_b.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_E_020_01_a.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "Topps",
+      "subset": "Future Stars",
+      "title": "Ray McDavid",
+      "card_number": "152",
+      "language": "English",
+      "copyright": "1994"
+    },
+    "subjects": [
+      {
+        "name": "Ray McDavid",
+        "team": "San Diego Padres"
+      }
+    ],
+    "attributes": {
+      "classification": "Sports Trading Card",
+      "rookie": true,
+      "parallel": null,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "pipeline": {
+      "batch": "batch0005",
+      "extractor": "ChatGPT",
+      "confidence": 0.98
+    },
+    "notes": []
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_E_020_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_E_020_02_b.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_E_020_02_a.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "Topps",
+      "subset": "Future Stars",
+      "title": "Danny Miceli",
+      "card_number": "224",
+      "language": "English",
+      "copyright": "1994"
+    },
+    "subjects": [
+      {
+        "name": "Danny Miceli",
+        "team": "Pittsburgh Pirates"
+      }
+    ],
+    "attributes": {
+      "classification": "Sports Trading Card",
+      "rookie": true,
+      "parallel": null,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "pipeline": {
+      "batch": "batch0005",
+      "extractor": "ChatGPT",
+      "confidence": 0.98
+    },
+    "notes": []
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_E_020_03",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_E_020_03_b.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_E_020_03_a.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "Topps",
+      "subset": "Future Stars",
+      "title": "Rich Becker",
+      "card_number": "71",
+      "language": "English",
+      "copyright": "1994"
+    },
+    "subjects": [
+      {
+        "name": "Rich Becker",
+        "team": "Minnesota Twins"
+      }
+    ],
+    "attributes": {
+      "classification": "Sports Trading Card",
+      "rookie": true,
+      "parallel": null,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "pipeline": {
+      "batch": "batch0005",
+      "extractor": "ChatGPT",
+      "confidence": 0.98
+    },
+    "notes": []
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_E_020_04",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_E_020_04_b.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_E_020_04_a.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "Topps",
+      "subset": "Future Stars",
+      "title": "Billy Ashley",
+      "card_number": "53",
+      "language": "English",
+      "copyright": "1994"
+    },
+    "subjects": [
+      {
+        "name": "Billy Ashley",
+        "team": "Los Angeles Dodgers"
+      }
+    ],
+    "attributes": {
+      "classification": "Sports Trading Card",
+      "rookie": null,
+      "parallel": null,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "pipeline": {
+      "batch": "batch0005",
+      "extractor": "ChatGPT",
+      "confidence": 0.98
+    },
+    "notes": []
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_E_021_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_E_021_01_b.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_E_021_01_a.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "Topps",
+      "subset": "Future Stars",
+      "title": "Tony Longmire",
+      "card_number": "28",
+      "language": "English",
+      "copyright": "1994"
+    },
+    "subjects": [
+      {
+        "name": "Tony Longmire",
+        "team": "Philadelphia Phillies"
+      }
+    ],
+    "attributes": {
+      "classification": "Sports Trading Card",
+      "rookie": true,
+      "parallel": null,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "pipeline": {
+      "batch": "batch0005",
+      "extractor": "ChatGPT",
+      "confidence": 0.98
+    },
+    "notes": []
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_E_021_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_E_021_02_b.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_E_021_02_a.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "Topps",
+      "subset": "Future Stars",
+      "title": "Todd Jones",
+      "card_number": "97",
+      "language": "English",
+      "copyright": "1994"
+    },
+    "subjects": [
+      {
+        "name": "Todd Jones",
+        "team": "Houston Astros"
+      }
+    ],
+    "attributes": {
+      "classification": "Sports Trading Card",
+      "rookie": true,
+      "parallel": null,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "pipeline": {
+      "batch": "batch0005",
+      "extractor": "ChatGPT",
+      "confidence": 0.98
+    },
+    "notes": []
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_E_021_03",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_E_021_03_b.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_E_021_03_a.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "Topps",
+      "subset": "Future Stars",
+      "title": "Alex Gonzalez",
+      "card_number": "67",
+      "language": "English",
+      "copyright": "1994"
+    },
+    "subjects": [
+      {
+        "name": "Alex Gonzalez",
+        "team": "Toronto Blue Jays"
+      }
+    ],
+    "attributes": {
+      "classification": "Sports Trading Card",
+      "rookie": true,
+      "parallel": null,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "pipeline": {
+      "batch": "batch0005",
+      "extractor": "ChatGPT",
+      "confidence": 0.98
+    },
+    "notes": []
+  }
+]

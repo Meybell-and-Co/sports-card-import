@@ -1,1 +1,484 @@
-[]
+[
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_C_009_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_C_009_01_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_C_009_01_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1993,
+      "manufacturer": "Topps",
+      "brand": "Finest",
+      "set": "1993 Finest",
+      "subset": null,
+      "title": null,
+      "card_number": "190",
+      "language": "English",
+      "copyright": "© 1993 THE TOPPS COMPANY, INC."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Edgar Martinez",
+        "team": "Seattle Mariners",
+        "position": "3B"
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "BASEBALL'S FINEST EDGAR MARTINEZ Topps",
+      "back": "BASEBALL'S FINEST 190 3B • MARINERS HT: 5'11\" WT: 175 BATS: RIGHT THROWS: RIGHT SGND: MARINERS-1982, AS F.A. ACQ: FREE AGENT, 12-19-82 BORN: 1-2-63, NEW YORK, NY HOME: DORADO, PR MAJOR LEAGUE RECORD YEAR G AB R H 2B 3B HR RBI SB SLG BB SO AVG 1992 135 528 100 181 46 3 18 73 14 .544 54 61 .343 CAREER 521 1805 295 561 122 8 45 204 17 .462 235 233 .311 © 1993 THE TOPPS COMPANY, INC. LICENSED BY MLB & MLBPA, 1993 SGW, U.S. PATENT #4,933,218 #5,106,126 EDGAR MARTINEZ"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": null,
+      "extractor": "ChatGPT",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_C_009_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_C_009_02_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_C_009_02_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1993,
+      "manufacturer": "Topps",
+      "brand": "Finest",
+      "set": "1993 Finest",
+      "subset": null,
+      "title": null,
+      "card_number": "53",
+      "language": "English",
+      "copyright": "© 1993 THE TOPPS COMPANY, INC."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Bret Saberhagen",
+        "team": "New York Mets",
+        "position": "P"
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "BASEBALL'S FINEST BRET SABERHAGEN Topps",
+      "back": "BASEBALL'S FINEST 53 P • METS HT: 6'1\" WT: 200 THROWS: RIGHT BATS: RIGHT DRAFT: ROYALS #19-JUNE, 1982 ACQ: TRADE, 12-11-91 BORN: 4-11-64, CHICAGO HEIGHTS, IL HOME: THOUSAND OAKS, CA MAJOR LEAGUE RECORD YEAR G IP W L R ER SO BB GS CG SHO SV ERA 1992 17 97.2 3 5 39 38 81 27 15 1 1 0 3.50 CAREER 269 1758 113 83 689 631 1174 358 241 65 15 1 3.23 © 1993 THE TOPPS COMPANY, INC. LICENSED BY MLB & MLBPA, 1993 SGW, U.S. PATENT #4,933,218 #5,082,703 #5,106,126 BRET SABERHAGEN"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": null,
+      "extractor": "ChatGPT",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_C_009_03",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_C_009_03_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_C_009_03_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1993,
+      "manufacturer": "Topps",
+      "brand": "Finest",
+      "set": "1993 Finest",
+      "subset": null,
+      "title": null,
+      "card_number": "177",
+      "language": "English",
+      "copyright": "© 1993 THE TOPPS COMPANY, INC."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Len Dykstra",
+        "team": "Philadelphia Phillies",
+        "position": "OF"
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "BASEBALL'S FINEST LEN DYKSTRA Topps",
+      "back": "BASEBALL'S FINEST 177 OF • PHILLIES HT: 5'10\" WT: 180 BATS: LEFT THROWS: LEFT DRAFT: METS #12-JUNE, 1981 ACQ: TRADE, 6-18-89 BORN: 2-10-63, SANTA ANA, CA HOME: PHILADELPHIA, PA MAJOR LEAGUE RECORD YEAR G AB R H 2B 3B HR RBI SB SLG BB SO AVG 1992 85 345 53 104 18 0 6 39 30 .406 40 32 .301 CAREER 931 3219 533 916 190 28 52 283 220 .409 384 342 .285 © 1993 THE TOPPS COMPANY, INC. LICENSED BY MLB & MLBPA, 1993 SGW, U.S. PATENT #4,933,218 #5,106,126 LEN DYKSTRA"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": null,
+      "extractor": "ChatGPT",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_C_009_04",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_C_009_04_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_C_009_04_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1993,
+      "manufacturer": "Topps",
+      "brand": "Finest",
+      "set": "1993 Finest",
+      "subset": null,
+      "title": null,
+      "card_number": "145",
+      "language": "English",
+      "copyright": "© 1993 THE TOPPS COMPANY, INC."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Jose Guzman",
+        "team": "Chicago Cubs",
+        "position": "P"
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "BASEBALL'S FINEST JOSE GUZMAN Topps",
+      "back": "BASEBALL'S FINEST 145 P • CUBS HT: 6'3\" WT: 195 THROWS: RIGHT BATS: RIGHT SGND: RANGERS-1981, AS F.A. ACQ: FREE AGENT, 12-1-92 BORN: 4-9-63, SANTA ISABEL, PR HOME: ARLINGTON, TX MAJOR LEAGUE RECORD YEAR G IP W L R ER SO BB GS CG SHO SV ERA 1992 33 224 16 11 103 91 179 73 33 5 0 0 3.66 CAREER 159 1013.2 66 62 498 439 715 395 152 24 3 0 3.90 © 1993 THE TOPPS COMPANY, INC. LICENSED BY MLB & MLBPA, 1993 SGW, U.S. PATENT #4,933,218 #5,106,126 JOSE GUZMAN"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": null,
+      "extractor": "ChatGPT",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_D_015_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_D_015_01_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_D_015_01_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps",
+      "subset": "Measures of Greatness",
+      "title": "Measures of Greatness",
+      "card_number": "605",
+      "language": "English",
+      "copyright": "© 1994 THE TOPPS COMPANY, INC."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Barry Bonds",
+        "team": "San Francisco Giants",
+        "position": "OF"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "MEASURES OF GREATNESS BARRY BONDS Topps",
+      "back": "Topps 605 BARRY BONDS-OF SAN FRANCISCO GIANTS YRS BA G AB R H TB HR RBI SLG Bonds 7.40 .283 1169 4123 801 1165 2165 222 679 .526 Avg. HOF-OF 7.40 .310 1169 4277 747 1325 2168 163 718 .506 Willie Mays 18.9 .302 2992 10881 2062 3283 6066 660 1903 .557 Avg. HOF-OF 1.0 .310 158 1578 101 179 293 22 97 .506 Like Mays, Bonds is the guy you'll tell your grandkids you saw play - so enjoy him while you can. With power-production numbers ahead of a Hall of Fame pace, he is in a position to fashion a Mays-type career if he musters the longevity. Barry has one more trait of greatness that can't be measured: charisma. © 1994 THE TOPPS COMPANY, INC. L LICENSED BY MLB & MLBPA, 1994"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": null,
+      "extractor": "ChatGPT",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_D_015_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_D_015_02_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_D_015_02_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps",
+      "subset": "Measures of Greatness",
+      "title": "Measures of Greatness",
+      "card_number": "607",
+      "language": "English",
+      "copyright": "© 1994 THE TOPPS COMPANY, INC."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Kirby Puckett",
+        "team": "Minnesota Twins",
+        "position": "OF"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "MEASURES OF GREATNESS KIRBY PUCKETT Topps",
+      "back": "Topps 607 KIRBY PUCKETT-OF MINNESOTA TWINS YRS BA G AB R H TB HR RBI SLG Puckett 9.73 .318 1538 6267 909 1996 2939 164 874 .469 Avg. HOF-OF 9.73 .310 1537 5624 983 1742 2851 214 944 .506 Joe DiMaggio 11.0 .325 1736 6821 1390 2214 3948 361 1537 .579 Avg. HOF-OF 1.0 .310 158 578 101 179 293 22 97 .506 Like DiMaggio in New York, Puckett is an icon in the Twin Cities - a star who transcends his statistics. Not that the stats don't justify the adulation. Kirby's numbers compare favorably to the average \"Hall\" member, plus he adds the defensive dimension of six Gold Gloves. Cooperstown beckons. © 1994 THE TOPPS COMPANY, INC. L LICENSED BY MLB & MLBPA, 1994"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": null,
+      "extractor": "ChatGPT",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_D_015_03",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_D_015_03_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_D_015_03_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps",
+      "subset": "Measures of Greatness",
+      "title": "Measures of Greatness",
+      "card_number": "603",
+      "language": "English",
+      "copyright": "© 1994 THE TOPPS COMPANY, INC."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Wade Boggs",
+        "team": "New York Yankees",
+        "position": "3B"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "MEASURES OF GREATNESS WADE BOGGS Topps",
+      "back": "Topps 603 WADE BOGGS-3B NEW YORK YANKEES YRS BA G AB R H TB HR RBI SLG Boggs 11.19 .335 1768 6773 1150 2267 3072 87 746 .454 Avg. HOF-3B 11.19 .291 1768 6602 692 1925 2909 168 974 .440 Brooks Robinson 18.3 .267 2896 10654 1232 2848 4270 268 1357 .401 Avg. HOF-3B 1.0 .291 158 590 86 172 260 15 87 .440 Boggs' career AVG of .335 ranks as the 19th-best of all time, and all but two players ahead of him are Hall of Famers. No third baseman who ever lived comes close to Boggs' AVG, and by the time he retires, his numbers in the runs, hits and total-base departments will compare favorably to Robinson's. © 1994 THE TOPPS COMPANY, INC. L LICENSED BY MLB & MLBPA, 1994"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": null,
+      "extractor": "ChatGPT",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_D_015_04",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_D_015_04_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_D_015_04_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps",
+      "subset": "Measures of Greatness",
+      "title": "Measures of Greatness",
+      "card_number": "601",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Frank Thomas",
+        "team": "Chicago White Sox",
+        "position": "1B"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "MEASURES OF GREATNESS FRANK THOMAS Topps",
+      "back": null
+    },
+    "notes": [
+      "Reverse visible only in supplied contact sheet; full-resolution reverse image not supplied for OCR."
+    ],
+    "pipeline": {
+      "batch": null,
+      "extractor": "ChatGPT",
+      "confidence": "Medium",
+      "review_required": true
+    }
+  }
+]

@@ -1015,362 +1015,6 @@
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "MIG_batch0002_0013",
-    "entity": {
-      "entity_type": "Trading Card",
-      "sport": "Football"
-    },
-    "images": {
-      "front": {
-        "filename": null,
-        "path": null
-      },
-      "back": {
-        "filename": null,
-        "path": null
-      }
-    },
-    "card": {
-      "year": 1994,
-      "manufacturer": "Topps",
-      "brand": null,
-      "set": "Stadium Club",
-      "subset": "Commemorative Issue '94",
-      "title": null,
-      "card_number": "0",
-      "language": "English",
-      "copyright": null
-    },
-    "subjects": [
-      {
-        "type": "player",
-        "name": "Michael Barrow",
-        "team": "Houston Oilers",
-        "position": null
-      }
-    ],
-    "attributes": {
-      "classification": "Insert",
-      "rookie": false,
-      "parallel": false,
-      "autograph": false,
-      "memorabilia": false,
-      "serial_numbered": false
-    },
-    "condition": {
-      "overall": null,
-      "observations": []
-    },
-    "ocr": {
-      "front": null,
-      "back": null
-    },
-    "notes": [
-      "Insert card."
-    ],
-    "pipeline": {
-      "batch": "batch0002",
-      "extractor": "legacy-flat-v1",
-      "confidence": "Low",
-      "review_required": false
-    }
-  },
-  {
-    "schema_version": "1.0.0",
-    "item_id": "MIG_batch0002_0014",
-    "entity": {
-      "entity_type": "Trading Card",
-      "sport": "Baseball"
-    },
-    "images": {
-      "front": {
-        "filename": null,
-        "path": null
-      },
-      "back": {
-        "filename": null,
-        "path": null
-      }
-    },
-    "card": {
-      "year": 1994,
-      "manufacturer": "Upper Deck",
-      "brand": null,
-      "set": "Collector's Choice",
-      "subset": "You Crash the Deck",
-      "title": null,
-      "card_number": null,
-      "language": "English",
-      "copyright": null
-    },
-    "subjects": [
-      {
-        "type": "player",
-        "name": "Roberto Alomar; Frank Thomas",
-        "team": "Toronto Blue Jays; Chicago White Sox",
-        "position": null
-      }
-    ],
-    "attributes": {
-      "classification": "Insert",
-      "rookie": false,
-      "parallel": false,
-      "autograph": false,
-      "memorabilia": false,
-      "serial_numbered": false
-    },
-    "condition": {
-      "overall": null,
-      "observations": []
-    },
-    "ocr": {
-      "front": null,
-      "back": null
-    },
-    "notes": [
-      "Scratch-off promotional game card."
-    ],
-    "pipeline": {
-      "batch": "batch0002",
-      "extractor": "legacy-flat-v1",
-      "confidence": "Low",
-      "review_required": false
-    }
-  },
-  {
-    "schema_version": "1.0.0",
-    "item_id": "MIG_batch0002_0015",
-    "entity": {
-      "entity_type": "Trading Card",
-      "sport": "Baseball"
-    },
-    "images": {
-      "front": {
-        "filename": null,
-        "path": null
-      },
-      "back": {
-        "filename": null,
-        "path": null
-      }
-    },
-    "card": {
-      "year": 1994,
-      "manufacturer": "Upper Deck",
-      "brand": null,
-      "set": "Collector's Choice",
-      "subset": "Up Close & Personal",
-      "title": null,
-      "card_number": "632",
-      "language": "English",
-      "copyright": null
-    },
-    "subjects": [
-      {
-        "type": "player",
-        "name": "Barry Bonds",
-        "team": "San Francisco Giants",
-        "position": null
-      }
-    ],
-    "attributes": {
-      "classification": "Insert",
-      "rookie": false,
-      "parallel": false,
-      "autograph": false,
-      "memorabilia": false,
-      "serial_numbered": false
-    },
-    "condition": {
-      "overall": null,
-      "observations": []
-    },
-    "ocr": {
-      "front": null,
-      "back": null
-    },
-    "notes": [],
-    "pipeline": {
-      "batch": "batch0002",
-      "extractor": "legacy-flat-v1",
-      "confidence": "Low",
-      "review_required": false
-    }
-  },
-  {
-    "schema_version": "1.0.0",
-    "item_id": "MIG_batch0002_0016",
-    "entity": {
-      "entity_type": "Trading Card",
-      "sport": "Baseball"
-    },
-    "images": {
-      "front": {
-        "filename": null,
-        "path": null
-      },
-      "back": {
-        "filename": null,
-        "path": null
-      }
-    },
-    "card": {
-      "year": 1995,
-      "manufacturer": "Topps",
-      "brand": null,
-      "set": "Topps",
-      "subset": "On Deck",
-      "title": null,
-      "card_number": "130T",
-      "language": "English",
-      "copyright": null
-    },
-    "subjects": [
-      {
-        "type": "player",
-        "name": "Lyle Mouton; Mariano Rivera",
-        "team": "Chicago White Sox; New York Yankees",
-        "position": null
-      }
-    ],
-    "attributes": {
-      "classification": "Insert",
-      "rookie": false,
-      "parallel": false,
-      "autograph": false,
-      "memorabilia": false,
-      "serial_numbered": false
-    },
-    "condition": {
-      "overall": null,
-      "observations": []
-    },
-    "ocr": {
-      "front": null,
-      "back": null
-    },
-    "notes": [
-      "Dual-player rookie/prospect card."
-    ],
-    "pipeline": {
-      "batch": "batch0002",
-      "extractor": "legacy-flat-v1",
-      "confidence": "Low",
-      "review_required": false
-    }
-  },
-  {
-    "schema_version": "1.0.0",
-    "item_id": "MIG_batch0002_0017",
-    "entity": {
-      "entity_type": "Trading Card",
-      "sport": "Baseball"
-    },
-    "images": {
-      "front": {
-        "filename": null,
-        "path": null
-      },
-      "back": {
-        "filename": null,
-        "path": null
-      }
-    },
-    "card": {
-      "year": 1994,
-      "manufacturer": "Topps",
-      "brand": null,
-      "set": "Topps",
-      "subset": "Series II Checklist",
-      "title": null,
-      "card_number": "791",
-      "language": "English",
-      "copyright": null
-    },
-    "subjects": [],
-    "attributes": {
-      "classification": "Base",
-      "rookie": false,
-      "parallel": false,
-      "autograph": false,
-      "memorabilia": false,
-      "serial_numbered": false
-    },
-    "condition": {
-      "overall": null,
-      "observations": []
-    },
-    "ocr": {
-      "front": null,
-      "back": null
-    },
-    "notes": [
-      "Series II checklist covering cards 397-596."
-    ],
-    "pipeline": {
-      "batch": "batch0002",
-      "extractor": "legacy-flat-v1",
-      "confidence": "Low",
-      "review_required": false
-    }
-  },
-  {
-    "schema_version": "1.0.0",
-    "item_id": "MIG_batch0002_0018",
-    "entity": {
-      "entity_type": "Trading Card",
-      "sport": "Baseball"
-    },
-    "images": {
-      "front": {
-        "filename": null,
-        "path": null
-      },
-      "back": {
-        "filename": null,
-        "path": null
-      }
-    },
-    "card": {
-      "year": 1994,
-      "manufacturer": "Topps",
-      "brand": null,
-      "set": "Topps",
-      "subset": "Series II Checklist",
-      "title": null,
-      "card_number": "792",
-      "language": "English",
-      "copyright": null
-    },
-    "subjects": [],
-    "attributes": {
-      "classification": "Base",
-      "rookie": false,
-      "parallel": false,
-      "autograph": false,
-      "memorabilia": false,
-      "serial_numbered": false
-    },
-    "condition": {
-      "overall": null,
-      "observations": []
-    },
-    "ocr": {
-      "front": null,
-      "back": null
-    },
-    "notes": [
-      "Series II checklist covering cards 597-792."
-    ],
-    "pipeline": {
-      "batch": "batch0002",
-      "extractor": "legacy-flat-v1",
-      "confidence": "Low",
-      "review_required": false
-    }
-  },
-  {
-    "schema_version": "1.0.0",
     "item_id": "MISC_001_A_0001_01",
     "entity": {
       "entity_type": "Trading Card",
@@ -2082,6 +1726,362 @@
       "back": null
     },
     "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MISC_001_B_0008_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Football"
+    },
+    "images": {
+      "front": {
+        "filename": "MISC_001_B_0008_01_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "MISC_001_B_0008_01_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "Stadium Club",
+      "subset": "Commemorative Issue '94",
+      "title": null,
+      "card_number": "0",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Michael Barrow",
+        "team": "Houston Oilers",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [
+      "Insert card."
+    ],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MISC_001_B_0008_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "MISC_001_B_0008_02_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "MISC_001_B_0008_02_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": null,
+      "set": "Collector's Choice",
+      "subset": "You Crash the Deck",
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Roberto Alomar; Frank Thomas",
+        "team": "Toronto Blue Jays; Chicago White Sox",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [
+      "Scratch-off promotional game card."
+    ],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MISC_001_B_0009_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "MISC_001_B_0009_01_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "MISC_001_B_0009_01_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": null,
+      "set": "Collector's Choice",
+      "subset": "Up Close & Personal",
+      "title": null,
+      "card_number": "632",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Barry Bonds",
+        "team": "San Francisco Giants",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MISC_001_B_0009_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "MISC_001_B_0009_02_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "MISC_001_B_0009_02_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1995,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "Topps",
+      "subset": "On Deck",
+      "title": null,
+      "card_number": "130T",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Lyle Mouton; Mariano Rivera",
+        "team": "Chicago White Sox; New York Yankees",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [
+      "Dual-player rookie/prospect card."
+    ],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MISC_001_B_0010_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "MISC_001_B_0010_01_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "MISC_001_B_0010_01_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "Topps",
+      "subset": "Series II Checklist",
+      "title": null,
+      "card_number": "792",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [
+      "Series II checklist covering cards 597-792."
+    ],
+    "pipeline": {
+      "batch": "batch0002",
+      "extractor": "legacy-flat-v1",
+      "confidence": "Low",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MISC_001_B_0010_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "MISC_001_B_0010_02_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "MISC_001_B_0010_02_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": null,
+      "set": "Topps",
+      "subset": "Series II Checklist",
+      "title": null,
+      "card_number": "791",
+      "language": "English",
+      "copyright": null
+    },
+    "subjects": [],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "notes": [
+      "Series II checklist covering cards 397-596."
+    ],
     "pipeline": {
       "batch": "batch0002",
       "extractor": "legacy-flat-v1",
