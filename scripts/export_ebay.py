@@ -62,7 +62,7 @@ with open(OUTPUT_FILE, "w", newline="", encoding="utf-8-sig") as csvfile:
         writer.writerow({
 
             "SKU":
-                inventory["sys_card_id"],
+                inventory["item_id"],
 
             "Category":
                 listing["category_id"],

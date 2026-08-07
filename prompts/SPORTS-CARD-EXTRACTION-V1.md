@@ -17,7 +17,7 @@ Accuracy is more important than completeness.
 
 When uncertain, return null rather than guessing.
 
-────────────────────────────────────────
+──────────────────────────── ────────────
 
 SCOPE
 
