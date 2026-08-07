@@ -5,13 +5,14 @@ Module:
     export_ebay_golden_test.py
 
 Purpose:
-    Exports a small, controlled set of listings for end-to-end
-    eBay import testing.
+    Exports a small, controlled set of listings using eBay Seller Hub's
+    category-template field names for end-to-end import testing.
 
 Responsibilities:
-    - Select the approved golden-test inventory records
-    - Apply temporary test pricing and shipping values
-    - Export a separate eBay test CSV
+    - Select the five golden-test inventory records
+    - Translate Scout & Steward fields into eBay template fields
+    - Apply temporary test price and shipping values
+    - Export a separate eBay-ready test CSV
     - Leave canonical inventory and generated listings unchanged
 
 Author:
@@ -33,7 +34,9 @@ import json
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 LISTINGS_FILE = (
-    PROJECT_ROOT / "processed" / "listings.json"
+    PROJECT_ROOT
+    / "processed"
+    / "listings.json"
 )
 
 OUTPUT_FILE = (
@@ -45,7 +48,7 @@ OUTPUT_FILE = (
 
 
 # ---------------------------------------------------------------------
-# Golden Test Configuration
+# Golden Test Records
 # ---------------------------------------------------------------------
 
 GOLDEN_TEST_ITEM_IDS = {
@@ -56,33 +59,136 @@ GOLDEN_TEST_ITEM_IDS = {
     "FBPU_0005",
 }
 
+
+# ---------------------------------------------------------------------
+# Golden Test Listing Defaults
+# ---------------------------------------------------------------------
+
+TEST_ACTION = "Add"
+
+TEST_CATEGORY_ID = 261328
+
+TEST_CONDITION_ID = 4000
+TEST_CARD_CONDITION = 400012
+
+TEST_FORMAT = "FixedPrice"
+TEST_DURATION = "GTC"
+
 TEST_PRICE = 14.00
+TEST_QUANTITY = 1
+
+TEST_LOCATION = "Kansas City, MO"
+
+TEST_SHIPPING_TYPE = "Flat"
+TEST_SHIPPING_SERVICE = "USPSPriority"
 TEST_SHIPPING_COST = 0.00
+
+TEST_DISPATCH_TIME_MAX = 1
+
+TEST_RETURNS_ACCEPTED = "ReturnsNotAccepted"
 
 
 # ---------------------------------------------------------------------
-# CSV Columns
+# eBay Template Columns
 # ---------------------------------------------------------------------
 
 FIELDNAMES = [
-    "SKU",
-    "Category",
-    "Title",
-    "Description",
-    "Price",
-    "Condition",
+    "*Action(SiteID=US|Country=US|Currency=USD|Version=1193|CC=UTF-8)",
+    "CustomLabel",
+    "*Category",
+    "*Title",
+    "*ConditionID",
+    "CD:Card Condition - (ID: 40001)",
+    "*C:Sport",
+    "C:Player/Athlete",
+    "C:Manufacturer",
+    "C:Season",
+    "C:Set",
+    "C:Team",
+    "C:Autographed",
+    "C:Card Number",
+    "C:Type",
+    "C:Year Manufactured",
+    "C:Language",
+    "PicURL",
+    "*Description",
+    "*Format",
+    "*Duration",
+    "*StartPrice",
+    "*Quantity",
+    "*Location",
     "ShippingType",
-    "ShippingServiceCost",
-    "ReturnsAccepted",
-    "PictureURL",
+    "ShippingService-1:Option",
+    "ShippingService-1:Cost",
+    "*DispatchTimeMax",
+    "*ReturnsAcceptedOption",
 ]
+
+
+# ---------------------------------------------------------------------
+# Helpers
+# ---------------------------------------------------------------------
+
+def build_description(inventory: dict) -> str:
+    """
+    Build a simple, deterministic HTML description.
+
+    eBay Seller Hub accepts HTML in the Description field. Keeping the
+    generated HTML on one line avoids CSV formatting problems.
+    """
+
+    card = inventory.get("card") or {}
+    subjects = inventory.get("subjects") or []
+    condition = inventory.get("condition") or {}
+
+    subject = subjects[0] if subjects else {}
+
+    player = subject.get("name") or ""
+    team = subject.get("team") or ""
+    year = card.get("year") or ""
+    set_name = card.get("set") or ""
+    card_number = card.get("card_number") or ""
+
+    observations = condition.get("observations") or []
+
+    condition_items = "".join(
+        f"<li>{observation.get('type')}</li>"
+        for observation in observations
+        if observation.get("type")
+    )
+
+    if not condition_items:
+        condition_items = "<li>Please review photos for condition.</li>"
+
+    display_set = set_name
+
+    if year and set_name:
+        if str(year).casefold() not in set_name.casefold():
+            display_set = f"{year} {set_name}"
+    elif year:
+        display_set = str(year)
+
+    return (
+        f"<p><strong>{display_set}</strong></p>"
+        f"<ul>"
+        f"<li>Player: {player}</li>"
+        f"<li>Team: {team}</li>"
+        f"<li>Card Number: {card_number}</li>"
+        f"</ul>"
+        f"<p><strong>Condition Notes</strong></p>"
+        f"<ul>{condition_items}</ul>"
+        f"<p>Please review all photos carefully before purchase.</p>"
+    )
 
 
 # ---------------------------------------------------------------------
 # Load Listings
 # ---------------------------------------------------------------------
 
-with LISTINGS_FILE.open("r", encoding="utf-8") as file:
+with LISTINGS_FILE.open(
+    "r",
+    encoding="utf-8",
+) as file:
     listings = json.load(file)
 
 
@@ -117,6 +223,19 @@ test_listings.sort(
 
 
 # ---------------------------------------------------------------------
+# Validate Golden Test Records
+# ---------------------------------------------------------------------
+
+for item in test_listings:
+    listing = item["listing"]
+
+    if not listing.get("picture_urls"):
+        raise ValueError(
+            f"{item['item_id']} has no picture URLs."
+        )
+
+
+# ---------------------------------------------------------------------
 # Export
 # ---------------------------------------------------------------------
 
@@ -134,6 +253,7 @@ with OUTPUT_FILE.open(
     writer = csv.DictWriter(
         csvfile,
         fieldnames=FIELDNAMES,
+        extrasaction="ignore",
     )
 
     writer.writeheader()
@@ -143,41 +263,108 @@ with OUTPUT_FILE.open(
         inventory = item["inventory"]
         listing = item["listing"]
 
+        entity = inventory.get("entity") or {}
+        card = inventory.get("card") or {}
+        subjects = inventory.get("subjects") or []
+        attributes = inventory.get("attributes") or {}
+
+        primary_subject = (
+            subjects[0]
+            if subjects
+            else {}
+        )
+
         writer.writerow({
-            "SKU":
+            "*Action(SiteID=US|Country=US|Currency=USD|Version=1193|CC=UTF-8)":
+                TEST_ACTION,
+
+            "CustomLabel":
                 inventory["item_id"],
 
-            "Category":
-                listing["category_id"],
+            "*Category":
+                TEST_CATEGORY_ID,
 
-            "Title":
+            "*Title":
                 listing["title"],
 
-            "Description":
-                "",
+            "*ConditionID":
+                TEST_CONDITION_ID,
 
-            "Price":
-                f"{TEST_PRICE:.2f}",
+            "CD:Card Condition - (ID: 40001)":
+                TEST_CARD_CONDITION,
 
-            "Condition":
-                listing["condition"]["approved"]
-                or listing["condition"]["recommended"],
+            "*C:Sport":
+                entity.get("sport") or "",
 
-            "ShippingType":
-                listing["shipping"]["mode"],
+            "C:Player/Athlete":
+                primary_subject.get("name") or "",
 
-            "ShippingServiceCost":
-                f"{TEST_SHIPPING_COST:.2f}",
+            "C:Manufacturer":
+                card.get("manufacturer") or "",
 
-            "ReturnsAccepted":
-                "ReturnsNotAccepted"
-                if not listing["returns"]["accepted"]
-                else "ReturnsAccepted",
+            "C:Season":
+                card.get("year") or "",
 
-            "PictureURL":
+            "C:Set":
+                card.get("set") or "",
+
+            "C:Team":
+                primary_subject.get("team") or "",
+
+            "C:Autographed":
+                "Yes"
+                if attributes.get("autograph")
+                else "No",
+
+            "C:Card Number":
+                card.get("card_number") or "",
+
+            "C:Type":
+                entity.get("entity_type") or "",
+
+            "C:Year Manufactured":
+                card.get("year") or "",
+
+            "C:Language":
+                card.get("language") or "",
+
+            "PicURL":
                 "|".join(
                     listing["picture_urls"]
                 ),
+
+            "*Description":
+                build_description(inventory),
+
+            "*Format":
+                TEST_FORMAT,
+
+            "*Duration":
+                TEST_DURATION,
+
+            "*StartPrice":
+                f"{TEST_PRICE:.2f}",
+
+            "*Quantity":
+                TEST_QUANTITY,
+
+            "*Location":
+                TEST_LOCATION,
+
+            "ShippingType":
+                TEST_SHIPPING_TYPE,
+
+            "ShippingService-1:Option":
+                TEST_SHIPPING_SERVICE,
+
+            "ShippingService-1:Cost":
+                f"{TEST_SHIPPING_COST:.2f}",
+
+            "*DispatchTimeMax":
+                TEST_DISPATCH_TIME_MAX,
+
+            "*ReturnsAcceptedOption":
+                TEST_RETURNS_ACCEPTED,
         })
 
 
@@ -191,11 +378,19 @@ print(
 )
 
 print(
-    f"Test price: ${TEST_PRICE:.2f}"
+    f"Price: ${TEST_PRICE:.2f}"
 )
 
 print(
     "Shipping: Free"
+)
+
+print(
+    f"Condition ID: {TEST_CONDITION_ID}"
+)
+
+print(
+    f"Card Condition Descriptor: {TEST_CARD_CONDITION}"
 )
 
 print(

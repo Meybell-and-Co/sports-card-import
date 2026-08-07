@@ -1,0 +1,135 @@
+{
+    "_module": {
+        "project": "Scout & Steward",
+        "name": "ebay.json",
+        "purpose": "Defines eBay-specific listing defaults, marketplace mappings, and export configuration.",
+        "responsibilities": [
+            "Translate Scout & Steward data into eBay-compatible values",
+            "Centralize eBay listing defaults",
+            "Store eBay condition mappings",
+            "Define marketplace-specific item aspect mappings",
+            "Provide placeholders for seller policy identifiers"
+        ],
+        "author": "Meybell & Co.",
+        "version": "1.0.0"
+    },
+    "_sections": {
+        "listing": "Default values used when generating eBay listings.",
+        "condition": "Maps Scout & Steward condition values to eBay condition IDs and descriptors.",
+        "policies": "Seller-specific eBay business policy identifiers.",
+        "aspects": "Maps Scout & Steward fields to eBay item-specific fields.",
+        "export": "Controls eBay CSV export behavior."
+    },
+    "listing": {
+        "category_id": 261328,
+        "format": "FixedPrice",
+        "duration": "GTC",
+        "quantity": 1,
+        "currency": "USD",
+        "default_location": null,
+        "dispatch_time_max": 1
+    },
+    "condition": {
+        "ungraded": {
+            "condition_id": 4000,
+            "descriptor_type_id": 40001,
+            "values": {
+                "Near Mint or Better": 400011,
+                "Excellent": 400012,
+                "Very Good": 400013,
+                "Poor": 400014
+            },
+            "fallback_mapping": {
+                "Mint": "Near Mint or Better",
+                "Near Mint": "Near Mint or Better",
+                "Good": "Poor",
+                "Fair": "Poor"
+            }
+        },
+        "graded": {
+            "condition_id": 2750,
+            "descriptors": {
+                "professional_grader": {
+                    "descriptor_type_id": 27501
+                },
+                "grade": {
+                    "descriptor_type_id": 27502
+                },
+                "certification_number": {
+                    "descriptor_type_id": 27503,
+                    "mode": "FREE_TEXT"
+                }
+            }
+        }
+    },
+    "policies": {
+        "payment_policy_id": null,
+        "shipping_policy_id": null,
+        "return_policy_id": null
+    },
+    "aspects": {
+        "sport": {
+            "source": "entity.sport",
+            "ebay_field": "C:Sport",
+            "required": true
+        },
+        "player": {
+            "source": "subjects[0].name",
+            "ebay_field": "C:Player/Athlete",
+            "required": false
+        },
+        "team": {
+            "source": "subjects[0].team",
+            "ebay_field": "C:Team",
+            "required": false
+        },
+        "manufacturer": {
+            "source": "card.manufacturer",
+            "ebay_field": "C:Manufacturer",
+            "required": false
+        },
+        "set": {
+            "source": "card.set",
+            "ebay_field": "C:Set",
+            "required": false
+        },
+        "season": {
+            "source": "card.year",
+            "ebay_field": "C:Season",
+            "required": false
+        },
+        "year_manufactured": {
+            "source": "card.year",
+            "ebay_field": "C:Year Manufactured",
+            "required": false
+        },
+        "card_number": {
+            "source": "card.card_number",
+            "ebay_field": "C:Card Number",
+            "required": false
+        },
+        "language": {
+            "source": "card.language",
+            "ebay_field": "C:Language",
+            "required": false
+        },
+        "autographed": {
+            "source": "attributes.autograph",
+            "ebay_field": "C:Autographed",
+            "required": false
+        },
+        "type": {
+            "source": "entity.entity_type",
+            "ebay_field": "C:Type",
+            "required": false
+        }
+    },
+    "export": {
+        "action": "Add",
+        "picture_url_separator": "|",
+        "require_approved_price": true,
+        "require_approved_listing": true,
+        "skip_records_without_images": true,
+        "skip_records_without_price": true
+    }
+}
