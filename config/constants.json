@@ -1,0 +1,33 @@
+{
+    "_module": {
+        "project": "Scout & Steward",
+        "name": "constants.json",
+        "purpose": "Defines canonical project-wide constants used throughout the pipeline.",
+        "responsibilities": [
+            "Provide configurable business defaults",
+            "Eliminate hard-coded values",
+            "Provide a single source of truth for shared constants"
+        ],
+        "author": "Meybell & Co.",
+        "version": "1.0.0"
+    },
+    "_sections": {
+        "schema": "Global schema configuration.",
+        "ebay": "Default values used when generating draft eBay listings.",
+        "storage": "Configuration for public asset storage."
+    },
+    "schema": {
+        "version": "1.0.0"
+    },
+    "ebay": {
+        "title_max_length": 80,
+        "default_category_id": 261328,
+        "default_condition": "Very Good",
+        "shipping_mode": "flat",
+        "shipping_amount": 9.75,
+        "returns_accepted": false
+    },
+    "storage": {
+        "public_image_base_url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/"
+    }
+}

@@ -17,7 +17,7 @@ import csv
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
-LISTING_FILE = PROJECT_ROOT / "processed" / "listing.json"
+LISTING_FILE = PROJECT_ROOT / "processed" / "listings.json"
 OUTPUT_FILE = PROJECT_ROOT / "processed" / "exports" / "ebay-upload.csv"
 
 # ---------------------------------------------------------------------

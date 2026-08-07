@@ -82,6 +82,21 @@ def _load(filename: str) -> Any:
 # Public Functions
 # ---------------------------------------------------------------------
 
+def load_config(filename: str) -> Any:
+    """
+    Load a single configuration file.
+
+    Args:
+        filename:
+            Name of the JSON file inside the config directory.
+
+    Returns:
+        Parsed JSON configuration.
+    """
+
+    return _load(filename)
+
+
 def load_all_configs() -> dict[str, Any]:
     """
     Load every configuration file used by Scout & Steward.
@@ -109,5 +124,6 @@ CONFIG = load_all_configs()
 __all__ = [
     "CONFIG",
     "CONFIG_FILES",
+    "load_config",
     "load_all_configs",
 ]

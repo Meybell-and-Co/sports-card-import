@@ -25,6 +25,7 @@ import json
 import os
 import tempfile
 from typing import Any
+from common.load_config import load_config
 
 
 # ---------------------------------------------------------------------
@@ -34,23 +35,28 @@ from typing import Any
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 PRIMARY_FILE = PROJECT_ROOT / "processed" / "primary_inventory.json"
-LISTING_FILE = PROJECT_ROOT / "processed" / "listing.json"
+LISTING_FILE = PROJECT_ROOT / "processed" / "listings.json"
 
+CONSTANTS = load_config("constants.json")
+
+PUBLIC_IMAGE_BASE_URL = (
+    CONSTANTS["storage"]["public_image_base_url"]
+)
 
 # ---------------------------------------------------------------------
 # Listing Configuration
 # ---------------------------------------------------------------------
 
-CATEGORY_ID = 261328
+CATEGORY_ID = CONSTANTS["ebay"]["default_category_id"]
 
-DEFAULT_CONDITION = "Very Good"
+DEFAULT_CONDITION = CONSTANTS["ebay"]["default_condition"]
 
-SHIPPING_MODE = "flat"
-SHIPPING_AMOUNT = 9.75
+SHIPPING_MODE = CONSTANTS["ebay"]["shipping_mode"]
+SHIPPING_AMOUNT = CONSTANTS["ebay"]["shipping_amount"]
 
-RETURNS_ACCEPTED = False
+RETURNS_ACCEPTED = CONSTANTS["ebay"]["returns_accepted"]
 
-EBAY_TITLE_MAX_LENGTH = 80
+EBAY_TITLE_MAX_LENGTH = CONSTANTS["ebay"]["title_max_length"]
 
 
 # ---------------------------------------------------------------------
@@ -269,6 +275,45 @@ def build_title(card: dict[str, Any]) -> str:
 
     return truncate_title(title)
 
+# ---------------------------------------------------------------------
+# Image Helpers
+# ---------------------------------------------------------------------
+
+def build_picture_urls(card: dict[str, Any]) -> list[str]:
+    """
+    Build public WebP image URLs from canonical inventory filenames.
+
+    Args:
+        card:
+            A primary inventory record.
+
+    Returns:
+        Public image URLs in front-then-back order.
+    """
+
+    images = card.get("images") or {}
+
+    front_filename = (
+        (images.get("front") or {}).get("filename")
+    )
+
+    back_filename = (
+        (images.get("back") or {}).get("filename")
+    )
+
+    picture_urls = []
+
+    for filename in (front_filename, back_filename):
+        if not filename:
+            continue
+
+        webp_filename = Path(filename).with_suffix(".webp").name
+
+        picture_urls.append(
+            f"{PUBLIC_IMAGE_BASE_URL.rstrip('/')}/{webp_filename}"
+        )
+
+    return picture_urls
 
 # ---------------------------------------------------------------------
 # Listing Builder
@@ -319,7 +364,7 @@ def build_listing(card: dict[str, Any]) -> dict[str, Any]:
                 "accepted": RETURNS_ACCEPTED
             },
 
-            "picture_urls": [],
+            "picture_urls": build_picture_urls(card),
 
             "approval": {
                 "approved": False,
