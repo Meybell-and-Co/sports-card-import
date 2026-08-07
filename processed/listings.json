@@ -95,7 +95,10 @@
       "returns": {
         "accepted": false
       },
-      "picture_urls": [],
+      "picture_urls": [
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0001_a.webp",
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0001_b.webp"
+      ],
       "approval": {
         "approved": false,
         "approved_by": null,
@@ -203,7 +206,10 @@
       "returns": {
         "accepted": false
       },
-      "picture_urls": [],
+      "picture_urls": [
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0002_a.webp",
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0002_b.webp"
+      ],
       "approval": {
         "approved": false,
         "approved_by": null,
@@ -312,7 +318,10 @@
       "returns": {
         "accepted": false
       },
-      "picture_urls": [],
+      "picture_urls": [
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0003_a.webp",
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0003_b.webp"
+      ],
       "approval": {
         "approved": false,
         "approved_by": null,
@@ -416,7 +425,10 @@
       "returns": {
         "accepted": false
       },
-      "picture_urls": [],
+      "picture_urls": [
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0004_a.webp",
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0004_b.webp"
+      ],
       "approval": {
         "approved": false,
         "approved_by": null,
@@ -516,7 +528,10 @@
       "returns": {
         "accepted": false
       },
-      "picture_urls": [],
+      "picture_urls": [
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0005_a.webp",
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0005_b.webp"
+      ],
       "approval": {
         "approved": false,
         "approved_by": null,
@@ -612,7 +627,10 @@
       "returns": {
         "accepted": false
       },
-      "picture_urls": [],
+      "picture_urls": [
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0006_a.webp",
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0006_b.webp"
+      ],
       "approval": {
         "approved": false,
         "approved_by": null,
@@ -708,7 +726,10 @@
       "returns": {
         "accepted": false
       },
-      "picture_urls": [],
+      "picture_urls": [
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0007_a.webp",
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0007_b.webp"
+      ],
       "approval": {
         "approved": false,
         "approved_by": null,
@@ -804,7 +825,10 @@
       "returns": {
         "accepted": false
       },
-      "picture_urls": [],
+      "picture_urls": [
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0008_a.webp",
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0008_b.webp"
+      ],
       "approval": {
         "approved": false,
         "approved_by": null,
@@ -900,7 +924,10 @@
       "returns": {
         "accepted": false
       },
-      "picture_urls": [],
+      "picture_urls": [
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0009_a.webp",
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0009_b.webp"
+      ],
       "approval": {
         "approved": false,
         "approved_by": null,
@@ -996,7 +1023,10 @@
       "returns": {
         "accepted": false
       },
-      "picture_urls": [],
+      "picture_urls": [
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0010_a.webp",
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0010_b.webp"
+      ],
       "approval": {
         "approved": false,
         "approved_by": null,
@@ -1096,7 +1126,10 @@
       "returns": {
         "accepted": false
       },
-      "picture_urls": [],
+      "picture_urls": [
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0011_a.webp",
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0011_b.webp"
+      ],
       "approval": {
         "approved": false,
         "approved_by": null,
@@ -1201,7 +1234,10 @@
       "returns": {
         "accepted": false
       },
-      "picture_urls": [],
+      "picture_urls": [
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0012_a.webp",
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0012_b.webp"
+      ],
       "approval": {
         "approved": false,
         "approved_by": null,
@@ -1306,7 +1342,10 @@
       "returns": {
         "accepted": false
       },
-      "picture_urls": [],
+      "picture_urls": [
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0013_a.webp",
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0013_b.webp"
+      ],
       "approval": {
         "approved": false,
         "approved_by": null,
@@ -1411,7 +1450,10 @@
       "returns": {
         "accepted": false
       },
-      "picture_urls": [],
+      "picture_urls": [
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0014_a.webp",
+        "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/FBPU_0014_b.webp"
+      ],
       "approval": {
         "approved": false,
         "approved_by": null,
