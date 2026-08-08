@@ -2091,6 +2091,822 @@
   },
   {
     "schema_version": "1.0.0",
+    "item_id": "MISC_001_B_0011_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "MISC_001_B_0011_01_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "MISC_001_B_0011_01_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "Upper Deck Top Prospects",
+      "subset": null,
+      "title": null,
+      "card_number": "542",
+      "language": "English",
+      "copyright": "(c) 1994 The Upper Deck Company"
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Mike Bell",
+        "team": "Texas Rangers",
+        "position": "3B"
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "MIKE BELL UPPER DECK TOP PROSPECTS",
+      "back": "542 MIKE BELL HT: 6'2\" WT: 185 BATS: R THROWS: R BORN: 12-7-74 Cincinnati, Ohio ... (c) 1994 The Upper Deck Company. All Rights Reserved. Printed in the U.S.A."
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0010_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MISC_001_B_0011_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "MISC_001_B_0011_02_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "MISC_001_B_0011_02_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "Upper Deck Top Prospects",
+      "subset": null,
+      "title": null,
+      "card_number": "546",
+      "language": "English",
+      "copyright": "(c) 1994 The Upper Deck Company"
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Johnny Damon",
+        "team": "Kansas City Royals",
+        "position": "OF"
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "JOHNNY DAMON UPPER DECK TOP PROSPECTS KC",
+      "back": "546 JOHNNY DAMON HT: 6'0\" WT: 175 BATS: L THROWS: L BORN: 11-5-73 Fort Riley, Kansas ... (c) 1994 The Upper Deck Company. All Rights Reserved. Printed in the U.S.A."
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0010_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MISC_001_C_0001_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "MISC_001_C_0001_01_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "MISC_001_C_0001_01_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1981,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "Topps Baseball",
+      "subset": "A.L. All-Star",
+      "title": null,
+      "card_number": "700",
+      "language": "English",
+      "copyright": "(c) 1981 Topps Chewing Gum, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "George Brett",
+        "team": "Kansas City Royals",
+        "position": "3rd base"
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "A.L. ALL-STAR 3rd BASE ROYALS GEORGE BRETT",
+      "back": "Topps 700 GEORGE BRETT 3rd base ... COMPLETE MAJOR LEAGUE BATTING RECORD ... (c) 1981 TOPPS CHEWING GUM, INC."
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0010_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "MISC_001_C_0001_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "MISC_001_C_0001_02_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "MISC_001_C_0001_02_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1993,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "The Upper Deck Looss Collection",
+      "subset": null,
+      "title": null,
+      "card_number": "WI 22",
+      "language": "English",
+      "copyright": "(c) 1992 The Upper Deck Co."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "George Brett",
+        "team": "Kansas City Royals",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Promotional",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "The Upper Deck looss Collection",
+      "back": "WI 22 \"George asked where I wanted to take the picture...\" GEORGE BRETT ... Upper Deck and the card/hologram combination are trademarks of The Upper Deck Company."
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0010_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_A_003_237",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_A_003_237_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_A_003_237_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "Topps Baseball",
+      "subset": "Prospects",
+      "title": null,
+      "card_number": "237",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Curtis Pride",
+        "team": "Montreal Expos",
+        "position": "OF"
+      },
+      {
+        "type": "player",
+        "name": "Shawn Green",
+        "team": "Toronto Blue Jays",
+        "position": "OF"
+      },
+      {
+        "type": "player",
+        "name": "Mark Sweeney",
+        "team": "California Angels",
+        "position": "OF"
+      },
+      {
+        "type": "player",
+        "name": "Eddie Davis",
+        "team": "Los Angeles Dodgers",
+        "position": "OF"
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "1994 Topps Prospects OF. Curtis Pride, Shawn Green, Mark Sweeney, Eddie Davis. Draft Pick.",
+      "back": "Outfielders 237. Curtis Pride - Expos; Shawn Green - Blue Jays; Mark Sweeney - Angels; Eddie Davis - Dodgers. Minor league batting statistics. Rookie Card. (c) 1994 The Topps Company, Inc."
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0011_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_A_003_389",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_A_003_389_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_A_003_389_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "Topps Baseball",
+      "subset": "Prospects",
+      "title": null,
+      "card_number": "389",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Luis Ortiz",
+        "team": "Boston Red Sox",
+        "position": "3B"
+      },
+      {
+        "type": "player",
+        "name": "David Bell",
+        "team": "Cleveland Indians",
+        "position": "3B"
+      },
+      {
+        "type": "player",
+        "name": "Jason Giambi",
+        "team": "Oakland Athletics",
+        "position": "3B"
+      },
+      {
+        "type": "player",
+        "name": "George Arias",
+        "team": "California Angels",
+        "position": "3B"
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "1994 Topps Prospects 3B. Luis Ortiz, David Bell, Jason Giambi, George Arias. Draft Pick.",
+      "back": "Third Basemen 389. Luis Ortiz - Red Sox; David Bell - Indians; Jason Giambi - Athletics; George Arias - Angels. Minor league batting statistics. Rookie Card. (c) 1994 The Topps Company, Inc."
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0011_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_A_003_448",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_A_003_448_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_A_003_448_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "Topps Baseball",
+      "subset": "Prospects",
+      "title": null,
+      "card_number": "448",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Greg Pirkl",
+        "team": "Seattle Mariners",
+        "position": "1B"
+      },
+      {
+        "type": "player",
+        "name": "Roberto Petagine",
+        "team": "Houston Astros",
+        "position": "1B"
+      },
+      {
+        "type": "player",
+        "name": "D. J. Boston",
+        "team": "Toronto Blue Jays",
+        "position": "1B"
+      },
+      {
+        "type": "player",
+        "name": "Shawn Wooten",
+        "team": "Detroit Tigers",
+        "position": "1B"
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "1994 Topps Prospects 1B. Greg Pirkl, Roberto Petagine, D.J. Boston, Shawn Wooten. Draft Pick.",
+      "back": "First Basemen 448. Greg Pirkl - Mariners; Roberto Petagine - Astros; D.J. Boston - Blue Jays; Shawn Wooten - Tigers. Minor league batting statistics. Rookie Card. (c) 1994 The Topps Company, Inc."
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0011_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_A_003_527",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_A_003_527_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_A_003_527_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "Topps Baseball",
+      "subset": "Prospects",
+      "title": null,
+      "card_number": "527",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Norberto Martin",
+        "team": "Chicago White Sox",
+        "position": "2B"
+      },
+      {
+        "type": "player",
+        "name": "Ruben Santana",
+        "team": "Seattle Mariners",
+        "position": "2B"
+      },
+      {
+        "type": "player",
+        "name": "Jason Hardtke",
+        "team": "San Diego Padres",
+        "position": "2B"
+      },
+      {
+        "type": "player",
+        "name": "Chris Sexton",
+        "team": "Cincinnati Reds",
+        "position": "2B"
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "1994 Topps Prospects 2B. Norberto Martin, Ruben Santana, Jason Hardtke, Chris Sexton. Draft Pick.",
+      "back": "Second Basemen 527. Norberto Martin - White Sox; Ruben Santana - Mariners; Jason Hardtke - Padres; Chris Sexton - Reds. Minor league batting statistics. Rookie Card. (c) 1994 The Topps Company, Inc."
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0011_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_B_007_384",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_B_007_384_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_B_007_384_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "Topps Baseball",
+      "subset": "1993 Topps All-Stars",
+      "title": null,
+      "card_number": "384",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Frank Thomas",
+        "team": "Chicago White Sox",
+        "position": "1B"
+      },
+      {
+        "type": "player",
+        "name": "Fred McGriff",
+        "team": "Atlanta Braves",
+        "position": "1B"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "1993 Topps All-Stars. Fred McGriff and Frank Thomas.",
+      "back": "384 Topps All Star 1st Basemen. Frank Thomas - Chicago White Sox; Fred McGriff - Atlanta Braves. Seasonal Breakdown before and after 7/13/93. (c) 1994 The Topps Company, Inc."
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0011_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_B_007_385",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_B_007_385_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_B_007_385_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "Topps Baseball",
+      "subset": "1993 Topps All-Stars",
+      "title": null,
+      "card_number": "385",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Roberto Alomar",
+        "team": "Toronto Blue Jays",
+        "position": "2B"
+      },
+      {
+        "type": "player",
+        "name": "Robby Thompson",
+        "team": "San Francisco Giants",
+        "position": "2B"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "1993 Topps All-Stars. Robby Thompson and Roberto Alomar.",
+      "back": "385 Topps All Star 2nd Basemen. Roberto Alomar - Toronto Blue Jays; Robby Thompson - San Francisco Giants. Seasonal Breakdown before and after 7/13/93. (c) 1994 The Topps Company, Inc."
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0011_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_B_007_386",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_B_007_386_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_B_007_386_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "Topps Baseball",
+      "subset": "1993 Topps All-Stars",
+      "title": null,
+      "card_number": "386",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Wade Boggs",
+        "team": "New York Yankees",
+        "position": "3B"
+      },
+      {
+        "type": "player",
+        "name": "Matt Williams",
+        "team": "San Francisco Giants",
+        "position": "3B"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "1993 Topps All-Stars. Matt Williams and Wade Boggs.",
+      "back": "386 Topps All Star 3rd Basemen. Wade Boggs - New York Yankees; Matt Williams - San Francisco Giants. Seasonal Breakdown before and after 7/13/93. (c) 1994 The Topps Company, Inc."
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0011_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_B_007_387",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_B_007_387_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_B_007_387_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "Topps Baseball",
+      "subset": "1993 Topps All-Stars",
+      "title": null,
+      "card_number": "387",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Cal Ripken",
+        "team": "Baltimore Orioles",
+        "position": "SS"
+      },
+      {
+        "type": "player",
+        "name": "Jeff Blauser",
+        "team": "Atlanta Braves",
+        "position": "SS"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": false,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "1993 Topps All-Stars. Jeff Blauser and Cal Ripken.",
+      "back": "387 Topps All Star Shortstops. Cal Ripken - Baltimore Orioles; Jeff Blauser - Atlanta Braves. Seasonal Breakdown before and after 7/13/93. (c) 1994 The Topps Company, Inc."
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0011_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
     "item_id": "T_001_C_009_01",
     "entity": {
       "entity_type": "Trading Card",
@@ -3519,6 +4335,126 @@
       "review_required": false
     },
     "notes": []
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_E_021_04",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_E_021_04_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_E_021_04_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "Topps Baseball",
+      "subset": "Future Star",
+      "title": null,
+      "card_number": "4",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Paul Carey",
+        "team": "Baltimore Orioles",
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "FUTURE STAR Topps Paul Carey",
+      "back": "4 Topps Rookie Card. Paul Carey. HT 6'4 WT 215 BATS LEFT THROWS RIGHT. Complete major and minor league batting record. (c) 1994 The Topps Company, Inc."
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0011_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_F_023_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_F_023_01_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_F_023_01_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "Topps Baseball",
+      "subset": "Draft Pick",
+      "title": null,
+      "card_number": "210",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Kelly Wunsch",
+        "team": "Milwaukee Brewers",
+        "position": "Pitcher"
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "Topps 1993 Draft Pick. Kelly Wunsch.",
+      "back": "210 Kelly Wunsch Pitcher. Brewers #1 1993 Draft Pick. Throws left, bats left. Complete collegiate pitching record. Topps Rookie Card. (c) 1994 The Topps Company, Inc."
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0011_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
   },
   {
     "schema_version": "1.0.0",
@@ -5351,6 +6287,930 @@
     "notes": [],
     "pipeline": {
       "batch": "batch0008",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_031_03",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_031_03_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_031_03_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "786",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Kevin Foster",
+        "team": "Philadelphia Phillies",
+        "position": "P"
+      },
+      {
+        "type": "player",
+        "name": "Gene Schall",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Kevin Foster Gene Schall",
+      "back": "PHILADELPHIA PHILLIES 786 KEVIN FOSTER-P ... ROOKIE CARD"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0009_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_031_04",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_031_04_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_031_04_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "788",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Brian Barber",
+        "team": "St. Louis Cardinals",
+        "position": "P"
+      },
+      {
+        "type": "player",
+        "name": "Richard Batchelor",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Brian Barber Richard Batchelor",
+      "back": "ST. LOUIS CARDINALS 788 BRIAN BARBER-P ... ROOKIE CARD"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0009_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_032_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_032_01_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_032_01_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": null,
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Johnny Ruffin",
+        "team": "Cincinnati Reds",
+        "position": "P"
+      },
+      {
+        "type": "player",
+        "name": "Jerry Spradlin",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Johnny Ruffin Jerry Spradlin",
+      "back": "CINCINNATI REDS JOHNNY RUFFIN-P ... ROOKIE CARD"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0009_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "Medium",
+      "review_required": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_032_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_032_02_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_032_02_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "775",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Jon Shave",
+        "team": "Texas Rangers",
+        "position": "2B"
+      },
+      {
+        "type": "player",
+        "name": "Desi Wilson",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Jon Shave Desi Wilson",
+      "back": "TEXAS RANGERS 775 JON SHAVE-2B ... ROOKIE CARD"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0009_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_032_03",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_032_03_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_032_03_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "774",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Kevin King",
+        "team": "Seattle Mariners",
+        "position": "P"
+      },
+      {
+        "type": "player",
+        "name": "Erik Plantenberg",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Kevin King Erik Plantenberg",
+      "back": "SEATTLE MARINERS 774 KEVIN KING-P ... ROOKIE CARD"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0009_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_032_04",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_032_04_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_032_04_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "763",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "John O'Donoghue",
+        "team": "Baltimore Orioles",
+        "position": "P"
+      },
+      {
+        "type": "player",
+        "name": "Mike Oquist",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS John O'Donoghue Mike Oquist",
+      "back": "BALTIMORE ORIOLES 763 JOHN O'DONOGHUE-P ... ROOKIE CARD"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0009_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_033_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_033_01_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_033_01_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "784",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Gabe White",
+        "team": "Montreal Expos",
+        "position": "P"
+      },
+      {
+        "type": "player",
+        "name": "Rondell White",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Gabe White Rondell White",
+      "back": "MONTREAL EXPOS 784 GABE WHITE-P ... ROOKIE CARD"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0009_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_033_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_033_02_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_033_02_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "782",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Gary Mota",
+        "team": "Houston Astros",
+        "position": "OF"
+      },
+      {
+        "type": "player",
+        "name": "James Mouton",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Gary Mota James Mouton",
+      "back": "HOUSTON ASTROS 782 GARY MOTA-OF ... ROOKIE CARD"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0009_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_033_03",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_033_03_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_033_03_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "783",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Raul Mondesi",
+        "team": "Los Angeles Dodgers",
+        "position": "OF"
+      },
+      {
+        "type": "player",
+        "name": "Ben Van Ryn",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Raul Mondesi Ben Van Ryn",
+      "back": "LOS ANGELES DODGERS 783 RAUL MONDESI-OF ... ROOKIE CARD"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0009_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_033_04",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_033_04_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_033_04_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "781",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Carl Everett",
+        "team": "Florida Marlins",
+        "position": "OF"
+      },
+      {
+        "type": "player",
+        "name": "Dave Weathers",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Carl Everett Dave Weathers",
+      "back": "FLORIDA MARLINS 781 CARL EVERETT-OF ... ROOKIE CARD"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0009_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_034_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_034_01_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_034_01_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "785",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Brook Fordyce",
+        "team": "New York Mets",
+        "position": "C"
+      },
+      {
+        "type": "player",
+        "name": "Bill Pulsipher",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Brook Fordyce Bill Pulsipher",
+      "back": "NEW YORK METS 785 BROOK FORDYCE-C ... ROOKIE CARD"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0009_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_034_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_034_02_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_034_02_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "776",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Domingo Cedeno",
+        "team": "Toronto Blue Jays",
+        "position": "SS"
+      },
+      {
+        "type": "player",
+        "name": "Paul Spoljaric",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Domingo Cedeno Paul Spoljaric",
+      "back": "TORONTO BLUE JAYS 776 DOMINGO CEDENO-SS ... ROOKIE CARD"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0009_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_034_03",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_034_03_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_034_03_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "778",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Steve Trachsel",
+        "team": "Chicago Cubs",
+        "position": "P"
+      },
+      {
+        "type": "player",
+        "name": "Turk Wendell",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Steve Trachsel Turk Wendell",
+      "back": "CHICAGO CUBS 778 STEVE TRACHSEL-P ... ROOKIE CARD"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0009_raw",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_034_04",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_034_04_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_034_04_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "780",
+      "language": "English",
+      "copyright": "(c) 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Jason Bates",
+        "team": "Colorado Rockies",
+        "position": "SS"
+      },
+      {
+        "type": "player",
+        "name": "John Burke",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Jason Bates John Burke",
+      "back": "COLORADO ROCKIES 780 JASON BATES-SS ... ROOKIE CARD"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0009_raw",
       "extractor": "GPT-5.3-Codex",
       "confidence": "High",
       "review_required": false
