@@ -33,7 +33,13 @@ from urllib import error, request
 
 from common.app import App
 from common.io import load_json
+from common.load_config import load_config
 
+CONSTANTS = load_config("constants.json")
+
+PUBLIC_IMAGE_BASE_URL = (
+    CONSTANTS["storage"]["public_image_base_url"]
+)
 
 # ---------------------------------------------------------------------
 # Source Version
@@ -118,8 +124,19 @@ def project_item(item: dict[str, Any]) -> dict[str, Any]:
             else None
         ),
         "classification": attributes.get("classification"),
-        "image_front_url": None,
-        "image_back_url": None,
+        "image_front_url": (
+            f"{PUBLIC_IMAGE_BASE_URL.rstrip('/')}/"
+            f"{item['images']['front']['filename'].rsplit('.', 1)[0]}.webp"
+            if item.get("images", {}).get("front", {}).get("filename")
+            else None
+        ),
+        "image_back_url": (
+            f"{PUBLIC_IMAGE_BASE_URL.rstrip('/')}/"
+            f"{item['images']['back']['filename'].rsplit('.', 1)[0]}.webp"
+            if item.get("images", {}).get("back", {}).get("filename")
+            else None
+        ),
+
         "recommended_price_cents": None,
     }
 
