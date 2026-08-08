@@ -65,7 +65,7 @@ REPORTS_DIR = PROCESSED_DIR / "reports"
 # Frequently Used Files
 # ------------------------------------------------------------------
 
-CATALOG_FILE = DATABASE_DIR / "catalog.json"
+PRIMARY_INVENTORY_FILE = PROCESSED_DIR / "primary_inventory.json"
 
 PIPELINE_CONFIG = CONFIG_DIR / "pipeline.json"
 
