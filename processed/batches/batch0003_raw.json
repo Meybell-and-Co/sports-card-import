@@ -471,7 +471,9 @@
       "front": "MEASURES OF GREATNESS FRANK THOMAS Topps",
       "back": null
     },
-    "notes": [],
+    "notes": [
+      "Reverse visible only in supplied contact sheet; full-resolution reverse image not supplied for OCR."
+    ],
     "pipeline": {
       "batch": null,
       "extractor": "ChatGPT",

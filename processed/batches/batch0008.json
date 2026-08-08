@@ -1,928 +1,926 @@
 [
-    {
-        "schema_version": "1.0.0",
-        "item_id": "T_001_H_028_01",
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "T_001_H_028_01_a.jpg",
-                "path": null
-            },
-            "back": {
-                "filename": "T_001_H_028_01_b.jpg",
-                "path": null
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Topps",
-            "brand": "Topps",
-            "set": "1994 Topps Baseball",
-            "subset": "Coming Attractions",
-            "title": null,
-            "card_number": "767",
-            "language": "English",
-            "copyright": "© 1994 The Topps Company, Inc."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Jerry DiPoto",
-                "team": "Cleveland Indians",
-                "position": "P"
-            },
-            {
-                "type": "player",
-                "name": "Julian Tavarez",
-                "team": null,
-                "position": null
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": []
-        },
-        "ocr": {
-            "front": "COMING ATTRACTIONS Jerry DiPoto Julian Tavarez",
-            "back": "CLEVELAND INDIANS 767 JERRY DiPOTO-P ... JULIAN TAVAREZ-P ... © 1994 THE TOPPS COMPANY, INC. LICENSED BY MLB & MLBPA, 1994"
-        },
-        "notes": [],
-        "pipeline": {
-            "batch": "batch0008",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "High",
-            "review_required": false
-        }
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_028_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
     },
-    {
-        "schema_version": "1.0.0",
-        "item_id": "T_001_H_028_02",
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "T_001_H_028_02_a.jpg",
-                "path": null
-            },
-            "back": {
-                "filename": "T_001_H_028_02_b.jpg",
-                "path": null
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Topps",
-            "brand": "Topps",
-            "set": "1994 Topps Baseball",
-            "subset": "Coming Attractions",
-            "title": null,
-            "card_number": "765",
-            "language": "English",
-            "copyright": "© 1994 The Topps Company, Inc."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Mark Holzemer",
-                "team": "California Angels",
-                "position": "P"
-            },
-            {
-                "type": "player",
-                "name": "Paul Shuey",
-                "team": null,
-                "position": null
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": []
-        },
-        "ocr": {
-            "front": "COMING ATTRACTIONS Mark Holzemer Paul Shuey",
-            "back": "CALIFORNIA ANGELS 765 MARK HOLZEMER-P ... ROOKIE CARD ... © 1994 TOPPS"
-        },
-        "notes": [],
-        "pipeline": {
-            "batch": "batch0008",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "High",
-            "review_required": false
-        }
+    "images": {
+      "front": {
+        "filename": "T_001_H_028_01_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_028_01_b.jpg",
+        "path": null
+      }
     },
-    {
-        "schema_version": "1.0.0",
-        "item_id": "T_001_H_028_03",
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "T_001_H_028_03_a.jpg",
-                "path": null
-            },
-            "back": {
-                "filename": "T_001_H_028_03_b.jpg",
-                "path": null
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Topps",
-            "brand": "Topps",
-            "set": "1994 Topps Baseball",
-            "subset": "Coming Attractions",
-            "title": null,
-            "card_number": "766",
-            "language": "English",
-            "copyright": "© 1994 The Topps Company, Inc."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "James Baldwin",
-                "team": "Chicago White Sox",
-                "position": "P"
-            },
-            {
-                "type": "player",
-                "name": "Rod Bolton",
-                "team": null,
-                "position": null
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": []
-        },
-        "ocr": {
-            "front": "COMING ATTRACTIONS James Baldwin Rod Bolton",
-            "back": "CHICAGO WHITE SOX 766 JAMES BALDWIN-P ... ROOKIE CARD ... © 1994 TOPPS"
-        },
-        "notes": [],
-        "pipeline": {
-            "batch": "batch0008",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "High",
-            "review_required": false
-        }
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "767",
+      "language": "English",
+      "copyright": "© 1994 The Topps Company, Inc."
     },
-    {
-        "schema_version": "1.0.0",
-        "item_id": "T_001_H_028_04",
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "T_001_H_028_04_a.jpg",
-                "path": null
-            },
-            "back": {
-                "filename": "T_001_H_028_04_b.jpg",
-                "path": null
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Topps",
-            "brand": "Topps",
-            "set": "1994 Topps Baseball",
-            "subset": "Coming Attractions",
-            "title": null,
-            "card_number": "777",
-            "language": "English",
-            "copyright": "© 1994 The Topps Company, Inc."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Chipper Jones",
-                "team": "Atlanta Braves",
-                "position": "SS"
-            },
-            {
-                "type": "player",
-                "name": "Ryan Klesko",
-                "team": null,
-                "position": null
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": []
-        },
-        "ocr": {
-            "front": "COMING ATTRACTIONS Chipper Jones Ryan Klesko",
-            "back": "ATLANTA BRAVES 777 CHIPPER JONES-SS ... ROOKIE CARD ... © 1994 TOPPS"
-        },
-        "notes": [],
-        "pipeline": {
-            "batch": "batch0008",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "High",
-            "review_required": false
-        }
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Jerry DiPoto",
+        "team": "Cleveland Indians",
+        "position": "P"
+      },
+      {
+        "type": "player",
+        "name": "Julian Tavarez",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
     },
-    {
-        "schema_version": "1.0.0",
-        "item_id": "T_001_H_029_01",
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "T_001_H_029_01_a.jpg",
-                "path": null
-            },
-            "back": {
-                "filename": "T_001_H_029_01_b.jpg",
-                "path": null
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Topps",
-            "brand": "Topps",
-            "set": "1994 Topps Baseball",
-            "subset": "Coming Attractions",
-            "title": null,
-            "card_number": "768",
-            "language": "English",
-            "copyright": "© 1994 The Topps Company, Inc."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Danny Bautista",
-                "team": "Detroit Tigers",
-                "position": "OF"
-            },
-            {
-                "type": "player",
-                "name": "Sean Bergman",
-                "team": null,
-                "position": null
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": []
-        },
-        "ocr": {
-            "front": "COMING ATTRACTIONS Danny Bautista Sean Bergman",
-            "back": "DETROIT TIGERS 768 DANNY BAUTISTA-OF ... ROOKIE CARD ... © 1994 TOPPS"
-        },
-        "notes": [],
-        "pipeline": {
-            "batch": "batch0008",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "High",
-            "review_required": false
-        }
+    "condition": {
+      "overall": null,
+      "observations": []
     },
-    {
-        "schema_version": "1.0.0",
-        "item_id": "T_001_H_029_02",
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "T_001_H_029_02_a.jpg",
-                "path": null
-            },
-            "back": {
-                "filename": "T_001_H_029_02_b.jpg",
-                "path": null
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Topps",
-            "brand": "Topps",
-            "set": "1994 Topps Baseball",
-            "subset": "Coming Attractions",
-            "title": null,
-            "card_number": "769",
-            "language": "English",
-            "copyright": "© 1994 The Topps Company, Inc."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Bob Hamelin",
-                "team": "Kansas City Royals",
-                "position": "1B"
-            },
-            {
-                "type": "player",
-                "name": "Joe Vitiello",
-                "team": null,
-                "position": null
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": []
-        },
-        "ocr": {
-            "front": "COMING ATTRACTIONS Bob Hamelin Joe Vitiello",
-            "back": "KANSAS CITY ROYALS 769 BOB HAMELIN-1B ... ROOKIE CARD ... © 1994 TOPPS"
-        },
-        "notes": [],
-        "pipeline": {
-            "batch": "batch0008",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "High",
-            "review_required": false
-        }
+    "ocr": {
+      "front": "COMING ATTRACTIONS Jerry DiPoto Julian Tavarez",
+      "back": "CLEVELAND INDIANS 767 JERRY DiPOTO-P ... JULIAN TAVAREZ-P ... © 1994 THE TOPPS COMPANY, INC. LICENSED BY MLB & MLBPA, 1994"
     },
-    {
-        "schema_version": "1.0.0",
-        "item_id": "T_001_H_029_03",
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "T_001_H_029_03_a.jpg",
-                "path": null
-            },
-            "back": {
-                "filename": "T_001_H_029_03_b.jpg",
-                "path": null
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Topps",
-            "brand": "Topps",
-            "set": "1994 Topps Baseball",
-            "subset": "Coming Attractions",
-            "title": null,
-            "card_number": "770",
-            "language": "English",
-            "copyright": "© 1994 The Topps Company, Inc."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Mark Kiefer",
-                "team": "Milwaukee Brewers",
-                "position": "P"
-            },
-            {
-                "type": "player",
-                "name": "Troy O'Leary",
-                "team": null,
-                "position": null
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": []
-        },
-        "ocr": {
-            "front": "COMING ATTRACTIONS Mark Kiefer Troy O'Leary",
-            "back": "MILWAUKEE BREWERS 770 MARK KIEFER-P ... ROOKIE CARD ... © 1994 TOPPS"
-        },
-        "notes": [],
-        "pipeline": {
-            "batch": "batch0008",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "High",
-            "review_required": false
-        }
-    },
-    {
-        "schema_version": "1.0.0",
-        "item_id": "T_001_H_029_04",
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "T_001_H_029_04_a.jpg",
-                "path": null
-            },
-            "back": {
-                "filename": "T_001_H_029_04_b.jpg",
-                "path": null
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Topps",
-            "brand": "Topps",
-            "set": "1994 Topps Baseball",
-            "subset": "Coming Attractions",
-            "title": null,
-            "card_number": "773",
-            "language": "English",
-            "copyright": "© 1994 The Topps Company, Inc."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Kurt Abbott",
-                "team": "Oakland Athletics",
-                "position": "SS"
-            },
-            {
-                "type": "player",
-                "name": "Miguel Jimenez",
-                "team": null,
-                "position": null
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": []
-        },
-        "ocr": {
-            "front": "COMING ATTRACTIONS Kurt Abbott Miguel Jimenez",
-            "back": "OAKLAND ATHLETICS 773 KURT ABBOTT-SS ... ROOKIE CARD ... © 1994 TOPPS"
-        },
-        "notes": [],
-        "pipeline": {
-            "batch": "batch0008",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "High",
-            "review_required": false
-        }
-    },
-    {
-        "schema_version": "1.0.0",
-        "item_id": "T_001_H_030_01",
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "T_001_H_030_01_a.jpg",
-                "path": null
-            },
-            "back": {
-                "filename": "T_001_H_030_01_b.jpg",
-                "path": null
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Topps",
-            "brand": "Topps",
-            "set": "1994 Topps Baseball",
-            "subset": "Coming Attractions",
-            "title": null,
-            "card_number": "771",
-            "language": "English",
-            "copyright": "© 1994 The Topps Company, Inc."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Denny Hocking",
-                "team": "Minnesota Twins",
-                "position": "SS"
-            },
-            {
-                "type": "player",
-                "name": "Oscar Munoz",
-                "team": null,
-                "position": null
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": []
-        },
-        "ocr": {
-            "front": "COMING ATTRACTIONS Denny Hocking Oscar Munoz",
-            "back": "MINNESOTA TWINS 771 DENNY HOCKING-SS ... ROOKIE CARD ... © 1994 TOPPS"
-        },
-        "notes": [],
-        "pipeline": {
-            "batch": "batch0008",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "High",
-            "review_required": false
-        }
-    },
-    {
-        "schema_version": "1.0.0",
-        "item_id": "T_001_H_030_02",
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "T_001_H_030_02_a.jpg",
-                "path": null
-            },
-            "back": {
-                "filename": "T_001_H_030_02_b.jpg",
-                "path": null
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Topps",
-            "brand": "Topps",
-            "set": "1994 Topps Baseball",
-            "subset": "Coming Attractions",
-            "title": null,
-            "card_number": "790",
-            "language": "English",
-            "copyright": "© 1994 The Topps Company, Inc."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Rikkert Faneyte",
-                "team": "San Francisco Giants",
-                "position": "OF"
-            },
-            {
-                "type": "player",
-                "name": "J.R. Phillips",
-                "team": null,
-                "position": null
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": []
-        },
-        "ocr": {
-            "front": "COMING ATTRACTIONS Rikkert Faneyte J.R. Phillips",
-            "back": "SAN FRANCISCO GIANTS 790 RIKKERT FANEYTE-OF ... ROOKIE CARD ... © 1994 TOPPS"
-        },
-        "notes": [],
-        "pipeline": {
-            "batch": "batch0008",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "High",
-            "review_required": false
-        }
-    },
-    {
-        "schema_version": "1.0.0",
-        "item_id": "T_001_H_030_03",
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": null,
-                "path": null
-            },
-            "back": {
-                "filename": "T_001_H_030_03_b.jpg",
-                "path": null
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Topps",
-            "brand": "Topps",
-            "set": "1994 Topps Baseball",
-            "subset": "Coming Attractions",
-            "title": null,
-            "card_number": "764",
-            "language": "English",
-            "copyright": "© 1994 The Topps Company, Inc."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Cory Bailey",
-                "team": "Boston Red Sox",
-                "position": "P"
-            },
-            {
-                "type": "player",
-                "name": "Scott Hatteberg",
-                "team": null,
-                "position": null
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": []
-        },
-        "ocr": {
-            "front": "COMING ATTRACTIONS Cory Bailey Scott Hatteberg",
-            "back": "BOSTON RED SOX 764 CORY BAILEY-P ... ROOKIE CARD ... © 1994 TOPPS"
-        },
-        "notes": [
-            "Contact sheet OCR did not reliably read T_001_H_030_03_a.jpg; left as null to avoid guessing."
-        ],
-        "pipeline": {
-            "batch": "batch0008",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "Medium",
-            "review_required": true
-        }
-    },
-    {
-        "schema_version": "1.0.0",
-        "item_id": "T_001_H_030_04",
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "T_001_H_030_04_a.jpg",
-                "path": null
-            },
-            "back": {
-                "filename": "T_001_H_030_04_b.jpg",
-                "path": null
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Topps",
-            "brand": "Topps",
-            "set": "1994 Topps Baseball",
-            "subset": "Coming Attractions",
-            "title": null,
-            "card_number": "772",
-            "language": "English",
-            "copyright": "© 1994 The Topps Company, Inc."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Russ Davis",
-                "team": "New York Yankees",
-                "position": "3B"
-            },
-            {
-                "type": "player",
-                "name": "Brien Taylor",
-                "team": null,
-                "position": null
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": []
-        },
-        "ocr": {
-            "front": "COMING ATTRACTIONS Russ Davis Brien Taylor",
-            "back": "NEW YORK YANKEES 772 RUSS DAVIS-3B ... ROOKIE CARD ... © 1994 TOPPS"
-        },
-        "notes": [],
-        "pipeline": {
-            "batch": "batch0008",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "High",
-            "review_required": false
-        }
-    },
-    {
-        "schema_version": "1.0.0",
-        "item_id": "T_001_H_031_01",
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "T_001_H_031_01_a.jpg",
-                "path": null
-            },
-            "back": {
-                "filename": "T_001_H_031_01_b.jpg",
-                "path": null
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Topps",
-            "brand": "Topps",
-            "set": "1994 Topps Baseball",
-            "subset": "Coming Attractions",
-            "title": null,
-            "card_number": "787",
-            "language": "English",
-            "copyright": "© 1994 The Topps Company, Inc."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Rich Aude",
-                "team": "Pittsburgh Pirates",
-                "position": "1B"
-            },
-            {
-                "type": "player",
-                "name": "Midre Cummings",
-                "team": null,
-                "position": null
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": []
-        },
-        "ocr": {
-            "front": "COMING ATTRACTIONS Rich Aude Midre Cummings",
-            "back": "PITTSBURGH PIRATES 787 RICH AUDE-1B ... ROOKIE CARD ... © 1994 TOPPS"
-        },
-        "notes": [],
-        "pipeline": {
-            "batch": "batch0008",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "High",
-            "review_required": false
-        }
-    },
-    {
-        "schema_version": "1.0.0",
-        "item_id": "T_001_H_031_02",
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "T_001_H_031_02_a.jpg",
-                "path": null
-            },
-            "back": {
-                "filename": "T_001_H_031_02_b.jpg",
-                "path": null
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Topps",
-            "brand": "Topps",
-            "set": "1994 Topps Baseball",
-            "subset": "Coming Attractions",
-            "title": null,
-            "card_number": "789",
-            "language": "English",
-            "copyright": "© 1994 The Topps Company, Inc."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Brian Johnson",
-                "team": "San Diego Padres",
-                "position": "C"
-            },
-            {
-                "type": "player",
-                "name": "Scott Sanders",
-                "team": null,
-                "position": null
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": []
-        },
-        "ocr": {
-            "front": "COMING ATTRACTIONS Brian Johnson Scott Sanders",
-            "back": "SAN DIEGO PADRES 789 BRIAN JOHNSON-C ... ROOKIE CARD ... © 1994 TOPPS"
-        },
-        "notes": [],
-        "pipeline": {
-            "batch": "batch0008",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "High",
-            "review_required": false
-        }
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0008",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
     }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_028_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_028_02_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_028_02_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "765",
+      "language": "English",
+      "copyright": "© 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Mark Holzemer",
+        "team": "California Angels",
+        "position": "P"
+      },
+      {
+        "type": "player",
+        "name": "Paul Shuey",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Mark Holzemer Paul Shuey",
+      "back": "CALIFORNIA ANGELS 765 MARK HOLZEMER-P ... ROOKIE CARD ... © 1994 TOPPS"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0008",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_028_03",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_028_03_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_028_03_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "766",
+      "language": "English",
+      "copyright": "© 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "James Baldwin",
+        "team": "Chicago White Sox",
+        "position": "P"
+      },
+      {
+        "type": "player",
+        "name": "Rod Bolton",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS James Baldwin Rod Bolton",
+      "back": "CHICAGO WHITE SOX 766 JAMES BALDWIN-P ... ROOKIE CARD ... © 1994 TOPPS"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0008",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_028_04",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_028_04_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_028_04_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "777",
+      "language": "English",
+      "copyright": "© 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Chipper Jones",
+        "team": "Atlanta Braves",
+        "position": "SS"
+      },
+      {
+        "type": "player",
+        "name": "Ryan Klesko",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Chipper Jones Ryan Klesko",
+      "back": "ATLANTA BRAVES 777 CHIPPER JONES-SS ... ROOKIE CARD ... © 1994 TOPPS"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0008",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_029_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_029_01_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_029_01_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "768",
+      "language": "English",
+      "copyright": "© 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Danny Bautista",
+        "team": "Detroit Tigers",
+        "position": "OF"
+      },
+      {
+        "type": "player",
+        "name": "Sean Bergman",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Danny Bautista Sean Bergman",
+      "back": "DETROIT TIGERS 768 DANNY BAUTISTA-OF ... ROOKIE CARD ... © 1994 TOPPS"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0008",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_029_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_029_02_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_029_02_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "769",
+      "language": "English",
+      "copyright": "© 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Bob Hamelin",
+        "team": "Kansas City Royals",
+        "position": "1B"
+      },
+      {
+        "type": "player",
+        "name": "Joe Vitiello",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Bob Hamelin Joe Vitiello",
+      "back": "KANSAS CITY ROYALS 769 BOB HAMELIN-1B ... ROOKIE CARD ... © 1994 TOPPS"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0008",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_029_03",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_029_03_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_029_03_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "770",
+      "language": "English",
+      "copyright": "© 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Mark Kiefer",
+        "team": "Milwaukee Brewers",
+        "position": "P"
+      },
+      {
+        "type": "player",
+        "name": "Troy O'Leary",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Mark Kiefer Troy O'Leary",
+      "back": "MILWAUKEE BREWERS 770 MARK KIEFER-P ... ROOKIE CARD ... © 1994 TOPPS"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0008",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_029_04",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_029_04_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_029_04_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "773",
+      "language": "English",
+      "copyright": "© 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Kurt Abbott",
+        "team": "Oakland Athletics",
+        "position": "SS"
+      },
+      {
+        "type": "player",
+        "name": "Miguel Jimenez",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Kurt Abbott Miguel Jimenez",
+      "back": "OAKLAND ATHLETICS 773 KURT ABBOTT-SS ... ROOKIE CARD ... © 1994 TOPPS"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0008",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_030_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_030_01_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_030_01_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "771",
+      "language": "English",
+      "copyright": "© 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Denny Hocking",
+        "team": "Minnesota Twins",
+        "position": "SS"
+      },
+      {
+        "type": "player",
+        "name": "Oscar Munoz",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Denny Hocking Oscar Munoz",
+      "back": "MINNESOTA TWINS 771 DENNY HOCKING-SS ... ROOKIE CARD ... © 1994 TOPPS"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0008",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_030_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_030_02_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_030_02_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "790",
+      "language": "English",
+      "copyright": "© 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Rikkert Faneyte",
+        "team": "San Francisco Giants",
+        "position": "OF"
+      },
+      {
+        "type": "player",
+        "name": "J.R. Phillips",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Rikkert Faneyte J.R. Phillips",
+      "back": "SAN FRANCISCO GIANTS 790 RIKKERT FANEYTE-OF ... ROOKIE CARD ... © 1994 TOPPS"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0008",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_030_03",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": null,
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_030_03_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "764",
+      "language": "English",
+      "copyright": "© 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Cory Bailey",
+        "team": "Boston Red Sox",
+        "position": "P"
+      },
+      {
+        "type": "player",
+        "name": "Scott Hatteberg",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Cory Bailey Scott Hatteberg",
+      "back": "BOSTON RED SOX 764 CORY BAILEY-P ... ROOKIE CARD ... © 1994 TOPPS"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0008",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "Medium",
+      "review_required": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_030_04",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_030_04_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_030_04_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "772",
+      "language": "English",
+      "copyright": "© 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Russ Davis",
+        "team": "New York Yankees",
+        "position": "3B"
+      },
+      {
+        "type": "player",
+        "name": "Brien Taylor",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Russ Davis Brien Taylor",
+      "back": "NEW YORK YANKEES 772 RUSS DAVIS-3B ... ROOKIE CARD ... © 1994 TOPPS"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0008",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_031_01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_031_01_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_031_01_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "787",
+      "language": "English",
+      "copyright": "© 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Rich Aude",
+        "team": "Pittsburgh Pirates",
+        "position": "1B"
+      },
+      {
+        "type": "player",
+        "name": "Midre Cummings",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Rich Aude Midre Cummings",
+      "back": "PITTSBURGH PIRATES 787 RICH AUDE-1B ... ROOKIE CARD ... © 1994 TOPPS"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0008",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_H_031_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_H_031_02_a.jpg",
+        "path": null
+      },
+      "back": {
+        "filename": "T_001_H_031_02_b.jpg",
+        "path": null
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "1994 Topps Baseball",
+      "subset": "Coming Attractions",
+      "title": null,
+      "card_number": "789",
+      "language": "English",
+      "copyright": "© 1994 The Topps Company, Inc."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Brian Johnson",
+        "team": "San Diego Padres",
+        "position": "C"
+      },
+      {
+        "type": "player",
+        "name": "Scott Sanders",
+        "team": null,
+        "position": null
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": "COMING ATTRACTIONS Brian Johnson Scott Sanders",
+      "back": "SAN DIEGO PADRES 789 BRIAN JOHNSON-C ... ROOKIE CARD ... © 1994 TOPPS"
+    },
+    "notes": [],
+    "pipeline": {
+      "batch": "batch0008",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "High",
+      "review_required": false
+    }
+  }
 ]
