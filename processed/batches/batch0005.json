@@ -30,13 +30,14 @@
     "subjects": [
       {
         "name": "Butch Huskey",
-        "team": "New York Mets"
+        "team": "New York Mets",
+        "type": "player"
       }
     ],
     "attributes": {
-      "classification": "Sports Trading Card",
+      "classification": "Base",
       "rookie": true,
-      "parallel": null,
+      "parallel": false,
       "autograph": false,
       "memorabilia": false,
       "serial_numbered": false
@@ -52,7 +53,8 @@
     "pipeline": {
       "batch": "batch0005",
       "extractor": "ChatGPT",
-      "confidence": 0.98
+      "confidence": "High",
+      "review_required": false
     },
     "notes": []
   },
@@ -87,13 +89,14 @@
     "subjects": [
       {
         "name": "Tim Davis",
-        "team": "Seattle Mariners"
+        "team": "Seattle Mariners",
+        "type": "player"
       }
     ],
     "attributes": {
-      "classification": "Sports Trading Card",
+      "classification": "Base",
       "rookie": true,
-      "parallel": null,
+      "parallel": false,
       "autograph": false,
       "memorabilia": false,
       "serial_numbered": false
@@ -109,7 +112,8 @@
     "pipeline": {
       "batch": "batch0005",
       "extractor": "ChatGPT",
-      "confidence": 0.98
+      "confidence": "High",
+      "review_required": false
     },
     "notes": []
   },
@@ -144,13 +148,14 @@
     "subjects": [
       {
         "name": "Ray McDavid",
-        "team": "San Diego Padres"
+        "team": "San Diego Padres",
+        "type": "player"
       }
     ],
     "attributes": {
-      "classification": "Sports Trading Card",
+      "classification": "Base",
       "rookie": true,
-      "parallel": null,
+      "parallel": false,
       "autograph": false,
       "memorabilia": false,
       "serial_numbered": false
@@ -166,7 +171,8 @@
     "pipeline": {
       "batch": "batch0005",
       "extractor": "ChatGPT",
-      "confidence": 0.98
+      "confidence": "High",
+      "review_required": false
     },
     "notes": []
   },
@@ -201,13 +207,14 @@
     "subjects": [
       {
         "name": "Danny Miceli",
-        "team": "Pittsburgh Pirates"
+        "team": "Pittsburgh Pirates",
+        "type": "player"
       }
     ],
     "attributes": {
-      "classification": "Sports Trading Card",
+      "classification": "Base",
       "rookie": true,
-      "parallel": null,
+      "parallel": false,
       "autograph": false,
       "memorabilia": false,
       "serial_numbered": false
@@ -223,7 +230,8 @@
     "pipeline": {
       "batch": "batch0005",
       "extractor": "ChatGPT",
-      "confidence": 0.98
+      "confidence": "High",
+      "review_required": false
     },
     "notes": []
   },
@@ -258,13 +266,14 @@
     "subjects": [
       {
         "name": "Rich Becker",
-        "team": "Minnesota Twins"
+        "team": "Minnesota Twins",
+        "type": "player"
       }
     ],
     "attributes": {
-      "classification": "Sports Trading Card",
+      "classification": "Base",
       "rookie": true,
-      "parallel": null,
+      "parallel": false,
       "autograph": false,
       "memorabilia": false,
       "serial_numbered": false
@@ -280,7 +289,8 @@
     "pipeline": {
       "batch": "batch0005",
       "extractor": "ChatGPT",
-      "confidence": 0.98
+      "confidence": "High",
+      "review_required": false
     },
     "notes": []
   },
@@ -315,13 +325,14 @@
     "subjects": [
       {
         "name": "Billy Ashley",
-        "team": "Los Angeles Dodgers"
+        "team": "Los Angeles Dodgers",
+        "type": "player"
       }
     ],
     "attributes": {
-      "classification": "Sports Trading Card",
-      "rookie": null,
-      "parallel": null,
+      "classification": "Base",
+      "rookie": false,
+      "parallel": false,
       "autograph": false,
       "memorabilia": false,
       "serial_numbered": false
@@ -337,7 +348,8 @@
     "pipeline": {
       "batch": "batch0005",
       "extractor": "ChatGPT",
-      "confidence": 0.98
+      "confidence": "High",
+      "review_required": false
     },
     "notes": []
   },
@@ -372,13 +384,14 @@
     "subjects": [
       {
         "name": "Tony Longmire",
-        "team": "Philadelphia Phillies"
+        "team": "Philadelphia Phillies",
+        "type": "player"
       }
     ],
     "attributes": {
-      "classification": "Sports Trading Card",
+      "classification": "Base",
       "rookie": true,
-      "parallel": null,
+      "parallel": false,
       "autograph": false,
       "memorabilia": false,
       "serial_numbered": false
@@ -394,7 +407,8 @@
     "pipeline": {
       "batch": "batch0005",
       "extractor": "ChatGPT",
-      "confidence": 0.98
+      "confidence": "High",
+      "review_required": false
     },
     "notes": []
   },
@@ -429,13 +443,14 @@
     "subjects": [
       {
         "name": "Todd Jones",
-        "team": "Houston Astros"
+        "team": "Houston Astros",
+        "type": "player"
       }
     ],
     "attributes": {
-      "classification": "Sports Trading Card",
+      "classification": "Base",
       "rookie": true,
-      "parallel": null,
+      "parallel": false,
       "autograph": false,
       "memorabilia": false,
       "serial_numbered": false
@@ -451,7 +466,8 @@
     "pipeline": {
       "batch": "batch0005",
       "extractor": "ChatGPT",
-      "confidence": 0.98
+      "confidence": "High",
+      "review_required": false
     },
     "notes": []
   },
@@ -486,13 +502,14 @@
     "subjects": [
       {
         "name": "Alex Gonzalez",
-        "team": "Toronto Blue Jays"
+        "team": "Toronto Blue Jays",
+        "type": "player"
       }
     ],
     "attributes": {
-      "classification": "Sports Trading Card",
+      "classification": "Base",
       "rookie": true,
-      "parallel": null,
+      "parallel": false,
       "autograph": false,
       "memorabilia": false,
       "serial_numbered": false
@@ -508,7 +525,8 @@
     "pipeline": {
       "batch": "batch0005",
       "extractor": "ChatGPT",
-      "confidence": 0.98
+      "confidence": "High",
+      "review_required": false
     },
     "notes": []
   }
