@@ -1,0 +1,910 @@
+[
+    {
+        "schema_version":  "1.0.0",
+        "item_id":  "T_001_F_023_03",
+        "entity":  {
+                       "entity_type":  "Trading Card",
+                       "sport":  "Baseball"
+                   },
+        "images":  {
+                       "front":  {
+                                     "filename":  "T_001_F_023_03_a.jpg",
+                                     "path":  null
+                                 },
+                       "back":  {
+                                    "filename":  "T_001_F_023_03_b.jpg",
+                                    "path":  null
+                                }
+                   },
+        "card":  {
+                     "year":  1994,
+                     "manufacturer":  "Topps",
+                     "brand":  "Topps",
+                     "set":  "1994 Topps Baseball",
+                     "subset":  "1993 Draft Pick",
+                     "title":  null,
+                     "card_number":  "205",
+                     "language":  "English",
+                     "copyright":  "© 1994 The Topps Company, Inc."
+                 },
+        "subjects":  [
+                         {
+                             "type":  "player",
+                             "name":  "Brooks Kieschnick",
+                             "team":  "Chicago Cubs",
+                             "position":  "Outfielder / Pitcher"
+                         }
+                     ],
+        "attributes":  {
+                           "classification":  "Base",
+                           "rookie":  true,
+                           "parallel":  false,
+                           "autograph":  false,
+                           "memorabilia":  false,
+                           "serial_numbered":  false
+                       },
+        "condition":  {
+                          "overall":  null,
+                          "observations":  [
+
+                                           ]
+                      },
+        "ocr":  {
+                    "front":  "Topps 1993 Draft Pick Brooks Kieschnick",
+                    "back":  "205 Brooks Kieschnick Outfielder / Pitcher Cubs #1 1993 Draft Pick. HT: 6\u00274\" WT: 228 BATS: LEFT THROWS: RIGHT. BORN: 6-6-72, Robstown, TX. HOME: Corpus Christi, TX. Topps Rookie Card. © 1994 The Topps Company, Inc. Licensed by MLBPA 1994."
+                },
+        "notes":  [
+
+                  ],
+        "pipeline":  {
+                         "batch":  "batch0007",
+                         "extractor":  "GPT-5.3-Codex",
+                         "confidence":  "High",
+                         "review_required":  false
+                     }
+    },
+    {
+        "schema_version":  "1.0.0",
+        "item_id":  "T_001_F_023_04",
+        "entity":  {
+                       "entity_type":  "Trading Card",
+                       "sport":  "Baseball"
+                   },
+        "images":  {
+                       "front":  {
+                                     "filename":  "T_001_F_023_04_a.jpg",
+                                     "path":  null
+                                 },
+                       "back":  {
+                                    "filename":  "T_001_F_023_04_b.jpg",
+                                    "path":  null
+                                }
+                   },
+        "card":  {
+                     "year":  1994,
+                     "manufacturer":  "Topps",
+                     "brand":  "Topps",
+                     "set":  "1994 Topps Baseball",
+                     "subset":  "1993 Draft Pick",
+                     "title":  null,
+                     "card_number":  "206",
+                     "language":  "English",
+                     "copyright":  "© 1994 The Topps Company, Inc."
+                 },
+        "subjects":  [
+                         {
+                             "type":  "player",
+                             "name":  "Jeremy Lee",
+                             "team":  "Toronto Blue Jays",
+                             "position":  "Pitcher"
+                         }
+                     ],
+        "attributes":  {
+                           "classification":  "Base",
+                           "rookie":  true,
+                           "parallel":  false,
+                           "autograph":  false,
+                           "memorabilia":  false,
+                           "serial_numbered":  false
+                       },
+        "condition":  {
+                          "overall":  null,
+                          "observations":  [
+
+                                           ]
+                      },
+        "ocr":  {
+                    "front":  "Topps 1993 Draft Pick Jeremy Lee",
+                    "back":  "206 Jeremy Lee Pitcher Blue Jays #1 1993 Draft Pick. HT: 6\u00279\" WT: 220 THROWS: RIGHT BATS: RIGHT. BORN: 10-20-74, Galesburg, IL. HOME: Galesburg, IL. Topps Rookie Card. © 1994 The Topps Company, Inc. Licensed by MLBPA 1994."
+                },
+        "notes":  [
+
+                  ],
+        "pipeline":  {
+                         "batch":  "batch0007",
+                         "extractor":  "GPT-5.3-Codex",
+                         "confidence":  "High",
+                         "review_required":  false
+                     }
+    },
+    {
+        "schema_version":  "1.0.0",
+        "item_id":  "T_001_F_024_01",
+        "entity":  {
+                       "entity_type":  "Trading Card",
+                       "sport":  "Baseball"
+                   },
+        "images":  {
+                       "front":  {
+                                     "filename":  "T_001_F_024_01_a.jpg",
+                                     "path":  null
+                                 },
+                       "back":  {
+                                    "filename":  "T_001_F_024_01_b.jpg",
+                                    "path":  null
+                                }
+                   },
+        "card":  {
+                     "year":  1994,
+                     "manufacturer":  "Topps",
+                     "brand":  "Topps",
+                     "set":  "1994 Topps Baseball",
+                     "subset":  "1993 Draft Pick",
+                     "title":  null,
+                     "card_number":  "207",
+                     "language":  "English",
+                     "copyright":  "© 1994 The Topps Company, Inc."
+                 },
+        "subjects":  [
+                         {
+                             "type":  "player",
+                             "name":  "Charles Peterson",
+                             "team":  "Pittsburgh Pirates",
+                             "position":  "Outfielder"
+                         }
+                     ],
+        "attributes":  {
+                           "classification":  "Base",
+                           "rookie":  true,
+                           "parallel":  false,
+                           "autograph":  false,
+                           "memorabilia":  false,
+                           "serial_numbered":  false
+                       },
+        "condition":  {
+                          "overall":  null,
+                          "observations":  [
+
+                                           ]
+                      },
+        "ocr":  {
+                    "front":  "Topps 1993 Draft Pick Charles Peterson",
+                    "back":  "207 Charles Peterson Outfielder Pirates #1 1993 Draft Pick. HT: 6\u00273\" WT: 200 BATS: RIGHT THROWS: RIGHT. BORN: 5-8-74, Laurens, SC. HOME: Laurens, SC. Topps Rookie Card. © 1994 The Topps Company, Inc. Licensed by MLBPA 1994."
+                },
+        "notes":  [
+
+                  ],
+        "pipeline":  {
+                         "batch":  "batch0007",
+                         "extractor":  "GPT-5.3-Codex",
+                         "confidence":  "High",
+                         "review_required":  false
+                     }
+    },
+    {
+        "schema_version":  "1.0.0",
+        "item_id":  "T_001_F_024_02",
+        "entity":  {
+                       "entity_type":  "Trading Card",
+                       "sport":  "Baseball"
+                   },
+        "images":  {
+                       "front":  {
+                                     "filename":  "T_001_F_024_02_a.jpg",
+                                     "path":  null
+                                 },
+                       "back":  {
+                                    "filename":  "T_001_F_024_02_b.jpg",
+                                    "path":  null
+                                }
+                   },
+        "card":  {
+                     "year":  1994,
+                     "manufacturer":  "Topps",
+                     "brand":  "Topps",
+                     "set":  "1994 Topps Baseball",
+                     "subset":  "1993 Draft Pick",
+                     "title":  null,
+                     "card_number":  "209",
+                     "language":  "English",
+                     "copyright":  "© 1994 The Topps Company, Inc."
+                 },
+        "subjects":  [
+                         {
+                             "type":  "player",
+                             "name":  "Billy Wagner",
+                             "team":  "Houston Astros",
+                             "position":  "Pitcher"
+                         }
+                     ],
+        "attributes":  {
+                           "classification":  "Base",
+                           "rookie":  true,
+                           "parallel":  false,
+                           "autograph":  false,
+                           "memorabilia":  false,
+                           "serial_numbered":  false
+                       },
+        "condition":  {
+                          "overall":  null,
+                          "observations":  [
+
+                                           ]
+                      },
+        "ocr":  {
+                    "front":  "Topps 1993 Draft Pick Billy Wagner",
+                    "back":  "209 Billy Wagner Pitcher Astros #1 1993 Draft Pick. HT: 5\u002710½\" WT: 180 THROWS: LEFT BATS: LEFT. BORN: 7-25-71, Marion, VA. HOME: Tannersville, VA. Topps Rookie Card. © 1994 The Topps Company, Inc. Licensed by MLBPA 1994."
+                },
+        "notes":  [
+
+                  ],
+        "pipeline":  {
+                         "batch":  "batch0007",
+                         "extractor":  "GPT-5.3-Codex",
+                         "confidence":  "High",
+                         "review_required":  false
+                     }
+    },
+    {
+        "schema_version":  "1.0.0",
+        "item_id":  "T_001_F_024_03",
+        "entity":  {
+                       "entity_type":  "Trading Card",
+                       "sport":  "Baseball"
+                   },
+        "images":  {
+                       "front":  {
+                                     "filename":  "T_001_F_024_03_a.jpg",
+                                     "path":  null
+                                 },
+                       "back":  {
+                                    "filename":  "T_001_F_024_03_b.jpg",
+                                    "path":  null
+                                }
+                   },
+        "card":  {
+                     "year":  1994,
+                     "manufacturer":  "Topps",
+                     "brand":  "Topps",
+                     "set":  "1994 Topps Baseball",
+                     "subset":  "1993 Draft Pick",
+                     "title":  null,
+                     "card_number":  "741",
+                     "language":  "English",
+                     "copyright":  "© 1994 The Topps Company, Inc."
+                 },
+        "subjects":  [
+                         {
+                             "type":  "player",
+                             "name":  "Josue Estrada",
+                             "team":  "Montreal Expos",
+                             "position":  "Outfielder"
+                         }
+                     ],
+        "attributes":  {
+                           "classification":  "Base",
+                           "rookie":  true,
+                           "parallel":  false,
+                           "autograph":  false,
+                           "memorabilia":  false,
+                           "serial_numbered":  false
+                       },
+        "condition":  {
+                          "overall":  null,
+                          "observations":  [
+
+                                           ]
+                      },
+        "ocr":  {
+                    "front":  "Topps 1993 Draft Pick Josue Estrada",
+                    "back":  "741 Josue Estrada Outfielder Expos #1 1993 Draft Pick. HT: 6\u00270\" WT: 185 BATS: RIGHT THROWS: RIGHT. BORN: 1-21-75, Rio Piedras, PR. HOME: Rio Piedras, PR. Topps Rookie Card. © 1994 The Topps Company, Inc. Licensed by MLBPA 1994."
+                },
+        "notes":  [
+
+                  ],
+        "pipeline":  {
+                         "batch":  "batch0007",
+                         "extractor":  "GPT-5.3-Codex",
+                         "confidence":  "High",
+                         "review_required":  false
+                     }
+    },
+    {
+        "schema_version":  "1.0.0",
+        "item_id":  "T_001_F_024_04",
+        "entity":  {
+                       "entity_type":  "Trading Card",
+                       "sport":  "Baseball"
+                   },
+        "images":  {
+                       "front":  {
+                                     "filename":  "T_001_F_024_04_a.jpg",
+                                     "path":  null
+                                 },
+                       "back":  {
+                                    "filename":  "T_001_F_024_04_b.jpg",
+                                    "path":  null
+                                }
+                   },
+        "card":  {
+                     "year":  1994,
+                     "manufacturer":  "Topps",
+                     "brand":  "Topps",
+                     "set":  "1994 Topps Baseball",
+                     "subset":  "1993 Draft Pick",
+                     "title":  null,
+                     "card_number":  "201",
+                     "language":  "English",
+                     "copyright":  "© 1994 The Topps Company, Inc."
+                 },
+        "subjects":  [
+                         {
+                             "type":  "player",
+                             "name":  "Mike Bell",
+                             "team":  "Texas Rangers",
+                             "position":  "Third Baseman"
+                         }
+                     ],
+        "attributes":  {
+                           "classification":  "Base",
+                           "rookie":  true,
+                           "parallel":  false,
+                           "autograph":  false,
+                           "memorabilia":  false,
+                           "serial_numbered":  false
+                       },
+        "condition":  {
+                          "overall":  null,
+                          "observations":  [
+
+                                           ]
+                      },
+        "ocr":  {
+                    "front":  "Topps 1993 Draft Pick Mike Bell",
+                    "back":  "201 Mike Bell Third Baseman Rangers #1 1993 Draft Pick. HT: 6\u00271\" WT: 175 BATS: RIGHT THROWS: RIGHT. BORN: 12-7-74, Cincinnati, OH. HOME: Cincinnati, OH. Topps Rookie Card. © 1994 The Topps Company, Inc. Licensed by MLBPA 1994."
+                },
+        "notes":  [
+
+                  ],
+        "pipeline":  {
+                         "batch":  "batch0007",
+                         "extractor":  "GPT-5.3-Codex",
+                         "confidence":  "High",
+                         "review_required":  false
+                     }
+    },
+    {
+        "schema_version":  "1.0.0",
+        "item_id":  "T_001_G_026_01",
+        "entity":  {
+                       "entity_type":  "Trading Card",
+                       "sport":  "Baseball"
+                   },
+        "images":  {
+                       "front":  {
+                                     "filename":  "T_001_G_026_01_b.jpg",
+                                     "path":  null
+                                 },
+                       "back":  {
+                                    "filename":  "T_001_G_026_01_a.jpg",
+                                    "path":  null
+                                }
+                   },
+        "card":  {
+                     "year":  1995,
+                     "manufacturer":  "Topps",
+                     "brand":  "Topps",
+                     "set":  "1995 Topps Baseball",
+                     "subset":  "Cyberstats",
+                     "title":  null,
+                     "card_number":  "55",
+                     "language":  "English",
+                     "copyright":  "© 1995 The Topps Company, Inc."
+                 },
+        "subjects":  [
+                         {
+                             "type":  "player",
+                             "name":  "Edgar Martinez",
+                             "team":  "Seattle Mariners",
+                             "position":  "3B"
+                         }
+                     ],
+        "attributes":  {
+                           "classification":  "Insert",
+                           "rookie":  false,
+                           "parallel":  false,
+                           "autograph":  false,
+                           "memorabilia":  false,
+                           "serial_numbered":  false
+                       },
+        "condition":  {
+                          "overall":  null,
+                          "observations":  [
+
+                                           ]
+                      },
+        "ocr":  {
+                    "front":  "Topps Edgar Martinez 3B Seattle Mariners",
+                    "back":  "Edgar Martinez HT: 5\u002711\" WT: 190 BATS: RIGHT THROWS: RIGHT. Signed: Mariners-1982, as F.A. Acq: Free Agent, 12-19-82. Born: 1-2-63, New York, NY. Home: Kirkland, WA. Complete Major League Batting Record. Diamond Vision. Card No. 55. © 1995 The Topps Company, Inc."
+                },
+        "notes":  [
+
+                  ],
+        "pipeline":  {
+                         "batch":  "batch0007",
+                         "extractor":  "GPT-5.3-Codex",
+                         "confidence":  "High",
+                         "review_required":  false
+                     }
+    },
+    {
+        "schema_version":  "1.0.0",
+        "item_id":  "T_001_G_026_02",
+        "entity":  {
+                       "entity_type":  "Trading Card",
+                       "sport":  "Baseball"
+                   },
+        "images":  {
+                       "front":  {
+                                     "filename":  "T_001_G_026_02_b.jpg",
+                                     "path":  null
+                                 },
+                       "back":  {
+                                    "filename":  "T_001_G_026_02_a.jpg",
+                                    "path":  null
+                                }
+                   },
+        "card":  {
+                     "year":  1995,
+                     "manufacturer":  "Topps",
+                     "brand":  "Topps",
+                     "set":  "1995 Topps Baseball",
+                     "subset":  "Topps All Stars",
+                     "title":  null,
+                     "card_number":  "389",
+                     "language":  "English",
+                     "copyright":  "© 1995 The Topps Company, Inc."
+                 },
+        "subjects":  [
+                         {
+                             "type":  "player",
+                             "name":  "Tony Gwynn",
+                             "team":  "San Diego Padres",
+                             "position":  "Outfielder"
+                         },
+                         {
+                             "type":  "player",
+                             "name":  "Albert Belle",
+                             "team":  "Cleveland Indians",
+                             "position":  "Outfielder"
+                         }
+                     ],
+        "attributes":  {
+                           "classification":  "Insert",
+                           "rookie":  false,
+                           "parallel":  false,
+                           "autograph":  false,
+                           "memorabilia":  false,
+                           "serial_numbered":  false
+                       },
+        "condition":  {
+                          "overall":  null,
+                          "observations":  [
+
+                                           ]
+                      },
+        "ocr":  {
+                    "front":  "1994 Topps All Stars Tony Gwynn Albert Belle",
+                    "back":  "Topps All Stars Seasonal Breakdown. Outfielders. Tony Gwynn San Diego Padres and Albert Belle Cleveland Indians. Card No. 389. Before/After season 7/12/94 statistics. © 1995 The Topps Company, Inc."
+                },
+        "notes":  [
+
+                  ],
+        "pipeline":  {
+                         "batch":  "batch0007",
+                         "extractor":  "GPT-5.3-Codex",
+                         "confidence":  "High",
+                         "review_required":  false
+                     }
+    },
+    {
+        "schema_version":  "1.0.0",
+        "item_id":  "T_001_G_026_03",
+        "entity":  {
+                       "entity_type":  "Trading Card",
+                       "sport":  "Baseball"
+                   },
+        "images":  {
+                       "front":  {
+                                     "filename":  "T_001_G_026_03_b.jpg",
+                                     "path":  null
+                                 },
+                       "back":  {
+                                    "filename":  "T_001_G_026_03_a.jpg",
+                                    "path":  null
+                                }
+                   },
+        "card":  {
+                     "year":  1995,
+                     "manufacturer":  "Topps",
+                     "brand":  "Topps",
+                     "set":  "1995 Topps Baseball",
+                     "subset":  "Cyberstats",
+                     "title":  null,
+                     "card_number":  "80",
+                     "language":  "English",
+                     "copyright":  "© 1995 The Topps Company, Inc."
+                 },
+        "subjects":  [
+                         {
+                             "type":  "player",
+                             "name":  "Rafael Palmeiro",
+                             "team":  "Baltimore Orioles",
+                             "position":  "1B"
+                         }
+                     ],
+        "attributes":  {
+                           "classification":  "Insert",
+                           "rookie":  false,
+                           "parallel":  false,
+                           "autograph":  false,
+                           "memorabilia":  false,
+                           "serial_numbered":  false
+                       },
+        "condition":  {
+                          "overall":  null,
+                          "observations":  [
+
+                                           ]
+                      },
+        "ocr":  {
+                    "front":  "Rafael Palmeiro 1B Baltimore Orioles",
+                    "back":  "Rafael Palmeiro HT: 6\u00270\" WT: 188 BATS: LEFT THROWS: LEFT. Draft: Cubs #1-June, 1985. Acq: Free Agent, 12-12-93. Born: 9-24-64, Havana, Cuba. Home: Arlington, TX. Complete Major League Batting Record. Diamond Vision. Card No. 80. © 1995 The Topps Company, Inc."
+                },
+        "notes":  [
+
+                  ],
+        "pipeline":  {
+                         "batch":  "batch0007",
+                         "extractor":  "GPT-5.3-Codex",
+                         "confidence":  "High",
+                         "review_required":  false
+                     }
+    },
+    {
+        "schema_version":  "1.0.0",
+        "item_id":  "T_001_G_026_04",
+        "entity":  {
+                       "entity_type":  "Trading Card",
+                       "sport":  "Baseball"
+                   },
+        "images":  {
+                       "front":  {
+                                     "filename":  "T_001_G_026_04_b.jpg",
+                                     "path":  null
+                                 },
+                       "back":  {
+                                    "filename":  "T_001_G_026_04_a.jpg",
+                                    "path":  null
+                                }
+                   },
+        "card":  {
+                     "year":  1995,
+                     "manufacturer":  "Topps",
+                     "brand":  "Topps",
+                     "set":  "1995 Topps Baseball",
+                     "subset":  "Cyberstats",
+                     "title":  null,
+                     "card_number":  "100",
+                     "language":  "English",
+                     "copyright":  "© 1995 The Topps Company, Inc."
+                 },
+        "subjects":  [
+                         {
+                             "type":  "player",
+                             "name":  "Wade Boggs",
+                             "team":  "New York Yankees",
+                             "position":  "3B"
+                         }
+                     ],
+        "attributes":  {
+                           "classification":  "Insert",
+                           "rookie":  false,
+                           "parallel":  false,
+                           "autograph":  false,
+                           "memorabilia":  false,
+                           "serial_numbered":  false
+                       },
+        "condition":  {
+                          "overall":  null,
+                          "observations":  [
+
+                                           ]
+                      },
+        "ocr":  {
+                    "front":  "Wade Boggs 3B New York Yankees",
+                    "back":  "Cyberstats Wade Boggs. Year/club batting table with 1994 line highlighted. Card No. 100. Statistics include computer-simulated data for games of August 12, 1994 through scheduled conclusion of 1994 season. © 1995 The Topps Company, Inc."
+                },
+        "notes":  [
+
+                  ],
+        "pipeline":  {
+                         "batch":  "batch0007",
+                         "extractor":  "GPT-5.3-Codex",
+                         "confidence":  "High",
+                         "review_required":  false
+                     }
+    },
+    {
+        "schema_version":  "1.0.0",
+        "item_id":  "T_001_G_027_01",
+        "entity":  {
+                       "entity_type":  "Trading Card",
+                       "sport":  "Baseball"
+                   },
+        "images":  {
+                       "front":  {
+                                     "filename":  "T_001_G_027_01_b.jpg",
+                                     "path":  null
+                                 },
+                       "back":  {
+                                    "filename":  "T_001_G_027_01_a.jpg",
+                                    "path":  null
+                                }
+                   },
+        "card":  {
+                     "year":  1995,
+                     "manufacturer":  "Topps",
+                     "brand":  "Topps",
+                     "set":  "1995 Topps Baseball",
+                     "subset":  "Cyberstats",
+                     "title":  null,
+                     "card_number":  "119",
+                     "language":  "English",
+                     "copyright":  "© 1995 The Topps Company, Inc."
+                 },
+        "subjects":  [
+                         {
+                             "type":  "player",
+                             "name":  "Jeff Montgomery",
+                             "team":  "Kansas City Royals",
+                             "position":  "P"
+                         }
+                     ],
+        "attributes":  {
+                           "classification":  "Insert",
+                           "rookie":  false,
+                           "parallel":  false,
+                           "autograph":  false,
+                           "memorabilia":  false,
+                           "serial_numbered":  false
+                       },
+        "condition":  {
+                          "overall":  null,
+                          "observations":  [
+
+                                           ]
+                      },
+        "ocr":  {
+                    "front":  "Jeff Montgomery P Kansas City Royals",
+                    "back":  "Cyberstats Jeff Montgomery. Year/club pitching table with 1994 line highlighted. Card No. 119. Statistics include computer-simulated data for games of August 12, 1994 through scheduled conclusion of 1994 season. © 1995 The Topps Company, Inc."
+                },
+        "notes":  [
+
+                  ],
+        "pipeline":  {
+                         "batch":  "batch0007",
+                         "extractor":  "GPT-5.3-Codex",
+                         "confidence":  "High",
+                         "review_required":  false
+                     }
+    },
+    {
+        "schema_version":  "1.0.0",
+        "item_id":  "T_001_G_027_02",
+        "entity":  {
+                       "entity_type":  "Trading Card",
+                       "sport":  "Baseball"
+                   },
+        "images":  {
+                       "front":  {
+                                     "filename":  "T_001_G_027_02_b.jpg",
+                                     "path":  null
+                                 },
+                       "back":  {
+                                    "filename":  "T_001_G_027_02_a.jpg",
+                                    "path":  null
+                                }
+                   },
+        "card":  {
+                     "year":  1995,
+                     "manufacturer":  "Topps",
+                     "brand":  "Topps",
+                     "set":  "1995 Topps Baseball",
+                     "subset":  "Topps All Stars",
+                     "title":  null,
+                     "card_number":  "386",
+                     "language":  "English",
+                     "copyright":  "© 1995 The Topps Company, Inc."
+                 },
+        "subjects":  [
+                         {
+                             "type":  "player",
+                             "name":  "Matt Williams",
+                             "team":  "San Francisco Giants",
+                             "position":  "Third Baseman"
+                         },
+                         {
+                             "type":  "player",
+                             "name":  "Wade Boggs",
+                             "team":  "New York Yankees",
+                             "position":  "Third Baseman"
+                         }
+                     ],
+        "attributes":  {
+                           "classification":  "Insert",
+                           "rookie":  false,
+                           "parallel":  false,
+                           "autograph":  false,
+                           "memorabilia":  false,
+                           "serial_numbered":  false
+                       },
+        "condition":  {
+                          "overall":  null,
+                          "observations":  [
+
+                                           ]
+                      },
+        "ocr":  {
+                    "front":  "1994 Topps All Stars Matt Williams Wade Boggs",
+                    "back":  "Topps All Stars Seasonal Breakdown. Third Basemen. Matt Williams San Francisco Giants and Wade Boggs New York Yankees. Card No. 386. Before/After season 7/12/94 statistics. © 1995 The Topps Company, Inc."
+                },
+        "notes":  [
+
+                  ],
+        "pipeline":  {
+                         "batch":  "batch0007",
+                         "extractor":  "GPT-5.3-Codex",
+                         "confidence":  "High",
+                         "review_required":  false
+                     }
+    },
+    {
+        "schema_version":  "1.0.0",
+        "item_id":  "T_001_G_027_03",
+        "entity":  {
+                       "entity_type":  "Trading Card",
+                       "sport":  "Baseball"
+                   },
+        "images":  {
+                       "front":  {
+                                     "filename":  "T_001_G_027_03_b.jpg",
+                                     "path":  null
+                                 },
+                       "back":  {
+                                    "filename":  "T_001_G_027_03_a.jpg",
+                                    "path":  null
+                                }
+                   },
+        "card":  {
+                     "year":  1995,
+                     "manufacturer":  "Topps",
+                     "brand":  "Topps",
+                     "set":  "1995 Topps Baseball",
+                     "subset":  "Cyberstats",
+                     "title":  null,
+                     "card_number":  "310",
+                     "language":  "English",
+                     "copyright":  "© 1995 The Topps Company, Inc."
+                 },
+        "subjects":  [
+                         {
+                             "type":  "player",
+                             "name":  "Ruben Sierra",
+                             "team":  "Oakland Athletics",
+                             "position":  "OF"
+                         }
+                     ],
+        "attributes":  {
+                           "classification":  "Insert",
+                           "rookie":  false,
+                           "parallel":  false,
+                           "autograph":  false,
+                           "memorabilia":  false,
+                           "serial_numbered":  false
+                       },
+        "condition":  {
+                          "overall":  null,
+                          "observations":  [
+
+                                           ]
+                      },
+        "ocr":  {
+                    "front":  "Ruben Sierra OF Oakland Athletics",
+                    "back":  "Ruben Sierra HT: 6\u00271\" WT: 200 BATS: BOTH THROWS: RIGHT. Signed: Rangers-1982 as Free Agent. Acq: Trade, 8-31-92. Born: 10-6-65, Rio Piedras, PR. Home: Carolina, PR. Complete Major League Batting Record. Diamond Vision. Card No. 310. © 1995 The Topps Company, Inc."
+                },
+        "notes":  [
+
+                  ],
+        "pipeline":  {
+                         "batch":  "batch0007",
+                         "extractor":  "GPT-5.3-Codex",
+                         "confidence":  "High",
+                         "review_required":  false
+                     }
+    },
+    {
+        "schema_version":  "1.0.0",
+        "item_id":  "T_001_G_027_04",
+        "entity":  {
+                       "entity_type":  "Trading Card",
+                       "sport":  "Baseball"
+                   },
+        "images":  {
+                       "front":  {
+                                     "filename":  "T_001_G_027_04_b.jpg",
+                                     "path":  null
+                                 },
+                       "back":  {
+                                    "filename":  "T_001_G_027_04_a.jpg",
+                                    "path":  null
+                                }
+                   },
+        "card":  {
+                     "year":  1994,
+                     "manufacturer":  "Topps",
+                     "brand":  "Topps",
+                     "set":  "1994 Topps Baseball",
+                     "subset":  "Cyberstats",
+                     "title":  null,
+                     "card_number":  "7",
+                     "language":  "English",
+                     "copyright":  "© 1994 The Topps Company, Inc."
+                 },
+        "subjects":  [
+                         {
+                             "type":  "player",
+                             "name":  "Frank Thomas",
+                             "team":  "Chicago White Sox",
+                             "position":  "1B"
+                         }
+                     ],
+        "attributes":  {
+                           "classification":  "Insert",
+                           "rookie":  false,
+                           "parallel":  false,
+                           "autograph":  false,
+                           "memorabilia":  false,
+                           "serial_numbered":  false
+                       },
+        "condition":  {
+                          "overall":  null,
+                          "observations":  [
+
+                                           ]
+                      },
+        "ocr":  {
+                    "front":  "Frank Thomas 1B Chicago White Sox",
+                    "back":  "Frank Thomas HT: 6\u00275\" WT: 257 BATS: RIGHT THROWS: RIGHT. Draft: White Sox #1-June, 1989. Acq: via Draft. Born: 5-27-68, Columbus, GA. Home: Burr Ridge, IL. Complete Major League Batting Record. Diamond Vision. Card No. 7. © 1994 The Topps Company, Inc."
+                },
+        "notes":  [
+
+                  ],
+        "pipeline":  {
+                         "batch":  "batch0007",
+                         "extractor":  "GPT-5.3-Codex",
+                         "confidence":  "High",
+                         "review_required":  false
+                     }
+    }
+]
