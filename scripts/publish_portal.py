@@ -11,21 +11,34 @@ The canonical source remains:
 This script does not modify canonical inventory.
 
 Publisher V1:
-    - Load canonical inventory.
-    - Project canonical records into Portal snapshot records.
-    - Print one projected record for inspection.
-    - Perform no network or D1 writes.
+- Load canonical inventory.
+- Validate publication requirements.
+- Calculate a deterministic canonical source version.
+- Project canonical records into the Portal API shape.
+- Build the Portal publish payload.
+- Perform a dry run by default.
+- Publish only when explicitly invoked with --publish.
 
 Usage:
     python scripts/publish_portal.py
+    python scripts/publish_portal.py --publish
 """
 
+import argparse
 import hashlib
 import json
+import os
 from typing import Any
+from urllib import error, request
 
 from common.app import App
 from common.io import load_json
+
+
+# ---------------------------------------------------------------------
+# Source Version
+# ---------------------------------------------------------------------
+
 
 def calculate_source_version(path) -> str:
     """
@@ -33,6 +46,7 @@ def calculate_source_version(path) -> str:
     """
 
     return hashlib.sha256(path.read_bytes()).hexdigest()
+
 
 # ---------------------------------------------------------------------
 # Projection
@@ -53,6 +67,7 @@ def get_primary_subject(item: dict[str, Any]) -> dict[str, Any]:
             return subject
 
     return {}
+
 
 def validate_inventory(inventory: list[dict[str, Any]]) -> None:
     """
@@ -76,12 +91,14 @@ def validate_inventory(inventory: list[dict[str, Any]]) -> None:
 
         item_ids.add(item_id)
 
+
 def project_item(item: dict[str, Any]) -> dict[str, Any]:
     """
-    Project one canonical inventory item into Portal snapshot fields.
+    Project one canonical inventory item into Portal API fields.
 
     Publication-specific fields such as snapshot_id, publication_id,
-    and created_at are intentionally excluded at this stage.
+    and created_at are intentionally excluded. The Portal owns those
+    values when a publication is persisted.
     """
 
     card = item.get("card") or {}
@@ -102,6 +119,12 @@ def project_item(item: dict[str, Any]) -> dict[str, Any]:
         "recommended_price_cents": None,
     }
 
+
+# ---------------------------------------------------------------------
+# Publish Payload
+# ---------------------------------------------------------------------
+
+
 def create_publish_payload(
     source_version: str,
     projected_items: list[dict[str, Any]],
@@ -115,12 +138,103 @@ def create_publish_payload(
         "items": projected_items,
     }
 
+
+# ---------------------------------------------------------------------
+# HTTP Transport
+# ---------------------------------------------------------------------
+
+
+def send_publish_payload(
+    portal_url: str,
+    publish_token: str,
+    payload: dict[str, Any],
+) -> dict[str, Any]:
+    """
+    Send a publication payload to the Portal publish API.
+    """
+
+    endpoint = f"{portal_url.rstrip('/')}/api/publish"
+
+    body = json.dumps(payload).encode("utf-8")
+
+    publish_request = request.Request(
+        endpoint,
+        data=body,
+        headers={
+            "Authorization": f"Bearer {publish_token}",
+            "Content-Type": "application/json",
+        },
+        method="POST",
+    )
+
+    try:
+        with request.urlopen(
+            publish_request,
+            timeout=30,
+        ) as response:
+            response_body = response.read().decode("utf-8")
+
+    except error.HTTPError as http_error:
+        response_body = http_error.read().decode(
+            "utf-8",
+            errors="replace",
+        )
+
+        raise RuntimeError(
+            f"Portal publish failed with HTTP "
+            f"{http_error.code}: {response_body}"
+        ) from http_error
+
+    except error.URLError as url_error:
+        raise RuntimeError(
+            f"Portal publish connection failed: "
+            f"{url_error.reason}"
+        ) from url_error
+
+    try:
+        return json.loads(response_body)
+
+    except json.JSONDecodeError as json_error:
+        raise RuntimeError(
+            "Portal returned a non-JSON response."
+        ) from json_error
+
+
+# ---------------------------------------------------------------------
+# Arguments
+# ---------------------------------------------------------------------
+
+
+def parse_arguments() -> argparse.Namespace:
+    """
+    Parse publisher command-line arguments.
+    """
+
+    parser = argparse.ArgumentParser(
+        description=(
+            "Project canonical inventory for the Scout & Steward Portal."
+        )
+    )
+
+    parser.add_argument(
+        "--publish",
+        action="store_true",
+        help=(
+            "Send the projected inventory to the Portal. "
+            "Without this flag, the script performs a dry run."
+        ),
+    )
+
+    return parser.parse_args()
+
+
 # ---------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------
 
 
 def main() -> int:
+    arguments = parse_arguments()
     app = App("publish_portal")
 
     try:
@@ -168,7 +282,38 @@ def main() -> int:
             ),
         )
 
-    except (OSError, ValueError, TypeError) as error:
+        if arguments.publish:
+            portal_url = os.environ.get("PORTAL_URL")
+            publish_token = os.environ.get("PUBLISH_TOKEN")
+
+            if not portal_url:
+                raise ValueError(
+                    "PORTAL_URL environment variable is required "
+                    "when using --publish."
+                )
+
+            if not publish_token:
+                raise ValueError(
+                    "PUBLISH_TOKEN environment variable is required "
+                    "when using --publish."
+                )
+
+            response = send_publish_payload(
+                portal_url,
+                publish_token,
+                payload,
+            )
+
+            print(
+                "Publish response:",
+                json.dumps(
+                    response,
+                    indent=2,
+                    ensure_ascii=False,
+                ),
+            )
+
+    except (OSError, ValueError, TypeError, RuntimeError) as error:
         app.logger.error(
             "Portal projection failed: %s",
             error,
