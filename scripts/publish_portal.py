@@ -20,13 +20,19 @@ Usage:
     python scripts/publish_portal.py
 """
 
+import hashlib
 import json
 from typing import Any
 
 from common.app import App
 from common.io import load_json
 
+def calculate_source_version(path) -> str:
+    """
+    Calculate a deterministic SHA-256 fingerprint for canonical inventory.
+    """
 
+    return hashlib.sha256(path.read_bytes()).hexdigest()
 # ---------------------------------------------------------------------
 # Projection
 # ---------------------------------------------------------------------
@@ -109,6 +115,10 @@ def main() -> int:
             app.paths.PRIMARY_INVENTORY_FILE
         )
 
+        source_version = calculate_source_version(
+            app.paths.PRIMARY_INVENTORY_FILE
+        )
+
         if not isinstance(inventory, list):
             raise ValueError(
                 "Primary inventory must contain a JSON array."
@@ -126,6 +136,7 @@ def main() -> int:
             for item in inventory
         ]
 
+        print(f"Source version: {source_version}")
         print(f"Canonical items: {len(inventory)}")
         print(f"Projected items: {len(projected_items)}")
         print(
