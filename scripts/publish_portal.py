@@ -22,9 +22,7 @@ Usage:
 
 import hashlib
 import json
-from datetime import datetime, timezone
 from typing import Any
-from uuid import uuid4
 
 from common.app import App
 from common.io import load_json
@@ -35,30 +33,6 @@ def calculate_source_version(path) -> str:
     """
 
     return hashlib.sha256(path.read_bytes()).hexdigest()
-
-def create_publication(
-    source_version: str,
-    item_count: int,
-) -> dict[str, Any]:
-    """
-    Create metadata describing one Portal publication attempt.
-    """
-
-    published_at = (
-        datetime.now(timezone.utc)
-        .isoformat()
-        .replace("+00:00", "Z")
-    )
-
-    return {
-        "publication_id": str(uuid4()),
-        "source_version": source_version,
-        "status": "started",
-        "item_count": item_count,
-        "published_at": published_at,
-        "completed_at": None,
-        "error_message": None,
-    }
 
 # ---------------------------------------------------------------------
 # Projection
@@ -102,22 +76,6 @@ def validate_inventory(inventory: list[dict[str, Any]]) -> None:
 
         item_ids.add(item_id)
 
-def create_snapshot(
-    projected_item: dict[str, Any],
-    publication_id: str,
-    created_at: str,
-) -> dict[str, Any]:
-    """
-    Create one Portal inventory snapshot from a projected item.
-    """
-
-    return {
-        "snapshot_id": str(uuid4()),
-        "publication_id": publication_id,
-        **projected_item,
-        "created_at": created_at,
-    }
-
 def project_item(item: dict[str, Any]) -> dict[str, Any]:
     """
     Project one canonical inventory item into Portal snapshot fields.
@@ -144,6 +102,18 @@ def project_item(item: dict[str, Any]) -> dict[str, Any]:
         "recommended_price_cents": None,
     }
 
+def create_publish_payload(
+    source_version: str,
+    projected_items: list[dict[str, Any]],
+) -> dict[str, Any]:
+    """
+    Create the request payload expected by the Portal publish API.
+    """
+
+    return {
+        "source_version": source_version,
+        "items": projected_items,
+    }
 
 # ---------------------------------------------------------------------
 # Main
@@ -179,49 +149,15 @@ def main() -> int:
             for item in inventory
         ]
 
-        publication = create_publication(
+        payload = create_publish_payload(
             source_version,
-            len(projected_items),
+            projected_items,
         )
-
-        snapshots = [
-            create_snapshot(
-                projected_item,
-                publication["publication_id"],
-                publication["published_at"],
-            )
-            for projected_item in projected_items
-        ]
 
         print(f"Source version: {source_version}")
         print(f"Canonical items: {len(inventory)}")
         print(f"Projected items: {len(projected_items)}")
-        snapshot_ids = {
-            snapshot["snapshot_id"]
-            for snapshot in snapshots
-        }
-
-        publication_ids = {
-            snapshot["publication_id"]
-            for snapshot in snapshots
-        }
-
-        snapshot_timestamps = {
-            snapshot["created_at"]
-            for snapshot in snapshots
-        }
-
-        print(f"Snapshots: {len(snapshots)}")
-        print(f"Unique snapshot IDs: {len(snapshot_ids)}")
-        print(
-            "Publication linkage:",
-            publication_ids == {publication["publication_id"]},
-        )
-
-        print(
-            "Timestamp linkage:",
-            snapshot_timestamps == {publication["published_at"]},
-        )
+        print(f"Payload items: {len(payload['items'])}")
 
         print(
             "First item:",
