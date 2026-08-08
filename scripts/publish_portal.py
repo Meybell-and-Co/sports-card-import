@@ -47,6 +47,27 @@ def get_primary_subject(item: dict[str, Any]) -> dict[str, Any]:
 
     return {}
 
+def validate_inventory(inventory: list[dict[str, Any]]) -> None:
+    """
+    Validate canonical inventory requirements for Portal publication.
+    """
+
+    item_ids: set[str] = set()
+
+    for index, item in enumerate(inventory):
+        item_id = item.get("item_id")
+
+        if not isinstance(item_id, str) or not item_id.strip():
+            raise ValueError(
+                f"Inventory item at index {index} has no valid item_id."
+            )
+
+        if item_id in item_ids:
+            raise ValueError(
+                f"Duplicate item_id in primary inventory: {item_id}"
+            )
+
+        item_ids.add(item_id)
 
 def project_item(item: dict[str, Any]) -> dict[str, Any]:
     """
@@ -98,14 +119,22 @@ def main() -> int:
                 "Primary inventory contains no items."
             )
 
-        projected = project_item(inventory[0])
+        validate_inventory(inventory)
 
+        projected_items = [
+            project_item(item)
+            for item in inventory
+        ]
+
+        print(f"Canonical items: {len(inventory)}")
+        print(f"Projected items: {len(projected_items)}")
         print(
+            "First item:",
             json.dumps(
-                projected,
+                projected_items[0],
                 indent=2,
                 ensure_ascii=False,
-            )
+            ),
         )
 
     except (OSError, ValueError, TypeError) as error:
