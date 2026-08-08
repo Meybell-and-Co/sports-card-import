@@ -112,7 +112,11 @@ def project_item(item: dict[str, Any]) -> dict[str, Any]:
         "year": card.get("year"),
         "manufacturer": card.get("manufacturer"),
         "set_name": card.get("set"),
-        "card_number": card.get("card_number"),
+        "card_number": (
+            str(card["card_number"])
+            if card.get("card_number") is not None
+            else None
+        ),
         "classification": attributes.get("classification"),
         "image_front_url": None,
         "image_back_url": None,
@@ -163,6 +167,8 @@ def send_publish_payload(
         headers={
             "Authorization": f"Bearer {publish_token}",
             "Content-Type": "application/json",
+            "Accept": "application/json",
+            "User-Agent": "Scout-and-Steward-Publisher/1.0",
         },
         method="POST",
     )
