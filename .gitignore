@@ -13,3 +13,10 @@ __pycache__/
 
 # Logs
 *.log
+
+# ------------------------------------------------------------
+# Generated AI reading workspace
+# Disposable batch imagery, manifests, and packetization output.
+# Canonical processed batch JSON remains tracked separately.
+# ------------------------------------------------------------
+/working/
