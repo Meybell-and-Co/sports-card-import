@@ -47,7 +47,7 @@ PRODUCTION_MANIFEST = SOURCE_ROOT / "production-4up-manifest.csv"
 
 CANONICAL_BATCH_ROOT = PROJECT_ROOT / "processed" / "batches"
 OUTPUT_ROOT = PROJECT_ROOT / "working" / "reading-batches"
-READING_CONTRACT = PROJECT_ROOT / "docs" / "AI-READING-CONTRACT.md"
+READING_PROMPT = PROJECT_ROOT / "prompts" / "SPORTS-CARD-EXTRACTION-V2.md"
 
 CARDS_PER_BATCH = 20
 
@@ -404,10 +404,10 @@ def chunked(items, size):
 
 
 def build_batches(cards, start_number=None):
-    if not READING_CONTRACT.exists():
+    if not READING_PROMPT.exists():
         raise RuntimeError(
-            "STOP: AI reading contract not found:\n"
-            f"{READING_CONTRACT}"
+            "STOP: AI reading prompt not found:\n"
+            f"{READING_PROMPT}"
         )
 
     if start_number is None:
@@ -455,7 +455,7 @@ def build_batches(cards, start_number=None):
         )
 
         shutil.copy2(
-            READING_CONTRACT,
+            READING_PROMPT,
             batch_root / "READING-INSTRUCTIONS.md",
         )
 
@@ -645,6 +645,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
