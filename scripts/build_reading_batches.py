@@ -403,14 +403,20 @@ def chunked(items, size):
         yield items[index:index + size]
 
 
-def build_batches(cards):
+def build_batches(cards, start_number=None):
     if not READING_CONTRACT.exists():
         raise RuntimeError(
             "STOP: AI reading contract not found:\n"
             f"{READING_CONTRACT}"
         )
 
-    start_number = next_batch_number()
+    if start_number is None:
+        start_number = next_batch_number()
+
+    if start_number < 1:
+        raise RuntimeError(
+            "STOP: Batch number must be 1 or greater."
+        )
 
     if OUTPUT_ROOT.exists():
         existing = list(OUTPUT_ROOT.iterdir())
@@ -540,7 +546,23 @@ def main():
         help="Create reading batches after audit passes.",
     )
 
+    parser.add_argument(
+        "--start-batch",
+        type=int,
+        default=None,
+        help=(
+            "Explicit first reading-batch number. "
+            "Useful for controlled regression rebuilds. "
+            "Existing output is never overwritten."
+        ),
+    )
+
     args = parser.parse_args()
+
+    if args.start_batch is not None and not args.build:
+        parser.error(
+            "--start-batch requires --build"
+        )
 
     print()
     print("=== AI READING BATCH AUDIT ===")
@@ -597,7 +619,7 @@ def main():
     print(f"Projected batches:       {batch_count}")
     print(
         f"First batch:             "
-        f"batch{next_batch_number():04d}"
+        f"batch{(args.start_batch or next_batch_number()):04d}"
     )
 
     if not args.build:
@@ -609,7 +631,7 @@ def main():
     print()
     print("=== BUILDING ===")
 
-    created = build_batches(cards)
+    created = build_batches(cards, args.start_batch)
 
     for batch_id, count in created:
         print(f"{batch_id}: {count} cards")
@@ -623,6 +645,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
