@@ -1,0 +1,567 @@
+{
+  "FBPU_0001": {
+    "card_ladder_value": "5.31",
+    "shipping_allowance": "10.00",
+    "ebay_price": "15.31"
+  },
+  "FBPU_0002": {
+    "card_ladder_value": "3.96",
+    "shipping_allowance": "10.00",
+    "ebay_price": "13.96"
+  },
+  "FBPU_0003": {
+    "card_ladder_value": "3.07",
+    "shipping_allowance": "10.00",
+    "ebay_price": "13.07"
+  },
+  "FBPU_0004": {
+    "card_ladder_value": "3.07",
+    "shipping_allowance": "10.00",
+    "ebay_price": "13.07"
+  },
+  "FBPU_0005": {
+    "card_ladder_value": "7.05",
+    "shipping_allowance": "10.00",
+    "ebay_price": "17.05"
+  },
+  "FBPU_0006": {
+    "card_ladder_value": "3.87",
+    "shipping_allowance": "10.00",
+    "ebay_price": "13.87"
+  },
+  "FBPU_0007": {
+    "card_ladder_value": "3.44",
+    "shipping_allowance": "10.00",
+    "ebay_price": "13.44"
+  },
+  "FBPU_0008": {
+    "card_ladder_value": "4.05",
+    "shipping_allowance": "10.00",
+    "ebay_price": "14.05"
+  },
+  "FBPU_0009": {
+    "card_ladder_value": "1.19",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.19"
+  },
+  "FBPU_0010": {
+    "card_ladder_value": "4.84",
+    "shipping_allowance": "10.00",
+    "ebay_price": "14.84"
+  },
+  "FBPU_0011": {
+    "card_ladder_value": "4.84",
+    "shipping_allowance": "10.00",
+    "ebay_price": "14.84"
+  },
+  "FBPU_0012": {
+    "card_ladder_value": "1.68",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.68"
+  },
+  "FBPU_0013": {
+    "card_ladder_value": "4.02",
+    "shipping_allowance": "10.00",
+    "ebay_price": "14.02"
+  },
+  "FBPU_0014": {
+    "card_ladder_value": "5.36",
+    "shipping_allowance": "10.00",
+    "ebay_price": "15.36"
+  },
+  "MISC_001_A_0001_01": {
+    "card_ladder_value": "1.23",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.23"
+  },
+  "MISC_001_A_0001_02": {
+    "card_ladder_value": "1.23",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.23"
+  },
+  "MISC_001_A_0002_01": {
+    "card_ladder_value": "1.22",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.22"
+  },
+  "MISC_001_A_0002_02": {
+    "card_ladder_value": "1.22",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.22"
+  },
+  "MISC_001_A_0003_01": {
+    "card_ladder_value": "0.69",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.69"
+  },
+  "MISC_001_A_0003_02": {
+    "card_ladder_value": "0.69",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.69"
+  },
+  "MISC_001_A_0004_01": {
+    "card_ladder_value": "0.43",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.43"
+  },
+  "MISC_001_A_0004_02": {
+    "card_ladder_value": "0.43",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.43"
+  },
+  "MISC_001_A_0005_01": {
+    "card_ladder_value": "100.00",
+    "shipping_allowance": "10.00",
+    "ebay_price": "110.00"
+  },
+  "MISC_001_A_0005_02": {
+    "card_ladder_value": "100.00",
+    "shipping_allowance": "10.00",
+    "ebay_price": "110.00"
+  },
+  "MISC_001_A_0006_01": {
+    "card_ladder_value": "1.22",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.22"
+  },
+  "MISC_001_A_0006_02": {
+    "card_ladder_value": "1.22",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.22"
+  },
+  "MISC_001_B_0008_01": {
+    "card_ladder_value": "2.29",
+    "shipping_allowance": "10.00",
+    "ebay_price": "12.29"
+  },
+  "MISC_001_B_0008_02": {
+    "card_ladder_value": "0.66",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.66"
+  },
+  "MISC_001_B_0009_01": {
+    "card_ladder_value": "2.86",
+    "shipping_allowance": "10.00",
+    "ebay_price": "12.86"
+  },
+  "MISC_001_B_0009_02": {
+    "card_ladder_value": "3.64",
+    "shipping_allowance": "10.00",
+    "ebay_price": "13.64"
+  },
+  "MISC_001_B_0010_01": {
+    "card_ladder_value": "4.83",
+    "shipping_allowance": "10.00",
+    "ebay_price": "14.83"
+  },
+  "MISC_001_B_0010_02": {
+    "card_ladder_value": "1.46",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.46"
+  },
+  "MISC_001_B_0011_01": {
+    "card_ladder_value": "2.71",
+    "shipping_allowance": "10.00",
+    "ebay_price": "12.71"
+  },
+  "MISC_001_B_0011_02": {
+    "card_ladder_value": "1.06",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.06"
+  },
+  "MISC_001_C_0001_01": {
+    "card_ladder_value": "1.23",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.23"
+  },
+  "MISC_001_C_0001_02": {
+    "card_ladder_value": "2.47",
+    "shipping_allowance": "10.00",
+    "ebay_price": "12.47"
+  },
+  "T_001_A_003_237": {
+    "card_ladder_value": "2.34",
+    "shipping_allowance": "10.00",
+    "ebay_price": "12.34"
+  },
+  "T_001_A_003_389": {
+    "card_ladder_value": "0.82",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.82"
+  },
+  "T_001_A_003_448": {
+    "card_ladder_value": "1.59",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.59"
+  },
+  "T_001_A_003_527": {
+    "card_ladder_value": "3.14",
+    "shipping_allowance": "10.00",
+    "ebay_price": "13.14"
+  },
+  "T_001_B_007_384": {
+    "card_ladder_value": "0.49",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.49"
+  },
+  "T_001_B_007_385": {
+    "card_ladder_value": "1.24",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.24"
+  },
+  "T_001_B_007_386": {
+    "card_ladder_value": "1.07",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.07"
+  },
+  "T_001_B_007_387": {
+    "card_ladder_value": "1.15",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.15"
+  },
+  "T_001_C_009_01": {
+    "card_ladder_value": "2.06",
+    "shipping_allowance": "10.00",
+    "ebay_price": "12.06"
+  },
+  "T_001_C_009_02": {
+    "card_ladder_value": "563.94",
+    "shipping_allowance": "10.00",
+    "ebay_price": "573.94"
+  },
+  "T_001_C_009_03": {
+    "card_ladder_value": "0.99",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.99"
+  },
+  "T_001_C_009_04": {
+    "card_ladder_value": "46.89",
+    "shipping_allowance": "10.00",
+    "ebay_price": "56.89"
+  },
+  "T_001_D_015_01": {
+    "card_ladder_value": "1.15",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.15"
+  },
+  "T_001_D_015_02": {
+    "card_ladder_value": "62.12",
+    "shipping_allowance": "10.00",
+    "ebay_price": "72.12"
+  },
+  "T_001_D_015_03": {
+    "card_ladder_value": "1.58",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.58"
+  },
+  "T_001_D_015_04": {
+    "card_ladder_value": "22.54",
+    "shipping_allowance": "10.00",
+    "ebay_price": "32.54"
+  },
+  "T_001_E_017_01": {
+    "card_ladder_value": "1.84",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.84"
+  },
+  "T_001_E_017_02": {
+    "card_ladder_value": "1.31",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.31"
+  },
+  "T_001_E_017_03": {
+    "card_ladder_value": "3.62",
+    "shipping_allowance": "10.00",
+    "ebay_price": "13.62"
+  },
+  "T_001_E_017_04": {
+    "card_ladder_value": "2.29",
+    "shipping_allowance": "10.00",
+    "ebay_price": "12.29"
+  },
+  "T_001_E_018_04": {
+    "card_ladder_value": "3.91",
+    "shipping_allowance": "10.00",
+    "ebay_price": "13.91"
+  },
+  "T_001_E_019_01": {
+    "card_ladder_value": "1.85",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.85"
+  },
+  "T_001_E_019_02": {
+    "card_ladder_value": "1.56",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.56"
+  },
+  "T_001_E_019_03": {
+    "card_ladder_value": "1.54",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.54"
+  },
+  "T_001_E_019_04": {
+    "card_ladder_value": "1.64",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.64"
+  },
+  "T_001_E_020_01": {
+    "card_ladder_value": "0.01",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.01"
+  },
+  "T_001_E_020_02": {
+    "card_ladder_value": "2.00",
+    "shipping_allowance": "10.00",
+    "ebay_price": "12.00"
+  },
+  "T_001_E_020_03": {
+    "card_ladder_value": "1.04",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.04"
+  },
+  "T_001_E_020_04": {
+    "card_ladder_value": "1.46",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.46"
+  },
+  "T_001_E_021_01": {
+    "card_ladder_value": "22.66",
+    "shipping_allowance": "10.00",
+    "ebay_price": "32.66"
+  },
+  "T_001_E_021_02": {
+    "card_ladder_value": "2.96",
+    "shipping_allowance": "10.00",
+    "ebay_price": "12.96"
+  },
+  "T_001_E_021_03": {
+    "card_ladder_value": "1.70",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.70"
+  },
+  "T_001_E_021_04": {
+    "card_ladder_value": "1.76",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.76"
+  },
+  "T_001_F_023_01": {
+    "card_ladder_value": "1.72",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.72"
+  },
+  "T_001_F_023_02": {
+    "card_ladder_value": "2.32",
+    "shipping_allowance": "10.00",
+    "ebay_price": "12.32"
+  },
+  "T_001_F_023_03": {
+    "card_ladder_value": "7.06",
+    "shipping_allowance": "10.00",
+    "ebay_price": "17.06"
+  },
+  "T_001_F_023_04": {
+    "card_ladder_value": "1.70",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.70"
+  },
+  "T_001_F_024_01": {
+    "card_ladder_value": "3.50",
+    "shipping_allowance": "10.00",
+    "ebay_price": "13.50"
+  },
+  "T_001_F_024_02": {
+    "card_ladder_value": "4.08",
+    "shipping_allowance": "10.00",
+    "ebay_price": "14.08"
+  },
+  "T_001_F_024_03": {
+    "card_ladder_value": "0.01",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.01"
+  },
+  "T_001_F_024_04": {
+    "card_ladder_value": "0.01",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.01"
+  },
+  "T_001_G_026_01": {
+    "card_ladder_value": "15.00",
+    "shipping_allowance": "10.00",
+    "ebay_price": "25.00"
+  },
+  "T_001_G_026_02": {
+    "card_ladder_value": "1.55",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.55"
+  },
+  "T_001_G_026_03": {
+    "card_ladder_value": "59.99",
+    "shipping_allowance": "10.00",
+    "ebay_price": "69.99"
+  },
+  "T_001_G_026_04": {
+    "card_ladder_value": "2.24",
+    "shipping_allowance": "10.00",
+    "ebay_price": "12.24"
+  },
+  "T_001_G_027_01": {
+    "card_ladder_value": "0.75",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.75"
+  },
+  "T_001_G_027_02": {
+    "card_ladder_value": "2.10",
+    "shipping_allowance": "10.00",
+    "ebay_price": "12.10"
+  },
+  "T_001_G_027_03": {
+    "card_ladder_value": "2.42",
+    "shipping_allowance": "10.00",
+    "ebay_price": "12.42"
+  },
+  "T_001_G_027_04": {
+    "card_ladder_value": "4.58",
+    "shipping_allowance": "10.00",
+    "ebay_price": "14.58"
+  },
+  "T_001_H_028_01": {
+    "card_ladder_value": "0.87",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.87"
+  },
+  "T_001_H_028_02": {
+    "card_ladder_value": "100.00",
+    "shipping_allowance": "10.00",
+    "ebay_price": "110.00"
+  },
+  "T_001_H_028_03": {
+    "card_ladder_value": "1.93",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.93"
+  },
+  "T_001_H_028_04": {
+    "card_ladder_value": "1.06",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.06"
+  },
+  "T_001_H_029_01": {
+    "card_ladder_value": "16.62",
+    "shipping_allowance": "10.00",
+    "ebay_price": "26.62"
+  },
+  "T_001_H_029_02": {
+    "card_ladder_value": "3.04",
+    "shipping_allowance": "10.00",
+    "ebay_price": "13.04"
+  },
+  "T_001_H_029_03": {
+    "card_ladder_value": "0.27",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.27"
+  },
+  "T_001_H_029_04": {
+    "card_ladder_value": "0.12",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.12"
+  },
+  "T_001_H_030_01": {
+    "card_ladder_value": "1.24",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.24"
+  },
+  "T_001_H_030_02": {
+    "card_ladder_value": "0.07",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.07"
+  },
+  "T_001_H_030_03": {
+    "card_ladder_value": "0.71",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.71"
+  },
+  "T_001_H_030_04": {
+    "card_ladder_value": "1.30",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.30"
+  },
+  "T_001_H_031_01": {
+    "card_ladder_value": "2.01",
+    "shipping_allowance": "10.00",
+    "ebay_price": "12.01"
+  },
+  "T_001_H_031_02": {
+    "card_ladder_value": "1.27",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.27"
+  },
+  "T_001_H_031_03": {
+    "card_ladder_value": "20.25",
+    "shipping_allowance": "10.00",
+    "ebay_price": "30.25"
+  },
+  "T_001_H_031_04": {
+    "card_ladder_value": "1.86",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.86"
+  },
+  "T_001_H_032_01": {
+    "card_ladder_value": "1.73",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.73"
+  },
+  "T_001_H_032_02": {
+    "card_ladder_value": "12.74",
+    "shipping_allowance": "10.00",
+    "ebay_price": "22.74"
+  },
+  "T_001_H_032_03": {
+    "card_ladder_value": "0.08",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.08"
+  },
+  "T_001_H_032_04": {
+    "card_ladder_value": "1.30",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.30"
+  },
+  "T_001_H_033_01": {
+    "card_ladder_value": "0.57",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.57"
+  },
+  "T_001_H_033_02": {
+    "card_ladder_value": "0.11",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.11"
+  },
+  "T_001_H_033_03": {
+    "card_ladder_value": "2.11",
+    "shipping_allowance": "10.00",
+    "ebay_price": "12.11"
+  },
+  "T_001_H_033_04": {
+    "card_ladder_value": "0.21",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.21"
+  },
+  "T_001_H_034_01": {
+    "card_ladder_value": "0.22",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.22"
+  },
+  "T_001_H_034_02": {
+    "card_ladder_value": "1.32",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.32"
+  },
+  "T_001_H_034_03": {
+    "card_ladder_value": "1.66",
+    "shipping_allowance": "10.00",
+    "ebay_price": "11.66"
+  },
+  "T_001_H_034_04": {
+    "card_ladder_value": "0.25",
+    "shipping_allowance": "10.00",
+    "ebay_price": "10.25"
+  }
+}

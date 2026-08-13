@@ -790,11 +790,11 @@
     },
     "images": {
       "front": {
-        "filename": "MISC_001_B_0008_02_a.jpg",
+        "filename": "MISC_001_B_0008_02_b.jpg",
         "path": null
       },
       "back": {
-        "filename": "MISC_001_B_0008_02_b.jpg",
+        "filename": "MISC_001_B_0008_02_a.jpg",
         "path": null
       }
     },
