@@ -47,6 +47,7 @@ PRODUCTION_MANIFEST = SOURCE_ROOT / "production-4up-manifest.csv"
 
 CANONICAL_BATCH_ROOT = PROJECT_ROOT / "processed" / "batches"
 OUTPUT_ROOT = PROJECT_ROOT / "working" / "reading-batches"
+READING_CONTRACT = PROJECT_ROOT / "docs" / "AI-READING-CONTRACT.md"
 
 CARDS_PER_BATCH = 20
 
@@ -403,6 +404,12 @@ def chunked(items, size):
 
 
 def build_batches(cards):
+    if not READING_CONTRACT.exists():
+        raise RuntimeError(
+            "STOP: AI reading contract not found:\n"
+            f"{READING_CONTRACT}"
+        )
+
     start_number = next_batch_number()
 
     if OUTPUT_ROOT.exists():
@@ -439,6 +446,11 @@ def build_batches(cards):
         image_root.mkdir(
             parents=True,
             exist_ok=False,
+        )
+
+        shutil.copy2(
+            READING_CONTRACT,
+            batch_root / "READING-INSTRUCTIONS.md",
         )
 
         manifest_cards = []
@@ -611,5 +623,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
 
 
