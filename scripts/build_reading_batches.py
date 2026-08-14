@@ -31,6 +31,7 @@ import re
 import shutil
 from collections import defaultdict
 
+from common.batch_chart import create_chart, update_chart
 from turtle_shower import shower_pair
 from pathlib import Path
 
@@ -50,6 +51,7 @@ OUTPUT_ROOT = PROJECT_ROOT / "working" / "reading-batches"
 READING_PROMPT = PROJECT_ROOT / "prompts" / "SPORTS-CARD-EXTRACTION-V2.md"
 
 CARDS_PER_BATCH = 20
+CHART_FILENAME = "batch-chart.json"
 
 
 CROP_PATTERN = re.compile(
@@ -71,6 +73,29 @@ BATCH_PATTERN = re.compile(
     r"^batch(?P<number>\d{4})\.json$",
     re.IGNORECASE,
 )
+
+
+def validate_written_manifest(manifest_path, batch_id, card_count):
+    with manifest_path.open(
+        "r",
+        encoding="utf-8",
+    ) as file:
+        manifest = json.load(file)
+
+    if not isinstance(manifest, dict):
+        raise RuntimeError("STOP: Written batch manifest must be an object.")
+
+    if manifest.get("batch_id") != batch_id:
+        raise RuntimeError("STOP: Written batch manifest has the wrong batch_id.")
+
+    if manifest.get("card_count") != card_count:
+        raise RuntimeError("STOP: Written batch manifest has the wrong card_count.")
+
+    cards = manifest.get("cards")
+    if not isinstance(cards, list) or len(cards) != card_count:
+        raise RuntimeError("STOP: Written batch manifest has invalid cards.")
+
+    return manifest
 
 
 def load_manifest():
@@ -459,6 +484,19 @@ def build_batches(cards, start_number=None):
             batch_root / "READING-INSTRUCTIONS.md",
         )
 
+        chart_path = batch_root / CHART_FILENAME
+        create_chart(chart_path, batch_id)
+        update_chart(
+            chart_path,
+            "Preparing",
+            note="Batch directory and reading instructions prepared.",
+        )
+        update_chart(
+            chart_path,
+            "Processing",
+            note="Copying and normalizing card pairs.",
+        )
+
         manifest_cards = []
 
         for ordinal, card in enumerate(
@@ -529,6 +567,24 @@ def build_batches(cards, start_number=None):
                 ensure_ascii=False,
             )
             file.write("\n")
+
+        update_chart(
+            chart_path,
+            "Checking",
+            step_result="passed",
+            note="Batch manifest written; validating persisted manifest.",
+        )
+        validate_written_manifest(
+            batch_root / "manifest.json",
+            batch_id,
+            len(manifest_cards),
+        )
+        update_chart(
+            chart_path,
+            "Ready",
+            step_result="passed",
+            note="Persisted batch manifest passed structural validation.",
+        )
 
         created.append(
             (batch_id, len(group))
