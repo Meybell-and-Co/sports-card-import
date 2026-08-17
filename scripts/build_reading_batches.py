@@ -53,6 +53,19 @@ READING_PROMPT = PROJECT_ROOT / "prompts" / "SPORTS-CARD-EXTRACTION-V2.md"
 CARDS_PER_BATCH = 20
 CHART_FILENAME = "batch-chart.json"
 
+# One source layout is physically ordered opposite between A and B.
+# All other source pairs retain the default same-slot pairing.
+CROP_ORDER_OVERRIDES = {
+    "UD_001_C_056_01": {
+        "b": {
+            "01": "04",
+            "02": "03",
+            "03": "02",
+            "04": "01",
+        },
+    },
+}
+
 
 CROP_PATTERN = re.compile(
     r"^(?P<pair_key>.+)_(?P<side>[ab])_crop_(?P<slot>\d{2})\.jpg$",
@@ -310,6 +323,24 @@ def build_roster(rows, machine_crops):
                         f"{sorted(sides)}"
                     )
 
+                b_slot = CROP_ORDER_OVERRIDES.get(
+                    pair_key,
+                    {},
+                ).get(
+                    "b",
+                    {},
+                ).get(
+                    slot,
+                    slot,
+                )
+
+                if b_slot not in slots or "b" not in slots[b_slot]:
+                    raise RuntimeError(
+                        "STOP: Crop-order override points to a missing "
+                        "B crop:\n"
+                        f"{pair_key} slot {slot} -> B slot {b_slot}"
+                    )
+
                 cards.append(
                     {
                         "pair_key": pair_key,
@@ -318,7 +349,7 @@ def build_roster(rows, machine_crops):
                             "slot": slot,
                         },
                         "a": sides["a"],
-                        "b": sides["b"],
+                        "b": slots[b_slot]["b"],
                         "provenance": "turtle_crop",
                     }
                 )
