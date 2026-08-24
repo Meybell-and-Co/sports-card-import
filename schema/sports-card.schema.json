@@ -163,6 +163,13 @@
                                 "string",
                                 "null"
                             ]
+                        },
+                        "url": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "format": "uri"
                         }
                     }
                 },
@@ -185,6 +192,13 @@
                                 "string",
                                 "null"
                             ]
+                        },
+                        "url": {
+                            "type": [
+                                "string",
+                                "null"
+                            ],
+                            "format": "uri"
                         }
                     }
                 }

@@ -1,1402 +1,1446 @@
 [
-    {
-        "schema_version": "1.0.0",
-        "item_id": null,
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "batch0012_card001_b.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card001_b.jpg"
-            },
-            "back": {
-                "filename": "batch0012_card001_a.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card001_a.jpg"
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Upper Deck",
-            "brand": "Upper Deck",
-            "set": "Upper Deck Star Rookies",
-            "subset": "Star Rookies",
-            "title": null,
-            "card_number": "3",
-            "language": "English",
-            "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "James Baldwin",
-                "team": "Chicago White Sox",
-                "position": "P"
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": [
-                {
-                    "type": "Surface scratches visible on scan",
-                    "severity": "moderate"
-                }
-            ]
-        },
-        "ocr": {
-            "front": "Upper Deck 1994 Star Rookies. James Baldwin. P.",
-            "back": "James Baldwin. Card 3. Biography, physical measurements, minor-league statistics, and 1993 totals."
-        },
-        "notes": [
-            "reading_id=batch0012_card001",
-            "source_pair_key=UD_001_A_073_03",
-            "position=crop_slot:01",
-            "provenance=turtle_crop"
-        ],
-        "pipeline": {
-            "batch": "batch0012",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "Medium",
-            "review_required": true
-        }
+  {
+    "schema_version": "1.0.0",
+    "item_id": "UD_001_A_073_03::card01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
     },
-    {
-        "schema_version": "1.0.0",
-        "item_id": null,
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "batch0012_card002_b.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card002_b.jpg"
-            },
-            "back": {
-                "filename": "batch0012_card002_a.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card002_a.jpg"
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Upper Deck",
-            "brand": "Upper Deck",
-            "set": "Upper Deck Star Rookies",
-            "subset": "Star Rookies",
-            "title": null,
-            "card_number": "27",
-            "language": "English",
-            "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Salomon Torres",
-                "team": "San Francisco Giants",
-                "position": "P"
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": [
-                {
-                    "type": "Surface scratches visible on scan",
-                    "severity": "moderate"
-                }
-            ]
-        },
-        "ocr": {
-            "front": "Upper Deck 1994 Star Rookies. Salomon Torres. P.",
-            "back": "Salomon Torres. Card 27. Biography, physical measurements, minor-league statistics, and 1993 totals."
-        },
-        "notes": [
-            "reading_id=batch0012_card002",
-            "source_pair_key=UD_001_A_073_03",
-            "position=crop_slot:02",
-            "provenance=turtle_crop"
-        ],
-        "pipeline": {
-            "batch": "batch0012",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "Medium",
-            "review_required": true
-        }
+    "images": {
+      "front": {
+        "filename": "UD_001_A_073_03_01_a.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card001_b.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_A_073_03_01_a.jpg"
+      },
+      "back": {
+        "filename": "UD_001_A_073_03_01_b.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card001_a.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_A_073_03_01_b.jpg"
+      }
     },
-    {
-        "schema_version": "1.0.0",
-        "item_id": null,
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "batch0012_card003_b.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card003_b.jpg"
-            },
-            "back": {
-                "filename": "batch0012_card003_a.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card003_a.jpg"
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Upper Deck",
-            "brand": "Upper Deck",
-            "set": "Upper Deck Star Rookies",
-            "subset": "Star Rookies",
-            "title": null,
-            "card_number": "26",
-            "language": "English",
-            "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Paul Spoljaric",
-                "team": "Toronto Blue Jays",
-                "position": "P"
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": [
-                {
-                    "type": "Surface scratches visible on scan",
-                    "severity": "moderate"
-                }
-            ]
-        },
-        "ocr": {
-            "front": "Upper Deck 1994 Star Rookies. Paul Spoljaric. P.",
-            "back": "Paul Spoljaric. Card 26. Biography, physical measurements, minor-league statistics, and 1993 totals."
-        },
-        "notes": [
-            "reading_id=batch0012_card003",
-            "source_pair_key=UD_001_A_073_03",
-            "position=crop_slot:03",
-            "provenance=turtle_crop"
-        ],
-        "pipeline": {
-            "batch": "batch0012",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "Medium",
-            "review_required": true
-        }
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "Upper Deck Star Rookies",
+      "subset": "Star Rookies",
+      "title": null,
+      "card_number": "3",
+      "language": "English",
+      "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
     },
-    {
-        "schema_version": "1.0.0",
-        "item_id": null,
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "batch0012_card004_b.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card004_b.jpg"
-            },
-            "back": {
-                "filename": "batch0012_card004_a.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card004_a.jpg"
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Upper Deck",
-            "brand": "Upper Deck",
-            "set": "Upper Deck Star Rookies",
-            "subset": "Star Rookies",
-            "title": null,
-            "card_number": "29",
-            "language": "English",
-            "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Chris Turner",
-                "team": "California Angels",
-                "position": "C"
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": [
-                {
-                    "type": "Surface scratches visible on scan",
-                    "severity": "moderate"
-                }
-            ]
-        },
-        "ocr": {
-            "front": "Upper Deck 1994 Star Rookies. Chris Turner. C.",
-            "back": "Chris Turner. Card 29. Biography, physical measurements, minor-league statistics, and 1993 totals."
-        },
-        "notes": [
-            "reading_id=batch0012_card004",
-            "source_pair_key=UD_001_A_073_03",
-            "position=crop_slot:04",
-            "provenance=turtle_crop"
-        ],
-        "pipeline": {
-            "batch": "batch0012",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "Medium",
-            "review_required": true
-        }
+    "subjects": [
+      {
+        "type": "player",
+        "name": "James Baldwin",
+        "team": "Chicago White Sox",
+        "position": "P"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
     },
-    {
-        "schema_version": "1.0.0",
-        "item_id": null,
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "batch0012_card005_b.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card005_b.jpg"
-            },
-            "back": {
-                "filename": "batch0012_card005_a.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card005_a.jpg"
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Upper Deck",
-            "brand": "Upper Deck",
-            "set": "Upper Deck Star Rookies",
-            "subset": "Star Rookies",
-            "title": null,
-            "card_number": "8",
-            "language": "English",
-            "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Carlos Delgado",
-                "team": "Toronto Blue Jays",
-                "position": "C"
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": [
-                {
-                    "type": "Surface scratches visible on scan",
-                    "severity": "moderate"
-                }
-            ]
-        },
-        "ocr": {
-            "front": "Upper Deck 1994 Star Rookies. Carlos Delgado. C.",
-            "back": "Carlos Delgado. Card 8. Biography, physical measurements, minor-league statistics, and 1993 totals."
-        },
-        "notes": [
-            "reading_id=batch0012_card005",
-            "source_pair_key=UD_001_A_074_01",
-            "position=crop_slot:01",
-            "provenance=turtle_crop"
-        ],
-        "pipeline": {
-            "batch": "batch0012",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "Medium",
-            "review_required": true
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Surface scratches visible on scan",
+          "severity": "moderate"
         }
+      ]
     },
-    {
-        "schema_version": "1.0.0",
-        "item_id": null,
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "batch0012_card006_b.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card006_b.jpg"
-            },
-            "back": {
-                "filename": "batch0012_card006_a.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card006_a.jpg"
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Upper Deck",
-            "brand": "Upper Deck",
-            "set": "Upper Deck Star Rookies",
-            "subset": "Star Rookies",
-            "title": null,
-            "card_number": "1",
-            "language": "English",
-            "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Brian Anderson",
-                "team": "California Angels",
-                "position": "P"
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": [
-                {
-                    "type": "Surface scratches visible on scan",
-                    "severity": "moderate"
-                }
-            ]
-        },
-        "ocr": {
-            "front": "Upper Deck 1994 Star Rookies. Brian Anderson. P.",
-            "back": "Brian Anderson. Card 1. Biography, physical measurements, minor-league statistics, and 1993 totals."
-        },
-        "notes": [
-            "reading_id=batch0012_card006",
-            "source_pair_key=UD_001_A_074_01",
-            "position=crop_slot:02",
-            "provenance=turtle_crop"
-        ],
-        "pipeline": {
-            "batch": "batch0012",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "Medium",
-            "review_required": true
-        }
+    "ocr": {
+      "front": "Upper Deck 1994 Star Rookies. James Baldwin. P.",
+      "back": "James Baldwin. Card 3. Biography, physical measurements, minor-league statistics, and 1993 totals."
     },
-    {
-        "schema_version": "1.0.0",
-        "item_id": null,
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "batch0012_card007_b.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card007_b.jpg"
-            },
-            "back": {
-                "filename": "batch0012_card007_a.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card007_a.jpg"
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Upper Deck",
-            "brand": "Upper Deck",
-            "set": "Upper Deck Star Rookies",
-            "subset": "Star Rookies",
-            "title": null,
-            "card_number": "23",
-            "language": "English",
-            "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Manny Ramirez",
-                "team": "Cleveland Indians",
-                "position": "OF"
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": [
-                {
-                    "type": "Surface scratches visible on scan",
-                    "severity": "moderate"
-                }
-            ]
-        },
-        "ocr": {
-            "front": "Upper Deck 1994 Star Rookies. Manny Ramirez. OF.",
-            "back": "Manny Ramirez. Card 23. Biography, physical measurements, minor-league statistics, and 1993 totals."
-        },
-        "notes": [
-            "reading_id=batch0012_card007",
-            "source_pair_key=UD_001_A_074_01",
-            "position=crop_slot:03",
-            "provenance=turtle_crop"
-        ],
-        "pipeline": {
-            "batch": "batch0012",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "Medium",
-            "review_required": true
-        }
-    },
-    {
-        "schema_version": "1.0.0",
-        "item_id": null,
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "batch0012_card008_b.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card008_b.jpg"
-            },
-            "back": {
-                "filename": "batch0012_card008_a.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card008_a.jpg"
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Upper Deck",
-            "brand": "Upper Deck",
-            "set": "Upper Deck Star Rookies",
-            "subset": "Star Rookies",
-            "title": null,
-            "card_number": "16",
-            "language": "English",
-            "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Brian Hunter",
-                "team": "Houston Astros",
-                "position": "OF"
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": [
-                {
-                    "type": "Surface scratches visible on scan",
-                    "severity": "moderate"
-                }
-            ]
-        },
-        "ocr": {
-            "front": "Upper Deck 1994 Star Rookies. Brian Hunter. OF.",
-            "back": "Brian Hunter. Card 16. Biography, physical measurements, minor-league statistics, and 1993 totals."
-        },
-        "notes": [
-            "reading_id=batch0012_card008",
-            "source_pair_key=UD_001_A_074_01",
-            "position=crop_slot:04",
-            "provenance=turtle_crop"
-        ],
-        "pipeline": {
-            "batch": "batch0012",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "Medium",
-            "review_required": true
-        }
-    },
-    {
-        "schema_version": "1.0.0",
-        "item_id": null,
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "batch0012_card009_b.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card009_b.jpg"
-            },
-            "back": {
-                "filename": "batch0012_card009_a.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card009_a.jpg"
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Upper Deck",
-            "brand": "Upper Deck",
-            "set": "Upper Deck Star Rookies",
-            "subset": "Star Rookies",
-            "title": null,
-            "card_number": "480",
-            "language": "English",
-            "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Jeff Bagwell",
-                "team": "Houston Astros",
-                "position": "1B"
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": [
-                {
-                    "type": "Surface scratches visible on scan",
-                    "severity": "moderate"
-                }
-            ]
-        },
-        "ocr": {
-            "front": "Upper Deck 1994 Star Rookies. Jeff Bagwell. 1B.",
-            "back": "Jeff Bagwell. Card 480. Biography and career statistics."
-        },
-        "notes": [
-            "reading_id=batch0012_card009",
-            "source_pair_key=UD_001_B_045_01",
-            "position=crop_slot:01",
-            "provenance=turtle_crop"
-        ],
-        "pipeline": {
-            "batch": "batch0012",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "Medium",
-            "review_required": true
-        }
-    },
-    {
-        "schema_version": "1.0.0",
-        "item_id": null,
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "batch0012_card010_b.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card010_b.jpg"
-            },
-            "back": {
-                "filename": "batch0012_card010_a.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card010_a.jpg"
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Upper Deck",
-            "brand": "Upper Deck",
-            "set": "Upper Deck Star Rookies",
-            "subset": "Star Rookies",
-            "title": null,
-            "card_number": "500",
-            "language": "English",
-            "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Mike Piazza",
-                "team": "Los Angeles Dodgers",
-                "position": "C"
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": [
-                {
-                    "type": "Surface scratches visible on scan",
-                    "severity": "moderate"
-                }
-            ]
-        },
-        "ocr": {
-            "front": "Upper Deck 1994 Star Rookies. Mike Piazza. C.",
-            "back": "Mike Piazza. Card 500. Biography and career statistics."
-        },
-        "notes": [
-            "reading_id=batch0012_card010",
-            "source_pair_key=UD_001_B_045_01",
-            "position=crop_slot:02",
-            "provenance=turtle_crop"
-        ],
-        "pipeline": {
-            "batch": "batch0012",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "Medium",
-            "review_required": true
-        }
-    },
-    {
-        "schema_version": "1.0.0",
-        "item_id": null,
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "batch0012_card011_b.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card011_b.jpg"
-            },
-            "back": {
-                "filename": "batch0012_card011_a.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card011_a.jpg"
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Upper Deck",
-            "brand": "Upper Deck",
-            "set": "Upper Deck Star Rookies",
-            "subset": "Star Rookies",
-            "title": null,
-            "card_number": null,
-            "language": "English",
-            "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Darryl Strawberry",
-                "team": "New York Mets",
-                "position": "OF"
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": [
-                {
-                    "type": "Surface scratches visible on scan",
-                    "severity": "moderate"
-                }
-            ]
-        },
-        "ocr": {
-            "front": "Upper Deck 1994 Star Rookies. Darryl Strawberry. OF.",
-            "back": "Darryl Strawberry. Biography and career statistics."
-        },
-        "notes": [
-            "reading_id=batch0012_card011",
-            "source_pair_key=UD_001_B_045_01",
-            "position=crop_slot:03",
-            "provenance=turtle_crop"
-        ],
-        "pipeline": {
-            "batch": "batch0012",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "Low",
-            "review_required": true
-        }
-    },
-    {
-        "schema_version": "1.0.0",
-        "item_id": null,
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "batch0012_card012_b.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card012_b.jpg"
-            },
-            "back": {
-                "filename": "batch0012_card012_a.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card012_a.jpg"
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Upper Deck",
-            "brand": "Upper Deck",
-            "set": "Upper Deck Star Rookies",
-            "subset": "Star Rookies",
-            "title": null,
-            "card_number": null,
-            "language": "English",
-            "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Todd Stottlemyre",
-                "team": "Toronto Blue Jays",
-                "position": "P"
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": [
-                {
-                    "type": "Surface scratches visible on scan",
-                    "severity": "moderate"
-                }
-            ]
-        },
-        "ocr": {
-            "front": "Upper Deck 1994 Star Rookies. Todd Stottlemyre. P.",
-            "back": "Todd Stottlemyre. Biography and career statistics."
-        },
-        "notes": [
-            "reading_id=batch0012_card012",
-            "source_pair_key=UD_001_B_045_01",
-            "position=crop_slot:04",
-            "provenance=turtle_crop"
-        ],
-        "pipeline": {
-            "batch": "batch0012",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "Low",
-            "review_required": true
-        }
-    },
-    {
-        "schema_version": "1.0.0",
-        "item_id": null,
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "batch0012_card013_b.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card013_b.jpg"
-            },
-            "back": {
-                "filename": "batch0012_card013_a.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card013_a.jpg"
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Upper Deck",
-            "brand": "Upper Deck",
-            "set": "Upper Deck Star Rookies",
-            "subset": "Star Rookies",
-            "title": null,
-            "card_number": null,
-            "language": "English",
-            "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Al Leiter",
-                "team": "Toronto Blue Jays",
-                "position": "P"
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": [
-                {
-                    "type": "Surface scratches visible on scan",
-                    "severity": "moderate"
-                }
-            ]
-        },
-        "ocr": {
-            "front": "Upper Deck 1994 Star Rookies. Al Leiter. P.",
-            "back": "Al Leiter. Biography and career statistics."
-        },
-        "notes": [
-            "reading_id=batch0012_card013",
-            "source_pair_key=UD_001_B_046_01",
-            "position=crop_slot:01",
-            "provenance=turtle_crop"
-        ],
-        "pipeline": {
-            "batch": "batch0012",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "Low",
-            "review_required": true
-        }
-    },
-    {
-        "schema_version": "1.0.0",
-        "item_id": null,
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "batch0012_card014_b.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card014_b.jpg"
-            },
-            "back": {
-                "filename": "batch0012_card014_a.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card014_a.jpg"
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Upper Deck",
-            "brand": "Upper Deck",
-            "set": "Upper Deck Star Rookies",
-            "subset": "Star Rookies",
-            "title": null,
-            "card_number": null,
-            "language": "English",
-            "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Mike Greenwell",
-                "team": "Boston Red Sox",
-                "position": "OF"
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": [
-                {
-                    "type": "Surface scratches visible on scan",
-                    "severity": "moderate"
-                }
-            ]
-        },
-        "ocr": {
-            "front": "Upper Deck 1994 Star Rookies. Mike Greenwell. OF.",
-            "back": "Mike Greenwell. Biography and career statistics."
-        },
-        "notes": [
-            "reading_id=batch0012_card014",
-            "source_pair_key=UD_001_B_046_01",
-            "position=crop_slot:02",
-            "provenance=turtle_crop"
-        ],
-        "pipeline": {
-            "batch": "batch0012",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "Low",
-            "review_required": true
-        }
-    },
-    {
-        "schema_version": "1.0.0",
-        "item_id": null,
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "batch0012_card015_b.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card015_b.jpg"
-            },
-            "back": {
-                "filename": "batch0012_card015_a.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card015_a.jpg"
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Upper Deck",
-            "brand": "Upper Deck",
-            "set": "Upper Deck Star Rookies",
-            "subset": "Star Rookies",
-            "title": null,
-            "card_number": null,
-            "language": "English",
-            "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Dwight Gooden",
-                "team": "New York Mets",
-                "position": "P"
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": [
-                {
-                    "type": "Surface scratches visible on scan",
-                    "severity": "moderate"
-                }
-            ]
-        },
-        "ocr": {
-            "front": "Upper Deck 1994 Star Rookies. Dwight Gooden. P.",
-            "back": "Dwight Gooden. Biography and career statistics."
-        },
-        "notes": [
-            "reading_id=batch0012_card015",
-            "source_pair_key=UD_001_B_046_01",
-            "position=crop_slot:03",
-            "provenance=turtle_crop"
-        ],
-        "pipeline": {
-            "batch": "batch0012",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "Low",
-            "review_required": true
-        }
-    },
-    {
-        "schema_version": "1.0.0",
-        "item_id": null,
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "batch0012_card016_b.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card016_b.jpg"
-            },
-            "back": {
-                "filename": "batch0012_card016_a.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card016_a.jpg"
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Upper Deck",
-            "brand": "Upper Deck",
-            "set": "Upper Deck Star Rookies",
-            "subset": "Star Rookies",
-            "title": null,
-            "card_number": null,
-            "language": "English",
-            "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Jose Guzman",
-                "team": "Texas Rangers",
-                "position": "P"
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": [
-                {
-                    "type": "Surface scratches visible on scan",
-                    "severity": "moderate"
-                }
-            ]
-        },
-        "ocr": {
-            "front": "Upper Deck 1994 Star Rookies. Jose Guzman. P.",
-            "back": "Jose Guzman. Biography and career statistics."
-        },
-        "notes": [
-            "reading_id=batch0012_card016",
-            "source_pair_key=UD_001_B_046_01",
-            "position=crop_slot:04",
-            "provenance=turtle_crop"
-        ],
-        "pipeline": {
-            "batch": "batch0012",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "Low",
-            "review_required": true
-        }
-    },
-    {
-        "schema_version": "1.0.0",
-        "item_id": null,
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "batch0012_card017_b.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card017_b.jpg"
-            },
-            "back": {
-                "filename": "batch0012_card017_a.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card017_a.jpg"
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Upper Deck",
-            "brand": "Upper Deck",
-            "set": "Upper Deck Star Rookies",
-            "subset": "Star Rookies",
-            "title": null,
-            "card_number": null,
-            "language": "English",
-            "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Paul O'Neill",
-                "team": "Cincinnati Reds",
-                "position": "OF"
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": [
-                {
-                    "type": "Surface scratches visible on scan",
-                    "severity": "moderate"
-                }
-            ]
-        },
-        "ocr": {
-            "front": "Upper Deck 1994 Star Rookies. Paul O'Neill. OF.",
-            "back": "Paul O'Neill. Biography and career statistics."
-        },
-        "notes": [
-            "reading_id=batch0012_card017",
-            "source_pair_key=UD_001_B_047_01",
-            "position=crop_slot:01",
-            "provenance=turtle_crop"
-        ],
-        "pipeline": {
-            "batch": "batch0012",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "Low",
-            "review_required": true
-        }
-    },
-    {
-        "schema_version": "1.0.0",
-        "item_id": null,
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "batch0012_card018_b.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card018_b.jpg"
-            },
-            "back": {
-                "filename": "batch0012_card018_a.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card018_a.jpg"
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Upper Deck",
-            "brand": "Upper Deck",
-            "set": "Upper Deck Star Rookies",
-            "subset": "Star Rookies",
-            "title": null,
-            "card_number": null,
-            "language": "English",
-            "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Wally Joyner",
-                "team": "California Angels",
-                "position": "1B"
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": [
-                {
-                    "type": "Surface scratches visible on scan",
-                    "severity": "moderate"
-                }
-            ]
-        },
-        "ocr": {
-            "front": "Upper Deck 1994 Star Rookies. Wally Joyner. 1B.",
-            "back": "Wally Joyner. Biography and career statistics."
-        },
-        "notes": [
-            "reading_id=batch0012_card018",
-            "source_pair_key=UD_001_B_047_01",
-            "position=crop_slot:02",
-            "provenance=turtle_crop"
-        ],
-        "pipeline": {
-            "batch": "batch0012",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "Low",
-            "review_required": true
-        }
-    },
-    {
-        "schema_version": "1.0.0",
-        "item_id": null,
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "batch0012_card019_b.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card019_b.jpg"
-            },
-            "back": {
-                "filename": "batch0012_card019_a.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card019_a.jpg"
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Upper Deck",
-            "brand": "Upper Deck",
-            "set": "Upper Deck Star Rookies",
-            "subset": "Star Rookies",
-            "title": null,
-            "card_number": null,
-            "language": "English",
-            "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Jim Eisenreich",
-                "team": "Philadelphia Phillies",
-                "position": "OF"
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": [
-                {
-                    "type": "Surface scratches visible on scan",
-                    "severity": "moderate"
-                }
-            ]
-        },
-        "ocr": {
-            "front": "Upper Deck 1994 Star Rookies. Jim Eisenreich. OF.",
-            "back": "Jim Eisenreich. Biography and career statistics."
-        },
-        "notes": [
-            "reading_id=batch0012_card019",
-            "source_pair_key=UD_001_B_047_01",
-            "position=crop_slot:03",
-            "provenance=turtle_crop"
-        ],
-        "pipeline": {
-            "batch": "batch0012",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "Low",
-            "review_required": true
-        }
-    },
-    {
-        "schema_version": "1.0.0",
-        "item_id": null,
-        "entity": {
-            "entity_type": "Trading Card",
-            "sport": "Baseball"
-        },
-        "images": {
-            "front": {
-                "filename": "batch0012_card020_b.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card020_b.jpg"
-            },
-            "back": {
-                "filename": "batch0012_card020_a.jpg",
-                "path": "working/reading-batches/batch0012/images/batch0012_card020_a.jpg"
-            }
-        },
-        "card": {
-            "year": 1994,
-            "manufacturer": "Upper Deck",
-            "brand": "Upper Deck",
-            "set": "Upper Deck Star Rookies",
-            "subset": "Star Rookies",
-            "title": null,
-            "card_number": null,
-            "language": "English",
-            "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
-        },
-        "subjects": [
-            {
-                "type": "player",
-                "name": "Len Dykstra",
-                "team": "Philadelphia Phillies",
-                "position": "OF"
-            }
-        ],
-        "attributes": {
-            "classification": "Insert",
-            "rookie": true,
-            "parallel": false,
-            "autograph": false,
-            "memorabilia": false,
-            "serial_numbered": false
-        },
-        "condition": {
-            "overall": null,
-            "observations": [
-                {
-                    "type": "Surface scratches visible on scan",
-                    "severity": "moderate"
-                }
-            ]
-        },
-        "ocr": {
-            "front": "Upper Deck 1994 Star Rookies. Len Dykstra. OF.",
-            "back": "Len Dykstra. Biography and career statistics."
-        },
-        "notes": [
-            "reading_id=batch0012_card020",
-            "source_pair_key=UD_001_B_047_01",
-            "position=crop_slot:04",
-            "provenance=turtle_crop"
-        ],
-        "pipeline": {
-            "batch": "batch0012",
-            "extractor": "GPT-5.3-Codex",
-            "confidence": "Low",
-            "review_required": true
-        }
+    "notes": [
+      "reading_id=batch0012_card001",
+      "source_pair_key=UD_001_A_073_03",
+      "position=crop_slot:01",
+      "provenance=turtle_crop"
+    ],
+    "pipeline": {
+      "batch": "batch0012",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "Medium",
+      "review_required": true
     }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "UD_001_A_073_03::card02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "UD_001_A_073_03_02_a.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card002_b.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_A_073_03_02_a.jpg"
+      },
+      "back": {
+        "filename": "UD_001_A_073_03_02_b.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card002_a.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_A_073_03_02_b.jpg"
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "Upper Deck Star Rookies",
+      "subset": "Star Rookies",
+      "title": null,
+      "card_number": "27",
+      "language": "English",
+      "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Salomon Torres",
+        "team": "San Francisco Giants",
+        "position": "P"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Surface scratches visible on scan",
+          "severity": "moderate"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "Upper Deck 1994 Star Rookies. Salomon Torres. P.",
+      "back": "Salomon Torres. Card 27. Biography, physical measurements, minor-league statistics, and 1993 totals."
+    },
+    "notes": [
+      "reading_id=batch0012_card002",
+      "source_pair_key=UD_001_A_073_03",
+      "position=crop_slot:02",
+      "provenance=turtle_crop"
+    ],
+    "pipeline": {
+      "batch": "batch0012",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "Medium",
+      "review_required": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "UD_001_A_073_03::card03",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "UD_001_A_073_03_03_a.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card003_b.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_A_073_03_03_a.jpg"
+      },
+      "back": {
+        "filename": "UD_001_A_073_03_03_b.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card003_a.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_A_073_03_03_b.jpg"
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "Upper Deck Star Rookies",
+      "subset": "Star Rookies",
+      "title": null,
+      "card_number": "26",
+      "language": "English",
+      "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Paul Spoljaric",
+        "team": "Toronto Blue Jays",
+        "position": "P"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Surface scratches visible on scan",
+          "severity": "moderate"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "Upper Deck 1994 Star Rookies. Paul Spoljaric. P.",
+      "back": "Paul Spoljaric. Card 26. Biography, physical measurements, minor-league statistics, and 1993 totals."
+    },
+    "notes": [
+      "reading_id=batch0012_card003",
+      "source_pair_key=UD_001_A_073_03",
+      "position=crop_slot:03",
+      "provenance=turtle_crop"
+    ],
+    "pipeline": {
+      "batch": "batch0012",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "Medium",
+      "review_required": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "UD_001_A_073_03::card04",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "UD_001_A_073_03_04_a.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card004_b.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_A_073_03_04_a.jpg"
+      },
+      "back": {
+        "filename": "UD_001_A_073_03_04_b.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card004_a.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_A_073_03_04_b.jpg"
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "Upper Deck Star Rookies",
+      "subset": "Star Rookies",
+      "title": null,
+      "card_number": "29",
+      "language": "English",
+      "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Chris Turner",
+        "team": "California Angels",
+        "position": "C"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Surface scratches visible on scan",
+          "severity": "moderate"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "Upper Deck 1994 Star Rookies. Chris Turner. C.",
+      "back": "Chris Turner. Card 29. Biography, physical measurements, minor-league statistics, and 1993 totals."
+    },
+    "notes": [
+      "reading_id=batch0012_card004",
+      "source_pair_key=UD_001_A_073_03",
+      "position=crop_slot:04",
+      "provenance=turtle_crop"
+    ],
+    "pipeline": {
+      "batch": "batch0012",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "Medium",
+      "review_required": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "UD_002_A_0113_01::card01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "UD_002_A_0113_01_a.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card005_b.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_002_A_0113_01_a.jpg"
+      },
+      "back": {
+        "filename": "UD_002_A_0113_01_b.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card005_a.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_002_A_0113_01_b.jpg"
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "Upper Deck Star Rookies",
+      "subset": "Star Rookies",
+      "title": null,
+      "card_number": "8",
+      "language": "English",
+      "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Carlos Delgado",
+        "team": "Toronto Blue Jays",
+        "position": "C"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Surface scratches visible on scan",
+          "severity": "moderate"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "Upper Deck 1994 Star Rookies. Carlos Delgado. C.",
+      "back": "Carlos Delgado. Card 8. Biography, physical measurements, minor-league statistics, and 1993 totals."
+    },
+    "notes": [
+      "reading_id=batch0012_card005",
+      "source_pair_key=UD_001_A_074_01",
+      "position=crop_slot:01",
+      "provenance=turtle_crop",
+      "2026-08-23 normalization: mapped superseded batch0012 scan to the existing human-approved duplicate-collapse keeper."
+    ],
+    "pipeline": {
+      "batch": "batch0012",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "Medium",
+      "review_required": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "UD_002_A_0113_01::card03",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "UD_002_A_0113_03_a.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card006_b.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_002_A_0113_03_a.jpg"
+      },
+      "back": {
+        "filename": "UD_002_A_0113_03_b.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card006_a.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_002_A_0113_03_b.jpg"
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "Upper Deck Star Rookies",
+      "subset": "Star Rookies",
+      "title": null,
+      "card_number": "1",
+      "language": "English",
+      "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Brian Anderson",
+        "team": "California Angels",
+        "position": "P"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Surface scratches visible on scan",
+          "severity": "moderate"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "Upper Deck 1994 Star Rookies. Brian Anderson. P.",
+      "back": "Brian Anderson. Card 1. Biography, physical measurements, minor-league statistics, and 1993 totals."
+    },
+    "notes": [
+      "reading_id=batch0012_card006",
+      "source_pair_key=UD_001_A_074_01",
+      "position=crop_slot:02",
+      "provenance=turtle_crop",
+      "2026-08-23 normalization: mapped superseded batch0012 scan to the existing human-approved duplicate-collapse keeper."
+    ],
+    "pipeline": {
+      "batch": "batch0012",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "Medium",
+      "review_required": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "UD_002_A_0113_01::card04",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "UD_002_A_0113_04_a.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card007_b.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_002_A_0113_04_a.jpg"
+      },
+      "back": {
+        "filename": "UD_002_A_0113_04_b.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card007_a.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_002_A_0113_04_b.jpg"
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "Upper Deck Star Rookies",
+      "subset": "Star Rookies",
+      "title": null,
+      "card_number": "23",
+      "language": "English",
+      "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Manny Ramirez",
+        "team": "Cleveland Indians",
+        "position": "OF"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Surface scratches visible on scan",
+          "severity": "moderate"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "Upper Deck 1994 Star Rookies. Manny Ramirez. OF.",
+      "back": "Manny Ramirez. Card 23. Biography, physical measurements, minor-league statistics, and 1993 totals."
+    },
+    "notes": [
+      "reading_id=batch0012_card007",
+      "source_pair_key=UD_001_A_074_01",
+      "position=crop_slot:03",
+      "provenance=turtle_crop",
+      "2026-08-23 normalization: mapped superseded batch0012 scan to the existing human-approved duplicate-collapse keeper."
+    ],
+    "pipeline": {
+      "batch": "batch0012",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "Medium",
+      "review_required": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "UD_002_A_0113_01::card02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "UD_002_A_0113_02_a.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card008_b.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_002_A_0113_02_a.jpg"
+      },
+      "back": {
+        "filename": "UD_002_A_0113_02_b.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card008_a.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_002_A_0113_02_b.jpg"
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "Upper Deck Star Rookies",
+      "subset": "Star Rookies",
+      "title": null,
+      "card_number": "16",
+      "language": "English",
+      "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Brian Hunter",
+        "team": "Houston Astros",
+        "position": "OF"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Surface scratches visible on scan",
+          "severity": "moderate"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "Upper Deck 1994 Star Rookies. Brian Hunter. OF.",
+      "back": "Brian Hunter. Card 16. Biography, physical measurements, minor-league statistics, and 1993 totals."
+    },
+    "notes": [
+      "reading_id=batch0012_card008",
+      "source_pair_key=UD_001_A_074_01",
+      "position=crop_slot:04",
+      "provenance=turtle_crop",
+      "2026-08-23 normalization: mapped superseded batch0012 scan to the existing human-approved duplicate-collapse keeper."
+    ],
+    "pipeline": {
+      "batch": "batch0012",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "Medium",
+      "review_required": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "UD_001_B_045_01::card01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "UD_001_B_045_01_a.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card009_b.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_045_01_a.jpg"
+      },
+      "back": {
+        "filename": "UD_001_B_045_01_b.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card009_a.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_045_01_b.jpg"
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "Upper Deck Star Rookies",
+      "subset": "Star Rookies",
+      "title": null,
+      "card_number": "480",
+      "language": "English",
+      "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Jeff Bagwell",
+        "team": "Houston Astros",
+        "position": "1B"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Surface scratches visible on scan",
+          "severity": "moderate"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "Upper Deck 1994 Star Rookies. Jeff Bagwell. 1B.",
+      "back": "Jeff Bagwell. Card 480. Biography and career statistics."
+    },
+    "notes": [
+      "reading_id=batch0012_card009",
+      "source_pair_key=UD_001_B_045_01",
+      "position=crop_slot:01",
+      "provenance=turtle_crop"
+    ],
+    "pipeline": {
+      "batch": "batch0012",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "Medium",
+      "review_required": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "UD_001_B_045_01::card02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "UD_001_B_045_02_a.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card010_b.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_045_02_a.jpg"
+      },
+      "back": {
+        "filename": "UD_001_B_045_02_b.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card010_a.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_045_02_b.jpg"
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "Upper Deck Star Rookies",
+      "subset": "Star Rookies",
+      "title": null,
+      "card_number": "500",
+      "language": "English",
+      "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
+    },
+    "subjects": [
+      {
+        "type": "player",
+        "name": "Mike Piazza",
+        "team": "Los Angeles Dodgers",
+        "position": "C"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Surface scratches visible on scan",
+          "severity": "moderate"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "Upper Deck 1994 Star Rookies. Mike Piazza. C.",
+      "back": "Mike Piazza. Card 500. Biography and career statistics."
+    },
+    "notes": [
+      "reading_id=batch0012_card010",
+      "source_pair_key=UD_001_B_045_01",
+      "position=crop_slot:02",
+      "provenance=turtle_crop"
+    ],
+    "pipeline": {
+      "batch": "batch0012",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "Medium",
+      "review_required": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "UD_001_B_045_01::card03",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "UD_001_B_045_03_a.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card011_b.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_045_03_a.jpg"
+      },
+      "back": {
+        "filename": "UD_001_B_045_03_b.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card011_a.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_045_03_b.jpg"
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "Upper Deck Star Rookies",
+      "subset": "Star Rookies",
+      "title": "Mike Greenwell",
+      "card_number": "187",
+      "language": "English",
+      "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
+    },
+    "subjects": [
+      {
+        "name": "Mike Greenwell",
+        "team": "Boston Red Sox",
+        "type": "player"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Surface scratches visible on scan",
+          "severity": "moderate"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "Upper Deck 1994 Star Rookies. Darryl Strawberry. OF.",
+      "back": "Darryl Strawberry. Biography and career statistics."
+    },
+    "notes": [
+      "reading_id=batch0012_card011",
+      "source_pair_key=UD_001_B_045_01",
+      "position=crop_slot:03",
+      "provenance=turtle_crop",
+      "2026-08-23 batch0012 correction: source-slot identity and printed card facts verified from supplied scan image."
+    ],
+    "pipeline": {
+      "batch": "batch0012",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "Low",
+      "review_required": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "UD_001_B_045_01::card04",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "UD_001_B_045_04_a.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card012_b.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_045_04_a.jpg"
+      },
+      "back": {
+        "filename": "UD_001_B_045_04_b.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card012_a.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_045_04_b.jpg"
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "Upper Deck Star Rookies",
+      "subset": "Star Rookies",
+      "title": "Dwight Gooden",
+      "card_number": "205",
+      "language": "English",
+      "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
+    },
+    "subjects": [
+      {
+        "name": "Dwight Gooden",
+        "team": "New York Mets",
+        "type": "player"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Surface scratches visible on scan",
+          "severity": "moderate"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "Upper Deck 1994 Star Rookies. Todd Stottlemyre. P.",
+      "back": "Todd Stottlemyre. Biography and career statistics."
+    },
+    "notes": [
+      "reading_id=batch0012_card012",
+      "source_pair_key=UD_001_B_045_01",
+      "position=crop_slot:04",
+      "provenance=turtle_crop",
+      "2026-08-23 batch0012 correction: source-slot identity and printed card facts verified from supplied scan image."
+    ],
+    "pipeline": {
+      "batch": "batch0012",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "Low",
+      "review_required": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "UD_001_B_046_01::card01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "UD_001_B_046_01_a.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card013_b.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_046_01_a.jpg"
+      },
+      "back": {
+        "filename": "UD_001_B_046_01_b.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card013_a.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_046_01_b.jpg"
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "Upper Deck Star Rookies",
+      "subset": "Star Rookies",
+      "title": "Todd Stottlemyre",
+      "card_number": "189",
+      "language": "English",
+      "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
+    },
+    "subjects": [
+      {
+        "name": "Todd Stottlemyre",
+        "team": "Toronto Blue Jays",
+        "type": "player"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Surface scratches visible on scan",
+          "severity": "moderate"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "Upper Deck 1994 Star Rookies. Al Leiter. P.",
+      "back": "Al Leiter. Biography and career statistics."
+    },
+    "notes": [
+      "reading_id=batch0012_card013",
+      "source_pair_key=UD_001_B_046_01",
+      "position=crop_slot:01",
+      "provenance=turtle_crop",
+      "2026-08-23 batch0012 correction: source-slot identity and printed card facts verified from supplied scan image."
+    ],
+    "pipeline": {
+      "batch": "batch0012",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "Low",
+      "review_required": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "UD_001_B_046_01::card02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "UD_001_B_046_02_a.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card014_b.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_046_02_a.jpg"
+      },
+      "back": {
+        "filename": "UD_001_B_046_02_b.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card014_a.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_046_02_b.jpg"
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "Upper Deck Star Rookies",
+      "subset": "Star Rookies",
+      "title": "Alan Trammell",
+      "card_number": "201",
+      "language": "English",
+      "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
+    },
+    "subjects": [
+      {
+        "name": "Alan Trammell",
+        "team": "Detroit Tigers",
+        "type": "player"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Surface scratches visible on scan",
+          "severity": "moderate"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "Upper Deck 1994 Star Rookies. Mike Greenwell. OF.",
+      "back": "Mike Greenwell. Biography and career statistics."
+    },
+    "notes": [
+      "reading_id=batch0012_card014",
+      "source_pair_key=UD_001_B_046_01",
+      "position=crop_slot:02",
+      "provenance=turtle_crop",
+      "2026-08-23 batch0012 correction: source-slot identity and printed card facts verified from supplied scan image."
+    ],
+    "pipeline": {
+      "batch": "batch0012",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "Low",
+      "review_required": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "UD_001_B_046_01::card03",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "UD_001_B_046_03_a.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card015_b.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_046_03_a.jpg"
+      },
+      "back": {
+        "filename": "UD_001_B_046_03_b.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card015_a.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_046_03_b.jpg"
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "Upper Deck Star Rookies",
+      "subset": "Star Rookies",
+      "title": "Paul O'Neill",
+      "card_number": "186",
+      "language": "English",
+      "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
+    },
+    "subjects": [
+      {
+        "name": "Paul O'Neill",
+        "team": "New York Yankees",
+        "type": "player"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Surface scratches visible on scan",
+          "severity": "moderate"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "Upper Deck 1994 Star Rookies. Dwight Gooden. P.",
+      "back": "Dwight Gooden. Biography and career statistics."
+    },
+    "notes": [
+      "reading_id=batch0012_card015",
+      "source_pair_key=UD_001_B_046_01",
+      "position=crop_slot:03",
+      "provenance=turtle_crop",
+      "2026-08-23 batch0012 correction: source-slot identity and printed card facts verified from supplied scan image."
+    ],
+    "pipeline": {
+      "batch": "batch0012",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "Low",
+      "review_required": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "UD_001_B_046_01::card04",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "UD_001_B_046_04_a.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card016_b.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_046_04_a.jpg"
+      },
+      "back": {
+        "filename": "UD_001_B_046_04_b.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card016_a.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_046_04_b.jpg"
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "Upper Deck Star Rookies",
+      "subset": "Star Rookies",
+      "title": "Jose Guzman",
+      "card_number": "196",
+      "language": "English",
+      "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
+    },
+    "subjects": [
+      {
+        "name": "Jose Guzman",
+        "team": "Chicago Cubs",
+        "type": "player"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Surface scratches visible on scan",
+          "severity": "moderate"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "Upper Deck 1994 Star Rookies. Jose Guzman. P.",
+      "back": "Jose Guzman. Biography and career statistics."
+    },
+    "notes": [
+      "reading_id=batch0012_card016",
+      "source_pair_key=UD_001_B_046_01",
+      "position=crop_slot:04",
+      "provenance=turtle_crop",
+      "2026-08-23 batch0012 correction: source-slot identity and printed card facts verified from supplied scan image."
+    ],
+    "pipeline": {
+      "batch": "batch0012",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "Low",
+      "review_required": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "UD_001_B_047_01::card01",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "UD_001_B_047_01_a.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card017_b.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_047_01_a.jpg"
+      },
+      "back": {
+        "filename": "UD_001_B_047_01_b.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card017_a.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_047_01_b.jpg"
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "Upper Deck Star Rookies",
+      "subset": "Star Rookies",
+      "title": "Brett Butler",
+      "card_number": "183",
+      "language": "English",
+      "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
+    },
+    "subjects": [
+      {
+        "name": "Brett Butler",
+        "team": "Los Angeles Dodgers",
+        "type": "player"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Surface scratches visible on scan",
+          "severity": "moderate"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "Upper Deck 1994 Star Rookies. Paul O'Neill. OF.",
+      "back": "Paul O'Neill. Biography and career statistics."
+    },
+    "notes": [
+      "reading_id=batch0012_card017",
+      "source_pair_key=UD_001_B_047_01",
+      "position=crop_slot:01",
+      "provenance=turtle_crop",
+      "2026-08-23 batch0012 correction: source-slot identity and printed card facts verified from supplied scan image."
+    ],
+    "pipeline": {
+      "batch": "batch0012",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "Low",
+      "review_required": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "UD_001_B_047_01::card02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "UD_001_B_047_02_a.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card018_b.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_047_02_a.jpg"
+      },
+      "back": {
+        "filename": "UD_001_B_047_02_b.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card018_a.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_047_02_b.jpg"
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "Upper Deck Star Rookies",
+      "subset": "Star Rookies",
+      "title": "Wally Joyner",
+      "card_number": "169",
+      "language": "English",
+      "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
+    },
+    "subjects": [
+      {
+        "name": "Wally Joyner",
+        "team": "Kansas City Royals",
+        "type": "player"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Surface scratches visible on scan",
+          "severity": "moderate"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "Upper Deck 1994 Star Rookies. Wally Joyner. 1B.",
+      "back": "Wally Joyner. Biography and career statistics."
+    },
+    "notes": [
+      "reading_id=batch0012_card018",
+      "source_pair_key=UD_001_B_047_01",
+      "position=crop_slot:02",
+      "provenance=turtle_crop",
+      "2026-08-23 batch0012 correction: source-slot identity and printed card facts verified from supplied scan image."
+    ],
+    "pipeline": {
+      "batch": "batch0012",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "Low",
+      "review_required": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "UD_001_B_047_01::card03",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "UD_001_B_047_03_a.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card019_b.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_047_03_a.jpg"
+      },
+      "back": {
+        "filename": "UD_001_B_047_03_b.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card019_a.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_047_03_b.jpg"
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "Upper Deck Star Rookies",
+      "subset": "Star Rookies",
+      "title": "Jim Eisenreich",
+      "card_number": "157",
+      "language": "English",
+      "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
+    },
+    "subjects": [
+      {
+        "name": "Jim Eisenreich",
+        "team": "Philadelphia Phillies",
+        "type": "player"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Surface scratches visible on scan",
+          "severity": "moderate"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "Upper Deck 1994 Star Rookies. Jim Eisenreich. OF.",
+      "back": "Jim Eisenreich. Biography and career statistics."
+    },
+    "notes": [
+      "reading_id=batch0012_card019",
+      "source_pair_key=UD_001_B_047_01",
+      "position=crop_slot:03",
+      "provenance=turtle_crop",
+      "2026-08-23 batch0012 correction: source-slot identity and printed card facts verified from supplied scan image."
+    ],
+    "pipeline": {
+      "batch": "batch0012",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "Low",
+      "review_required": true
+    }
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "UD_001_B_047_01::card04",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "UD_001_B_047_04_a.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card020_b.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_047_04_a.jpg"
+      },
+      "back": {
+        "filename": "UD_001_B_047_04_b.jpg",
+        "path": "working/reading-batches/batch0012/images/batch0012_card020_a.jpg",
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/UD_001_B_047_04_b.jpg"
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Upper Deck",
+      "brand": "Upper Deck",
+      "set": "Upper Deck Star Rookies",
+      "subset": "Star Rookies",
+      "title": "Lenny Dykstra",
+      "card_number": "172",
+      "language": "English",
+      "copyright": "(c) 1994 The Upper Deck Company. Printed in the U.S.A."
+    },
+    "subjects": [
+      {
+        "name": "Lenny Dykstra",
+        "team": "Philadelphia Phillies",
+        "type": "player"
+      }
+    ],
+    "attributes": {
+      "classification": "Insert",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": [
+        {
+          "type": "Surface scratches visible on scan",
+          "severity": "moderate"
+        }
+      ]
+    },
+    "ocr": {
+      "front": "Upper Deck 1994 Star Rookies. Len Dykstra. OF.",
+      "back": "Len Dykstra. Biography and career statistics."
+    },
+    "notes": [
+      "reading_id=batch0012_card020",
+      "source_pair_key=UD_001_B_047_01",
+      "position=crop_slot:04",
+      "provenance=turtle_crop",
+      "2026-08-23 batch0012 correction: source-slot identity and printed card facts verified from supplied scan image."
+    ],
+    "pipeline": {
+      "batch": "batch0012",
+      "extractor": "GPT-5.3-Codex",
+      "confidence": "Low",
+      "review_required": true
+    }
+  }
 ]

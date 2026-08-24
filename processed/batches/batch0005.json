@@ -9,11 +9,13 @@
     "images": {
       "front": {
         "filename": "T_001_E_019_03_b.jpg",
-        "path": null
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/T_001_E_019_03_b.jpg"
       },
       "back": {
         "filename": "T_001_E_019_03_a.jpg",
-        "path": null
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/T_001_E_019_03_a.jpg"
       }
     },
     "card": {
@@ -29,8 +31,8 @@
     },
     "subjects": [
       {
-        "name": "Butch Huskey",
-        "team": "New York Mets",
+        "name": "Alex Gonzalez",
+        "team": "Toronto Blue Jays",
         "type": "player"
       }
     ],
@@ -56,7 +58,9 @@
       "confidence": "High",
       "review_required": false
     },
-    "notes": []
+    "notes": [
+      "2026-08-22 canon reconciliation: player/SKU mapping corrected after Meybells repaired mixed-up eBay listings; previous canon subject was Butch Huskey (New York Mets)."
+    ]
   },
   {
     "schema_version": "1.0.0",
@@ -68,11 +72,13 @@
     "images": {
       "front": {
         "filename": "T_001_E_019_04_b.jpg",
-        "path": null
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/T_001_E_019_04_b.jpg"
       },
       "back": {
         "filename": "T_001_E_019_04_a.jpg",
-        "path": null
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/T_001_E_019_04_a.jpg"
       }
     },
     "card": {
@@ -127,11 +133,13 @@
     "images": {
       "front": {
         "filename": "T_001_E_020_01_b.jpg",
-        "path": null
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/T_001_E_020_01_b.jpg"
       },
       "back": {
         "filename": "T_001_E_020_01_a.jpg",
-        "path": null
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/T_001_E_020_01_a.jpg"
       }
     },
     "card": {
@@ -186,11 +194,13 @@
     "images": {
       "front": {
         "filename": "T_001_E_020_02_b.jpg",
-        "path": null
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/T_001_E_020_02_b.jpg"
       },
       "back": {
         "filename": "T_001_E_020_02_a.jpg",
-        "path": null
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/T_001_E_020_02_a.jpg"
       }
     },
     "card": {
@@ -245,11 +255,13 @@
     "images": {
       "front": {
         "filename": "T_001_E_020_03_b.jpg",
-        "path": null
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/T_001_E_020_03_b.jpg"
       },
       "back": {
         "filename": "T_001_E_020_03_a.jpg",
-        "path": null
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/T_001_E_020_03_a.jpg"
       }
     },
     "card": {
@@ -304,11 +316,13 @@
     "images": {
       "front": {
         "filename": "T_001_E_020_04_b.jpg",
-        "path": null
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/T_001_E_020_04_b.jpg"
       },
       "back": {
         "filename": "T_001_E_020_04_a.jpg",
-        "path": null
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/T_001_E_020_04_a.jpg"
       }
     },
     "card": {
@@ -324,8 +338,8 @@
     },
     "subjects": [
       {
-        "name": "Billy Ashley",
-        "team": "Los Angeles Dodgers",
+        "name": "Rich Becker",
+        "team": "Minnesota Twins",
         "type": "player"
       }
     ],
@@ -351,7 +365,9 @@
       "confidence": "High",
       "review_required": false
     },
-    "notes": []
+    "notes": [
+      "2026-08-22 canon reconciliation: player/SKU mapping corrected after Meybells repaired mixed-up eBay listings; previous canon subject was Billy Ashley (Los Angeles Dodgers)."
+    ]
   },
   {
     "schema_version": "1.0.0",
@@ -363,11 +379,13 @@
     "images": {
       "front": {
         "filename": "T_001_E_021_01_b.jpg",
-        "path": null
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/T_001_E_021_01_b.jpg"
       },
       "back": {
         "filename": "T_001_E_021_01_a.jpg",
-        "path": null
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/T_001_E_021_01_a.jpg"
       }
     },
     "card": {
@@ -378,6 +396,69 @@
       "subset": "Future Stars",
       "title": "Tony Longmire",
       "card_number": "28",
+      "language": "English",
+      "copyright": "1994"
+    },
+    "subjects": [
+      {
+        "name": "Billy Ashley",
+        "team": "Los Angeles Dodgers",
+        "type": "player"
+      }
+    ],
+    "attributes": {
+      "classification": "Base",
+      "rookie": true,
+      "parallel": false,
+      "autograph": false,
+      "memorabilia": false,
+      "serial_numbered": false
+    },
+    "condition": {
+      "overall": null,
+      "observations": []
+    },
+    "ocr": {
+      "front": null,
+      "back": null
+    },
+    "pipeline": {
+      "batch": "batch0005",
+      "extractor": "ChatGPT",
+      "confidence": "High",
+      "review_required": false
+    },
+    "notes": [
+      "2026-08-22 canon reconciliation: player/SKU mapping corrected after Meybells repaired mixed-up eBay listings; previous canon subject was Tony Longmire (Philadelphia Phillies)."
+    ]
+  },
+  {
+    "schema_version": "1.0.0",
+    "item_id": "T_001_E_021_02",
+    "entity": {
+      "entity_type": "Trading Card",
+      "sport": "Baseball"
+    },
+    "images": {
+      "front": {
+        "filename": "T_001_E_021_02_b.jpg",
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/T_001_E_021_02_b.jpg"
+      },
+      "back": {
+        "filename": "T_001_E_021_02_a.jpg",
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/T_001_E_021_02_a.jpg"
+      }
+    },
+    "card": {
+      "year": 1994,
+      "manufacturer": "Topps",
+      "brand": "Topps",
+      "set": "Topps",
+      "subset": "Future Stars",
+      "title": "Todd Jones",
+      "card_number": "97",
       "language": "English",
       "copyright": "1994"
     },
@@ -410,23 +491,27 @@
       "confidence": "High",
       "review_required": false
     },
-    "notes": []
+    "notes": [
+      "2026-08-22 canon reconciliation: player/SKU mapping corrected after Meybells repaired mixed-up eBay listings; previous canon subject was Todd Jones (Houston Astros)."
+    ]
   },
   {
     "schema_version": "1.0.0",
-    "item_id": "T_001_E_021_02",
+    "item_id": "T_001_E_021_03",
     "entity": {
       "entity_type": "Trading Card",
       "sport": "Baseball"
     },
     "images": {
       "front": {
-        "filename": "T_001_E_021_02_b.jpg",
-        "path": null
+        "filename": "T_001_E_021_03_b.jpg",
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/T_001_E_021_03_b.jpg"
       },
       "back": {
-        "filename": "T_001_E_021_02_a.jpg",
-        "path": null
+        "filename": "T_001_E_021_03_a.jpg",
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/T_001_E_021_03_a.jpg"
       }
     },
     "card": {
@@ -435,8 +520,8 @@
       "brand": "Topps",
       "set": "Topps",
       "subset": "Future Stars",
-      "title": "Todd Jones",
-      "card_number": "97",
+      "title": "Alex Gonzalez",
+      "card_number": "67",
       "language": "English",
       "copyright": "1994"
     },
@@ -469,65 +554,8 @@
       "confidence": "High",
       "review_required": false
     },
-    "notes": []
-  },
-  {
-    "schema_version": "1.0.0",
-    "item_id": "T_001_E_021_03",
-    "entity": {
-      "entity_type": "Trading Card",
-      "sport": "Baseball"
-    },
-    "images": {
-      "front": {
-        "filename": "T_001_E_021_03_b.jpg",
-        "path": null
-      },
-      "back": {
-        "filename": "T_001_E_021_03_a.jpg",
-        "path": null
-      }
-    },
-    "card": {
-      "year": 1994,
-      "manufacturer": "Topps",
-      "brand": "Topps",
-      "set": "Topps",
-      "subset": "Future Stars",
-      "title": "Alex Gonzalez",
-      "card_number": "67",
-      "language": "English",
-      "copyright": "1994"
-    },
-    "subjects": [
-      {
-        "name": "Alex Gonzalez",
-        "team": "Toronto Blue Jays",
-        "type": "player"
-      }
-    ],
-    "attributes": {
-      "classification": "Base",
-      "rookie": true,
-      "parallel": false,
-      "autograph": false,
-      "memorabilia": false,
-      "serial_numbered": false
-    },
-    "condition": {
-      "overall": null,
-      "observations": []
-    },
-    "ocr": {
-      "front": null,
-      "back": null
-    },
-    "pipeline": {
-      "batch": "batch0005",
-      "extractor": "ChatGPT",
-      "confidence": "High",
-      "review_required": false
-    },
-    "notes": []
+    "notes": [
+      "2026-08-22 canon reconciliation: player/SKU mapping corrected after Meybells repaired mixed-up eBay listings; previous canon subject was Alex Gonzalez (Toronto Blue Jays)."
+    ]
   }
 ]

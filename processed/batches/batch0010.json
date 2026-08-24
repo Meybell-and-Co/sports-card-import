@@ -9,11 +9,13 @@
     "images": {
       "front": {
         "filename": "MISC_001_B_0011_01_a.jpg",
-        "path": null
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/MISC_001_B_0011_01_a.jpg"
       },
       "back": {
         "filename": "MISC_001_B_0011_01_b.jpg",
-        "path": null
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/MISC_001_B_0011_01_b.jpg"
       }
     },
     "card": {
@@ -69,11 +71,13 @@
     "images": {
       "front": {
         "filename": "MISC_001_B_0011_02_a.jpg",
-        "path": null
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/MISC_001_B_0011_02_a.jpg"
       },
       "back": {
         "filename": "MISC_001_B_0011_02_b.jpg",
-        "path": null
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/MISC_001_B_0011_02_b.jpg"
       }
     },
     "card": {
@@ -129,11 +133,13 @@
     "images": {
       "front": {
         "filename": "MISC_001_C_0001_01_a.jpg",
-        "path": null
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/MISC_001_C_0001_01_a.jpg"
       },
       "back": {
         "filename": "MISC_001_C_0001_01_b.jpg",
-        "path": null
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/MISC_001_C_0001_01_b.jpg"
       }
     },
     "card": {
@@ -189,11 +195,13 @@
     "images": {
       "front": {
         "filename": "MISC_001_C_0001_02_a.jpg",
-        "path": null
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/MISC_001_C_0001_02_a.jpg"
       },
       "back": {
         "filename": "MISC_001_C_0001_02_b.jpg",
-        "path": null
+        "path": null,
+        "url": "https://pub-2bccab9e377e4ad8a7f475705f0aedb0.r2.dev/MISC_001_C_0001_02_b.jpg"
       }
     },
     "card": {

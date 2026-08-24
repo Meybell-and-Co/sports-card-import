@@ -28,6 +28,7 @@ import argparse
 import hashlib
 import json
 import os
+from pathlib import Path
 from typing import Any
 from urllib import error, request
 
@@ -111,6 +112,19 @@ def project_item(item: dict[str, Any]) -> dict[str, Any]:
     attributes = item.get("attributes") or {}
     subject = get_primary_subject(item)
 
+    images = item.get("images") or {}
+
+    def image_url(side_name: str) -> str | None:
+        side = images.get(side_name) or {}
+        if side.get("url"):
+            return side["url"]
+        if side.get("filename"):
+            return (
+                f"{PUBLIC_IMAGE_BASE_URL.rstrip('/')}/"
+                f"{Path(side['filename']).name}"
+            )
+        return None
+
     return {
         "item_id": item.get("item_id"),
         "player_name": subject.get("name"),
@@ -124,18 +138,8 @@ def project_item(item: dict[str, Any]) -> dict[str, Any]:
             else None
         ),
         "classification": attributes.get("classification"),
-        "image_front_url": (
-            f"{PUBLIC_IMAGE_BASE_URL.rstrip('/')}/"
-            f"{item['images']['front']['filename'].rsplit('.', 1)[0]}.webp"
-            if item.get("images", {}).get("front", {}).get("filename")
-            else None
-        ),
-        "image_back_url": (
-            f"{PUBLIC_IMAGE_BASE_URL.rstrip('/')}/"
-            f"{item['images']['back']['filename'].rsplit('.', 1)[0]}.webp"
-            if item.get("images", {}).get("back", {}).get("filename")
-            else None
-        ),
+        "image_front_url": image_url("front"),
+        "image_back_url": image_url("back"),
 
         "recommended_price_cents": None,
     }

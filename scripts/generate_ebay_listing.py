@@ -281,7 +281,8 @@ def build_title(card: dict[str, Any]) -> str:
 
 def build_picture_urls(card: dict[str, Any]) -> list[str]:
     """
-    Build public WebP image URLs from canonical inventory filenames.
+    Read canonical image URLs, deriving them from exact legacy filenames only
+    when a stored URL is unavailable.
 
     Args:
         card:
@@ -293,25 +294,20 @@ def build_picture_urls(card: dict[str, Any]) -> list[str]:
 
     images = card.get("images") or {}
 
-    front_filename = (
-        (images.get("front") or {}).get("filename")
-    )
-
-    back_filename = (
-        (images.get("back") or {}).get("filename")
-    )
-
     picture_urls = []
 
-    for filename in (front_filename, back_filename):
-        if not filename:
+    for side_name in ("front", "back"):
+        side = images.get(side_name) or {}
+        url = side.get("url")
+        if url:
+            picture_urls.append(url)
             continue
 
-        webp_filename = Path(filename).with_suffix(".webp").name
-
-        picture_urls.append(
-            f"{PUBLIC_IMAGE_BASE_URL.rstrip('/')}/{webp_filename}"
-        )
+        filename = side.get("filename")
+        if filename:
+            picture_urls.append(
+                f"{PUBLIC_IMAGE_BASE_URL.rstrip('/')}/{Path(filename).name}"
+            )
 
     return picture_urls
 
